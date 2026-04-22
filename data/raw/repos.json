@@ -1,0 +1,1602 @@
+[
+  {
+    "nameWithOwner": "codecrafters-io/build-your-own-x",
+    "url": "https://github.com/codecrafters-io/build-your-own-x",
+    "stars": 492767,
+    "primaryLanguage": "Markdown",
+    "createdAt": "2018-05-09T12:03:18Z",
+    "prCount": 341
+  },
+  {
+    "nameWithOwner": "sindresorhus/awesome",
+    "url": "https://github.com/sindresorhus/awesome",
+    "stars": 457925,
+    "primaryLanguage": null,
+    "createdAt": "2014-07-11T13:42:37Z",
+    "prCount": 2352
+  },
+  {
+    "nameWithOwner": "freeCodeCamp/freeCodeCamp",
+    "url": "https://github.com/freeCodeCamp/freeCodeCamp",
+    "stars": 443372,
+    "primaryLanguage": "TypeScript",
+    "createdAt": "2014-12-24T17:49:19Z",
+    "prCount": 44760
+  },
+  {
+    "nameWithOwner": "public-apis/public-apis",
+    "url": "https://github.com/public-apis/public-apis",
+    "stars": 425836,
+    "primaryLanguage": "Python",
+    "createdAt": "2016-03-20T23:49:42Z",
+    "prCount": 3224
+  },
+  {
+    "nameWithOwner": "EbookFoundation/free-programming-books",
+    "url": "https://github.com/EbookFoundation/free-programming-books",
+    "stars": 385873,
+    "primaryLanguage": "Python",
+    "createdAt": "2013-10-11T06:50:37Z",
+    "prCount": 11618
+  },
+  {
+    "nameWithOwner": "openclaw/openclaw",
+    "url": "https://github.com/openclaw/openclaw",
+    "stars": 362341,
+    "primaryLanguage": "TypeScript",
+    "createdAt": "2025-11-24T10:16:47Z",
+    "prCount": 31133
+  },
+  {
+    "nameWithOwner": "kamranahmedse/developer-roadmap",
+    "url": "https://github.com/kamranahmedse/developer-roadmap",
+    "stars": 353385,
+    "primaryLanguage": "TypeScript",
+    "createdAt": "2017-03-15T13:45:52Z",
+    "prCount": 5965
+  },
+  {
+    "nameWithOwner": "donnemartin/system-design-primer",
+    "url": "https://github.com/donnemartin/system-design-primer",
+    "stars": 343697,
+    "primaryLanguage": "Python",
+    "createdAt": "2017-02-26T16:15:28Z",
+    "prCount": 372
+  },
+  {
+    "nameWithOwner": "jwasham/coding-interview-university",
+    "url": "https://github.com/jwasham/coding-interview-university",
+    "stars": 341637,
+    "primaryLanguage": null,
+    "createdAt": "2016-06-06T02:34:12Z",
+    "prCount": 1012
+  },
+  {
+    "nameWithOwner": "vinta/awesome-python",
+    "url": "https://github.com/vinta/awesome-python",
+    "stars": 293801,
+    "primaryLanguage": "Python",
+    "createdAt": "2014-06-27T21:00:06Z",
+    "prCount": 2369
+  },
+  {
+    "nameWithOwner": "awesome-selfhosted/awesome-selfhosted",
+    "url": "https://github.com/awesome-selfhosted/awesome-selfhosted",
+    "stars": 287545,
+    "primaryLanguage": null,
+    "createdAt": "2015-06-01T02:33:17Z",
+    "prCount": 3039
+  },
+  {
+    "nameWithOwner": "996icu/996.ICU",
+    "url": "https://github.com/996icu/996.ICU",
+    "stars": 275926,
+    "primaryLanguage": null,
+    "createdAt": "2019-03-26T07:31:14Z",
+    "prCount": 1991
+  },
+  {
+    "nameWithOwner": "practical-tutorials/project-based-learning",
+    "url": "https://github.com/practical-tutorials/project-based-learning",
+    "stars": 263833,
+    "primaryLanguage": null,
+    "createdAt": "2017-04-12T05:07:46Z",
+    "prCount": 380
+  },
+  {
+    "nameWithOwner": "facebook/react",
+    "url": "https://github.com/facebook/react",
+    "stars": 244604,
+    "primaryLanguage": "JavaScript",
+    "createdAt": "2013-05-24T16:15:54Z",
+    "prCount": 18971
+  },
+  {
+    "nameWithOwner": "TheAlgorithms/Python",
+    "url": "https://github.com/TheAlgorithms/Python",
+    "stars": 220043,
+    "primaryLanguage": "Python",
+    "createdAt": "2016-07-16T09:44:01Z",
+    "prCount": 11360
+  },
+  {
+    "nameWithOwner": "trimstray/the-book-of-secret-knowledge",
+    "url": "https://github.com/trimstray/the-book-of-secret-knowledge",
+    "stars": 216783,
+    "primaryLanguage": null,
+    "createdAt": "2018-06-23T10:43:14Z",
+    "prCount": 240
+  },
+  {
+    "nameWithOwner": "vuejs/vue",
+    "url": "https://github.com/vuejs/vue",
+    "stars": 209796,
+    "primaryLanguage": "TypeScript",
+    "createdAt": "2013-07-29T03:24:51Z",
+    "prCount": 2367
+  },
+  {
+    "nameWithOwner": "ossu/computer-science",
+    "url": "https://github.com/ossu/computer-science",
+    "stars": 203168,
+    "primaryLanguage": "HTML",
+    "createdAt": "2014-05-04T00:18:39Z",
+    "prCount": 511
+  },
+  {
+    "nameWithOwner": "trekhleb/javascript-algorithms",
+    "url": "https://github.com/trekhleb/javascript-algorithms",
+    "stars": 195867,
+    "primaryLanguage": "JavaScript",
+    "createdAt": "2018-03-24T07:47:04Z",
+    "prCount": 575
+  },
+  {
+    "nameWithOwner": "tensorflow/tensorflow",
+    "url": "https://github.com/tensorflow/tensorflow",
+    "stars": 194831,
+    "primaryLanguage": "C++",
+    "createdAt": "2015-11-07T01:19:20Z",
+    "prCount": 68079
+  },
+  {
+    "nameWithOwner": "ohmyzsh/ohmyzsh",
+    "url": "https://github.com/ohmyzsh/ohmyzsh",
+    "stars": 186398,
+    "primaryLanguage": "Shell",
+    "createdAt": "2009-08-28T18:15:37Z",
+    "prCount": 7632
+  },
+  {
+    "nameWithOwner": "n8n-io/n8n",
+    "url": "https://github.com/n8n-io/n8n",
+    "stars": 185137,
+    "primaryLanguage": "TypeScript",
+    "createdAt": "2019-06-22T09:24:21Z",
+    "prCount": 18889
+  },
+  {
+    "nameWithOwner": "getify/You-Dont-Know-JS",
+    "url": "https://github.com/getify/You-Dont-Know-JS",
+    "stars": 184433,
+    "primaryLanguage": null,
+    "createdAt": "2013-11-16T02:37:24Z",
+    "prCount": 897
+  },
+  {
+    "nameWithOwner": "CyC2018/CS-Notes",
+    "url": "https://github.com/CyC2018/CS-Notes",
+    "stars": 184242,
+    "primaryLanguage": null,
+    "createdAt": "2018-02-13T14:56:24Z",
+    "prCount": 561
+  },
+  {
+    "nameWithOwner": "microsoft/vscode",
+    "url": "https://github.com/microsoft/vscode",
+    "stars": 184150,
+    "primaryLanguage": "TypeScript",
+    "createdAt": "2015-09-03T20:23:38Z",
+    "prCount": 53682
+  },
+  {
+    "nameWithOwner": "Significant-Gravitas/AutoGPT",
+    "url": "https://github.com/Significant-Gravitas/AutoGPT",
+    "stars": 183666,
+    "primaryLanguage": "Python",
+    "createdAt": "2023-03-16T09:21:07Z",
+    "prCount": 7672
+  },
+  {
+    "nameWithOwner": "jackfrued/Python-100-Days",
+    "url": "https://github.com/jackfrued/Python-100-Days",
+    "stars": 181753,
+    "primaryLanguage": "Jupyter Notebook",
+    "createdAt": "2018-03-01T16:05:52Z",
+    "prCount": 216
+  },
+  {
+    "nameWithOwner": "flutter/flutter",
+    "url": "https://github.com/flutter/flutter",
+    "stars": 176070,
+    "primaryLanguage": "Dart",
+    "createdAt": "2015-03-06T22:54:58Z",
+    "prCount": 70437
+  },
+  {
+    "nameWithOwner": "twbs/bootstrap",
+    "url": "https://github.com/twbs/bootstrap",
+    "stars": 174194,
+    "primaryLanguage": "MDX",
+    "createdAt": "2011-07-29T21:19:00Z",
+    "prCount": 16003
+  },
+  {
+    "nameWithOwner": "github/gitignore",
+    "url": "https://github.com/github/gitignore",
+    "stars": 173515,
+    "primaryLanguage": null,
+    "createdAt": "2010-11-08T20:17:14Z",
+    "prCount": 4659
+  },
+  {
+    "nameWithOwner": "avelino/awesome-go",
+    "url": "https://github.com/avelino/awesome-go",
+    "stars": 170704,
+    "primaryLanguage": "Go",
+    "createdAt": "2014-07-06T13:42:15Z",
+    "prCount": 5110
+  },
+  {
+    "nameWithOwner": "ollama/ollama",
+    "url": "https://github.com/ollama/ollama",
+    "stars": 169710,
+    "primaryLanguage": "Go",
+    "createdAt": "2023-06-26T19:39:32Z",
+    "prCount": 4561
+  },
+  {
+    "nameWithOwner": "obra/superpowers",
+    "url": "https://github.com/obra/superpowers",
+    "stars": 164185,
+    "primaryLanguage": "Shell",
+    "createdAt": "2025-10-09T19:45:18Z",
+    "prCount": 479
+  },
+  {
+    "nameWithOwner": "affaan-m/everything-claude-code",
+    "url": "https://github.com/affaan-m/everything-claude-code",
+    "stars": 164092,
+    "primaryLanguage": "JavaScript",
+    "createdAt": "2026-01-18T00:51:51Z",
+    "prCount": 923
+  },
+  {
+    "nameWithOwner": "AUTOMATIC1111/stable-diffusion-webui",
+    "url": "https://github.com/AUTOMATIC1111/stable-diffusion-webui",
+    "stars": 162553,
+    "primaryLanguage": "Python",
+    "createdAt": "2022-08-22T14:05:26Z",
+    "prCount": 3267
+  },
+  {
+    "nameWithOwner": "jlevy/the-art-of-command-line",
+    "url": "https://github.com/jlevy/the-art-of-command-line",
+    "stars": 160743,
+    "primaryLanguage": null,
+    "createdAt": "2015-05-20T15:11:03Z",
+    "prCount": 475
+  },
+  {
+    "nameWithOwner": "f/prompts.chat",
+    "url": "https://github.com/f/prompts.chat",
+    "stars": 160413,
+    "primaryLanguage": "HTML",
+    "createdAt": "2022-12-05T13:54:13Z",
+    "prCount": 842
+  },
+  {
+    "nameWithOwner": "huggingface/transformers",
+    "url": "https://github.com/huggingface/transformers",
+    "stars": 159757,
+    "primaryLanguage": "Python",
+    "createdAt": "2018-10-29T13:56:00Z",
+    "prCount": 24777
+  },
+  {
+    "nameWithOwner": "yt-dlp/yt-dlp",
+    "url": "https://github.com/yt-dlp/yt-dlp",
+    "stars": 158140,
+    "primaryLanguage": "Python",
+    "createdAt": "2020-10-26T04:22:55Z",
+    "prCount": 4175
+  },
+  {
+    "nameWithOwner": "Snailclimb/JavaGuide",
+    "url": "https://github.com/Snailclimb/JavaGuide",
+    "stars": 155149,
+    "primaryLanguage": "Java",
+    "createdAt": "2018-05-07T13:27:00Z",
+    "prCount": 1567
+  },
+  {
+    "nameWithOwner": "airbnb/javascript",
+    "url": "https://github.com/airbnb/javascript",
+    "stars": 148133,
+    "primaryLanguage": "JavaScript",
+    "createdAt": "2012-11-01T23:13:50Z",
+    "prCount": 1636
+  },
+  {
+    "nameWithOwner": "anomalyco/opencode",
+    "url": "https://github.com/anomalyco/opencode",
+    "stars": 147670,
+    "primaryLanguage": "TypeScript",
+    "createdAt": "2025-04-30T20:08:00Z",
+    "prCount": 8038
+  },
+  {
+    "nameWithOwner": "langflow-ai/langflow",
+    "url": "https://github.com/langflow-ai/langflow",
+    "stars": 147262,
+    "primaryLanguage": "Python",
+    "createdAt": "2023-02-08T22:28:03Z",
+    "prCount": 8197
+  },
+  {
+    "nameWithOwner": "ytdl-org/youtube-dl",
+    "url": "https://github.com/ytdl-org/youtube-dl",
+    "stars": 140125,
+    "primaryLanguage": "Python",
+    "createdAt": "2010-10-31T14:35:07Z",
+    "prCount": 4511
+  },
+  {
+    "nameWithOwner": "vercel/next.js",
+    "url": "https://github.com/vercel/next.js",
+    "stars": 139086,
+    "primaryLanguage": "JavaScript",
+    "createdAt": "2016-10-05T23:32:51Z",
+    "prCount": 34755
+  },
+  {
+    "nameWithOwner": "yangshun/tech-interview-handbook",
+    "url": "https://github.com/yangshun/tech-interview-handbook",
+    "stars": 138967,
+    "primaryLanguage": "TypeScript",
+    "createdAt": "2016-07-05T05:00:48Z",
+    "prCount": 587
+  },
+  {
+    "nameWithOwner": "Genymobile/scrcpy",
+    "url": "https://github.com/Genymobile/scrcpy",
+    "stars": 138868,
+    "primaryLanguage": "C",
+    "createdAt": "2017-11-21T18:00:27Z",
+    "prCount": 568
+  },
+  {
+    "nameWithOwner": "langgenius/dify",
+    "url": "https://github.com/langgenius/dify",
+    "stars": 138775,
+    "primaryLanguage": "TypeScript",
+    "createdAt": "2023-04-12T07:40:24Z",
+    "prCount": 12843
+  },
+  {
+    "nameWithOwner": "x1xhlol/system-prompts-and-models-of-ai-tools",
+    "url": "https://github.com/x1xhlol/system-prompts-and-models-of-ai-tools",
+    "stars": 135785,
+    "primaryLanguage": null,
+    "createdAt": "2025-03-05T16:38:29Z",
+    "prCount": 130
+  },
+  {
+    "nameWithOwner": "langchain-ai/langchain",
+    "url": "https://github.com/langchain-ai/langchain",
+    "stars": 134509,
+    "primaryLanguage": "Python",
+    "createdAt": "2022-10-17T02:58:36Z",
+    "prCount": 21850
+  },
+  {
+    "nameWithOwner": "golang/go",
+    "url": "https://github.com/golang/go",
+    "stars": 133594,
+    "primaryLanguage": "Go",
+    "createdAt": "2014-08-19T04:33:40Z",
+    "prCount": 4593
+  },
+  {
+    "nameWithOwner": "open-webui/open-webui",
+    "url": "https://github.com/open-webui/open-webui",
+    "stars": 133378,
+    "primaryLanguage": "Python",
+    "createdAt": "2023-10-06T22:08:27Z",
+    "prCount": 7250
+  },
+  {
+    "nameWithOwner": "labuladong/fucking-algorithm",
+    "url": "https://github.com/labuladong/fucking-algorithm",
+    "stars": 133316,
+    "primaryLanguage": "Markdown",
+    "createdAt": "2020-02-19T09:01:23Z",
+    "prCount": 509
+  },
+  {
+    "nameWithOwner": "microsoft/PowerToys",
+    "url": "https://github.com/microsoft/PowerToys",
+    "stars": 131928,
+    "primaryLanguage": "C#",
+    "createdAt": "2019-05-01T17:44:02Z",
+    "prCount": 7540
+  },
+  {
+    "nameWithOwner": "Chalarangelo/30-seconds-of-code",
+    "url": "https://github.com/Chalarangelo/30-seconds-of-code",
+    "stars": 127540,
+    "primaryLanguage": "JavaScript",
+    "createdAt": "2017-11-29T17:35:03Z",
+    "prCount": 1661
+  },
+  {
+    "nameWithOwner": "facebook/react-native",
+    "url": "https://github.com/facebook/react-native",
+    "stars": 125706,
+    "primaryLanguage": "C++",
+    "createdAt": "2015-01-09T18:10:16Z",
+    "prCount": 26353
+  },
+  {
+    "nameWithOwner": "krahets/hello-algo",
+    "url": "https://github.com/krahets/hello-algo",
+    "stars": 125581,
+    "primaryLanguage": "Java",
+    "createdAt": "2022-11-04T11:08:34Z",
+    "prCount": 1236
+  },
+  {
+    "nameWithOwner": "anthropics/skills",
+    "url": "https://github.com/anthropics/skills",
+    "stars": 122279,
+    "primaryLanguage": "Python",
+    "createdAt": "2025-09-22T15:53:31Z",
+    "prCount": 186
+  },
+  {
+    "nameWithOwner": "kubernetes/kubernetes",
+    "url": "https://github.com/kubernetes/kubernetes",
+    "stars": 121852,
+    "primaryLanguage": "Go",
+    "createdAt": "2014-06-06T22:56:04Z",
+    "prCount": 87995
+  },
+  {
+    "nameWithOwner": "excalidraw/excalidraw",
+    "url": "https://github.com/excalidraw/excalidraw",
+    "stars": 121722,
+    "primaryLanguage": "TypeScript",
+    "createdAt": "2020-01-02T01:04:43Z",
+    "prCount": 5068
+  },
+  {
+    "nameWithOwner": "electron/electron",
+    "url": "https://github.com/electron/electron",
+    "stars": 120997,
+    "primaryLanguage": "C++",
+    "createdAt": "2013-04-12T01:47:36Z",
+    "prCount": 28600
+  },
+  {
+    "nameWithOwner": "ripienaar/free-for-dev",
+    "url": "https://github.com/ripienaar/free-for-dev",
+    "stars": 120824,
+    "primaryLanguage": "HTML",
+    "createdAt": "2015-03-18T21:06:26Z",
+    "prCount": 4124
+  },
+  {
+    "nameWithOwner": "anthropics/claude-code",
+    "url": "https://github.com/anthropics/claude-code",
+    "stars": 116934,
+    "primaryLanguage": "Shell",
+    "createdAt": "2025-02-22T17:41:21Z",
+    "prCount": 427
+  },
+  {
+    "nameWithOwner": "nodejs/node",
+    "url": "https://github.com/nodejs/node",
+    "stars": 116869,
+    "primaryLanguage": "JavaScript",
+    "createdAt": "2014-11-26T19:57:11Z",
+    "prCount": 39303
+  },
+  {
+    "nameWithOwner": "justjavac/free-programming-books-zh_CN",
+    "url": "https://github.com/justjavac/free-programming-books-zh_CN",
+    "stars": 116697,
+    "primaryLanguage": null,
+    "createdAt": "2013-11-04T01:59:19Z",
+    "prCount": 439
+  },
+  {
+    "nameWithOwner": "iptv-org/iptv",
+    "url": "https://github.com/iptv-org/iptv",
+    "stars": 115053,
+    "primaryLanguage": "TypeScript",
+    "createdAt": "2018-11-14T22:00:57Z",
+    "prCount": 7815
+  },
+  {
+    "nameWithOwner": "microsoft/markitdown",
+    "url": "https://github.com/microsoft/markitdown",
+    "stars": 114860,
+    "primaryLanguage": "Python",
+    "createdAt": "2024-11-13T19:56:40Z",
+    "prCount": 281
+  },
+  {
+    "nameWithOwner": "shadcn-ui/ui",
+    "url": "https://github.com/shadcn-ui/ui",
+    "stars": 112809,
+    "primaryLanguage": "TypeScript",
+    "createdAt": "2023-01-04T12:43:27Z",
+    "prCount": 3020
+  },
+  {
+    "nameWithOwner": "d3/d3",
+    "url": "https://github.com/d3/d3",
+    "stars": 112777,
+    "primaryLanguage": "Shell",
+    "createdAt": "2010-09-27T17:22:42Z",
+    "prCount": 1201
+  },
+  {
+    "nameWithOwner": "rustdesk/rustdesk",
+    "url": "https://github.com/rustdesk/rustdesk",
+    "stars": 112669,
+    "primaryLanguage": "Rust",
+    "createdAt": "2020-09-28T15:36:08Z",
+    "prCount": 4999
+  },
+  {
+    "nameWithOwner": "clash-verge-rev/clash-verge-rev",
+    "url": "https://github.com/clash-verge-rev/clash-verge-rev",
+    "stars": 112605,
+    "primaryLanguage": "TypeScript",
+    "createdAt": "2023-11-21T18:24:03Z",
+    "prCount": 1071
+  },
+  {
+    "nameWithOwner": "rust-lang/rust",
+    "url": "https://github.com/rust-lang/rust",
+    "stars": 112213,
+    "primaryLanguage": "Rust",
+    "createdAt": "2010-06-16T20:39:03Z",
+    "prCount": 91820
+  },
+  {
+    "nameWithOwner": "mrdoob/three.js",
+    "url": "https://github.com/mrdoob/three.js",
+    "stars": 112124,
+    "primaryLanguage": "JavaScript",
+    "createdAt": "2010-03-23T18:58:01Z",
+    "prCount": 19466
+  },
+  {
+    "nameWithOwner": "firecrawl/firecrawl",
+    "url": "https://github.com/firecrawl/firecrawl",
+    "stars": 111579,
+    "primaryLanguage": "TypeScript",
+    "createdAt": "2024-04-15T21:02:29Z",
+    "prCount": 2248
+  },
+  {
+    "nameWithOwner": "Hack-with-Github/Awesome-Hacking",
+    "url": "https://github.com/Hack-with-Github/Awesome-Hacking",
+    "stars": 110805,
+    "primaryLanguage": null,
+    "createdAt": "2016-03-30T15:47:10Z",
+    "prCount": 129
+  },
+  {
+    "nameWithOwner": "NousResearch/hermes-agent",
+    "url": "https://github.com/NousResearch/hermes-agent",
+    "stars": 110397,
+    "primaryLanguage": "Python",
+    "createdAt": "2025-07-22T22:22:28Z",
+    "prCount": 6693
+  },
+  {
+    "nameWithOwner": "godotengine/godot",
+    "url": "https://github.com/godotengine/godot",
+    "stars": 109823,
+    "primaryLanguage": "C++",
+    "createdAt": "2014-01-04T16:05:36Z",
+    "prCount": 50807
+  },
+  {
+    "nameWithOwner": "microsoft/generative-ai-for-beginners",
+    "url": "https://github.com/microsoft/generative-ai-for-beginners",
+    "stars": 109678,
+    "primaryLanguage": "Jupyter Notebook",
+    "createdAt": "2023-06-19T16:28:59Z",
+    "prCount": 791
+  },
+  {
+    "nameWithOwner": "Comfy-Org/ComfyUI",
+    "url": "https://github.com/Comfy-Org/ComfyUI",
+    "stars": 109652,
+    "primaryLanguage": "Python",
+    "createdAt": "2023-01-17T03:15:56Z",
+    "prCount": 3358
+  },
+  {
+    "nameWithOwner": "axios/axios",
+    "url": "https://github.com/axios/axios",
+    "stars": 109010,
+    "primaryLanguage": "JavaScript",
+    "createdAt": "2014-08-18T22:30:27Z",
+    "prCount": 2347
+  },
+  {
+    "nameWithOwner": "microsoft/TypeScript",
+    "url": "https://github.com/microsoft/TypeScript",
+    "stars": 108630,
+    "primaryLanguage": "TypeScript",
+    "createdAt": "2014-06-17T15:28:39Z",
+    "prCount": 19106
+  },
+  {
+    "nameWithOwner": "Shubhamsaboo/awesome-llm-apps",
+    "url": "https://github.com/Shubhamsaboo/awesome-llm-apps",
+    "stars": 106912,
+    "primaryLanguage": "Python",
+    "createdAt": "2024-04-29T05:30:25Z",
+    "prCount": 487
+  },
+  {
+    "nameWithOwner": "denoland/deno",
+    "url": "https://github.com/denoland/deno",
+    "stars": 106517,
+    "primaryLanguage": "Rust",
+    "createdAt": "2018-05-15T01:34:26Z",
+    "prCount": 17529
+  },
+  {
+    "nameWithOwner": "fatedier/frp",
+    "url": "https://github.com/fatedier/frp",
+    "stars": 106029,
+    "primaryLanguage": "Go",
+    "createdAt": "2015-12-21T15:24:59Z",
+    "prCount": 1137
+  },
+  {
+    "nameWithOwner": "tauri-apps/tauri",
+    "url": "https://github.com/tauri-apps/tauri",
+    "stars": 105759,
+    "primaryLanguage": "Rust",
+    "createdAt": "2019-07-13T09:09:37Z",
+    "prCount": 6317
+  },
+  {
+    "nameWithOwner": "ggml-org/llama.cpp",
+    "url": "https://github.com/ggml-org/llama.cpp",
+    "stars": 105738,
+    "primaryLanguage": "C++",
+    "createdAt": "2023-03-10T18:58:00Z",
+    "prCount": 10201
+  },
+  {
+    "nameWithOwner": "papers-we-love/papers-we-love",
+    "url": "https://github.com/papers-we-love/papers-we-love",
+    "stars": 105514,
+    "primaryLanguage": "Shell",
+    "createdAt": "2013-12-15T14:31:41Z",
+    "prCount": 529
+  },
+  {
+    "nameWithOwner": "goldbergyoni/nodebestpractices",
+    "url": "https://github.com/goldbergyoni/nodebestpractices",
+    "stars": 105223,
+    "primaryLanguage": "Dockerfile",
+    "createdAt": "2017-09-15T08:33:19Z",
+    "prCount": 931
+  },
+  {
+    "nameWithOwner": "facebook/create-react-app",
+    "url": "https://github.com/facebook/create-react-app",
+    "stars": 103473,
+    "primaryLanguage": "JavaScript",
+    "createdAt": "2016-07-17T14:55:11Z",
+    "prCount": 3870
+  },
+  {
+    "nameWithOwner": "2dust/v2rayN",
+    "url": "https://github.com/2dust/v2rayN",
+    "stars": 103012,
+    "primaryLanguage": "C#",
+    "createdAt": "2019-07-30T03:47:24Z",
+    "prCount": 744
+  },
+  {
+    "nameWithOwner": "microsoft/terminal",
+    "url": "https://github.com/microsoft/terminal",
+    "stars": 102841,
+    "primaryLanguage": "C++",
+    "createdAt": "2017-08-11T18:38:22Z",
+    "prCount": 5088
+  },
+  {
+    "nameWithOwner": "deepseek-ai/DeepSeek-V3",
+    "url": "https://github.com/deepseek-ai/DeepSeek-V3",
+    "stars": 102723,
+    "primaryLanguage": "Python",
+    "createdAt": "2024-12-26T09:52:40Z",
+    "prCount": 135
+  },
+  {
+    "nameWithOwner": "jaywcjlove/awesome-mac",
+    "url": "https://github.com/jaywcjlove/awesome-mac",
+    "stars": 102420,
+    "primaryLanguage": "Swift",
+    "createdAt": "2016-07-17T15:33:47Z",
+    "prCount": 1283
+  },
+  {
+    "nameWithOwner": "google-gemini/gemini-cli",
+    "url": "https://github.com/google-gemini/gemini-cli",
+    "stars": 102135,
+    "primaryLanguage": "TypeScript",
+    "createdAt": "2025-04-17T17:04:31Z",
+    "prCount": 10510
+  },
+  {
+    "nameWithOwner": "supabase/supabase",
+    "url": "https://github.com/supabase/supabase",
+    "stars": 101255,
+    "primaryLanguage": "TypeScript",
+    "createdAt": "2019-10-12T05:56:49Z",
+    "prCount": 19736
+  },
+  {
+    "nameWithOwner": "angular/angular",
+    "url": "https://github.com/angular/angular",
+    "stars": 100050,
+    "primaryLanguage": "TypeScript",
+    "createdAt": "2014-09-18T16:12:01Z",
+    "prCount": 35654
+  },
+  {
+    "nameWithOwner": "Anduin2017/HowToCook",
+    "url": "https://github.com/Anduin2017/HowToCook",
+    "stars": 99604,
+    "primaryLanguage": "Dockerfile",
+    "createdAt": "2020-02-29T10:43:49Z",
+    "prCount": 857
+  },
+  {
+    "nameWithOwner": "pytorch/pytorch",
+    "url": "https://github.com/pytorch/pytorch",
+    "stars": 99352,
+    "primaryLanguage": "Python",
+    "createdAt": "2016-08-13T05:26:41Z",
+    "prCount": 120170
+  },
+  {
+    "nameWithOwner": "neovim/neovim",
+    "url": "https://github.com/neovim/neovim",
+    "stars": 98971,
+    "primaryLanguage": "Vim Script",
+    "createdAt": "2014-01-31T13:39:22Z",
+    "prCount": 23664
+  },
+  {
+    "nameWithOwner": "mtdvio/every-programmer-should-know",
+    "url": "https://github.com/mtdvio/every-programmer-should-know",
+    "stars": 98779,
+    "primaryLanguage": null,
+    "createdAt": "2017-08-24T13:18:26Z",
+    "prCount": 166
+  },
+  {
+    "nameWithOwner": "immich-app/immich",
+    "url": "https://github.com/immich-app/immich",
+    "stars": 98388,
+    "primaryLanguage": "TypeScript",
+    "createdAt": "2022-02-03T15:56:27Z",
+    "prCount": 10796
+  },
+  {
+    "nameWithOwner": "openai/whisper",
+    "url": "https://github.com/openai/whisper",
+    "stars": 98209,
+    "primaryLanguage": "Python",
+    "createdAt": "2022-09-16T20:02:54Z",
+    "prCount": 244
+  },
+  {
+    "nameWithOwner": "mui/material-ui",
+    "url": "https://github.com/mui/material-ui",
+    "stars": 98207,
+    "primaryLanguage": "JavaScript",
+    "createdAt": "2014-08-18T19:11:54Z",
+    "prCount": 26426
+  },
+  {
+    "nameWithOwner": "ant-design/ant-design",
+    "url": "https://github.com/ant-design/ant-design",
+    "stars": 97818,
+    "primaryLanguage": "TypeScript",
+    "createdAt": "2015-04-24T15:37:24Z",
+    "prCount": 21968
+  },
+  {
+    "nameWithOwner": "fastapi/fastapi",
+    "url": "https://github.com/fastapi/fastapi",
+    "stars": 97527,
+    "primaryLanguage": "Python",
+    "createdAt": "2018-12-08T08:21:47Z",
+    "prCount": 5488
+  },
+  {
+    "nameWithOwner": "nvbn/thefuck",
+    "url": "https://github.com/nvbn/thefuck",
+    "stars": 96663,
+    "primaryLanguage": "Python",
+    "createdAt": "2015-04-08T15:08:04Z",
+    "prCount": 617
+  },
+  {
+    "nameWithOwner": "microsoft/Web-Dev-For-Beginners",
+    "url": "https://github.com/microsoft/Web-Dev-For-Beginners",
+    "stars": 95650,
+    "primaryLanguage": "JavaScript",
+    "createdAt": "2020-11-10T02:44:00Z",
+    "prCount": 1155
+  },
+  {
+    "nameWithOwner": "tailwindlabs/tailwindcss",
+    "url": "https://github.com/tailwindlabs/tailwindcss",
+    "stars": 94692,
+    "primaryLanguage": "TypeScript",
+    "createdAt": "2017-10-06T14:59:14Z",
+    "prCount": 4172
+  },
+  {
+    "nameWithOwner": "ryanmcdermott/clean-code-javascript",
+    "url": "https://github.com/ryanmcdermott/clean-code-javascript",
+    "stars": 94304,
+    "primaryLanguage": "JavaScript",
+    "createdAt": "2016-11-25T22:25:41Z",
+    "prCount": 260
+  },
+  {
+    "nameWithOwner": "puppeteer/puppeteer",
+    "url": "https://github.com/puppeteer/puppeteer",
+    "stars": 94165,
+    "primaryLanguage": "TypeScript",
+    "createdAt": "2017-05-09T22:16:13Z",
+    "prCount": 7324
+  },
+  {
+    "nameWithOwner": "iluwatar/java-design-patterns",
+    "url": "https://github.com/iluwatar/java-design-patterns",
+    "stars": 93922,
+    "primaryLanguage": "Java",
+    "createdAt": "2014-08-09T16:45:18Z",
+    "prCount": 2332
+  },
+  {
+    "nameWithOwner": "florinpop17/app-ideas",
+    "url": "https://github.com/florinpop17/app-ideas",
+    "stars": 93302,
+    "primaryLanguage": null,
+    "createdAt": "2019-02-25T18:36:56Z",
+    "prCount": 403
+  },
+  {
+    "nameWithOwner": "nvm-sh/nvm",
+    "url": "https://github.com/nvm-sh/nvm",
+    "stars": 93036,
+    "primaryLanguage": "Shell",
+    "createdAt": "2010-04-15T17:47:47Z",
+    "prCount": 1156
+  },
+  {
+    "nameWithOwner": "hacksider/Deep-Live-Cam",
+    "url": "https://github.com/hacksider/Deep-Live-Cam",
+    "stars": 91734,
+    "primaryLanguage": "Python",
+    "createdAt": "2023-09-24T13:19:31Z",
+    "prCount": 312
+  },
+  {
+    "nameWithOwner": "rasbt/LLMs-from-scratch",
+    "url": "https://github.com/rasbt/LLMs-from-scratch",
+    "stars": 91238,
+    "primaryLanguage": "Jupyter Notebook",
+    "createdAt": "2023-07-23T18:15:57Z",
+    "prCount": 566
+  },
+  {
+    "nameWithOwner": "PanJiaChen/vue-element-admin",
+    "url": "https://github.com/PanJiaChen/vue-element-admin",
+    "stars": 90295,
+    "primaryLanguage": "Vue",
+    "createdAt": "2017-04-17T03:35:49Z",
+    "prCount": 489
+  },
+  {
+    "nameWithOwner": "github/spec-kit",
+    "url": "https://github.com/github/spec-kit",
+    "stars": 90181,
+    "primaryLanguage": "Python",
+    "createdAt": "2025-08-21T22:54:31Z",
+    "prCount": 767
+  },
+  {
+    "nameWithOwner": "storybookjs/storybook",
+    "url": "https://github.com/storybookjs/storybook",
+    "stars": 89769,
+    "primaryLanguage": "TypeScript",
+    "createdAt": "2016-03-18T04:23:44Z",
+    "prCount": 15640
+  },
+  {
+    "nameWithOwner": "browser-use/browser-use",
+    "url": "https://github.com/browser-use/browser-use",
+    "stars": 89494,
+    "primaryLanguage": "Python",
+    "createdAt": "2024-10-31T16:00:56Z",
+    "prCount": 2695
+  },
+  {
+    "nameWithOwner": "oven-sh/bun",
+    "url": "https://github.com/oven-sh/bun",
+    "stars": 89269,
+    "primaryLanguage": "Zig",
+    "createdAt": "2021-04-14T00:48:17Z",
+    "prCount": 10514
+  },
+  {
+    "nameWithOwner": "ruanyf/weekly",
+    "url": "https://github.com/ruanyf/weekly",
+    "stars": 89207,
+    "primaryLanguage": null,
+    "createdAt": "2018-10-13T12:36:07Z",
+    "prCount": 150
+  },
+  {
+    "nameWithOwner": "bitcoin/bitcoin",
+    "url": "https://github.com/bitcoin/bitcoin",
+    "stars": 88895,
+    "primaryLanguage": "C++",
+    "createdAt": "2010-12-19T15:16:43Z",
+    "prCount": 23994
+  },
+  {
+    "nameWithOwner": "gin-gonic/gin",
+    "url": "https://github.com/gin-gonic/gin",
+    "stars": 88353,
+    "primaryLanguage": "Go",
+    "createdAt": "2014-06-16T23:57:25Z",
+    "prCount": 2090
+  },
+  {
+    "nameWithOwner": "ChatGPTNextWeb/NextChat",
+    "url": "https://github.com/ChatGPTNextWeb/NextChat",
+    "stars": 87767,
+    "primaryLanguage": "TypeScript",
+    "createdAt": "2023-03-10T18:27:54Z",
+    "prCount": 2549
+  },
+  {
+    "nameWithOwner": "gohugoio/hugo",
+    "url": "https://github.com/gohugoio/hugo",
+    "stars": 87723,
+    "primaryLanguage": "Go",
+    "createdAt": "2013-07-04T15:26:26Z",
+    "prCount": 6428
+  },
+  {
+    "nameWithOwner": "mermaid-js/mermaid",
+    "url": "https://github.com/mermaid-js/mermaid",
+    "stars": 87565,
+    "primaryLanguage": "TypeScript",
+    "createdAt": "2014-11-01T23:52:32Z",
+    "prCount": 3274
+  },
+  {
+    "nameWithOwner": "django/django",
+    "url": "https://github.com/django/django",
+    "stars": 87307,
+    "primaryLanguage": "Python",
+    "createdAt": "2012-04-28T02:47:18Z",
+    "prCount": 20659
+  },
+  {
+    "nameWithOwner": "opencv/opencv",
+    "url": "https://github.com/opencv/opencv",
+    "stars": 87211,
+    "primaryLanguage": "C++",
+    "createdAt": "2012-07-19T09:40:17Z",
+    "prCount": 16960
+  },
+  {
+    "nameWithOwner": "microsoft/playwright",
+    "url": "https://github.com/microsoft/playwright",
+    "stars": 87055,
+    "primaryLanguage": "TypeScript",
+    "createdAt": "2019-11-15T18:32:42Z",
+    "prCount": 19443
+  },
+  {
+    "nameWithOwner": "sveltejs/svelte",
+    "url": "https://github.com/sveltejs/svelte",
+    "stars": 86402,
+    "primaryLanguage": "JavaScript",
+    "createdAt": "2016-11-20T18:13:05Z",
+    "prCount": 8049
+  },
+  {
+    "nameWithOwner": "3b1b/manim",
+    "url": "https://github.com/3b1b/manim",
+    "stars": 86217,
+    "primaryLanguage": "Python",
+    "createdAt": "2015-03-22T18:50:58Z",
+    "prCount": 919
+  },
+  {
+    "nameWithOwner": "home-assistant/core",
+    "url": "https://github.com/home-assistant/core",
+    "stars": 86129,
+    "primaryLanguage": "Python",
+    "createdAt": "2013-09-17T07:29:48Z",
+    "prCount": 97743
+  },
+  {
+    "nameWithOwner": "louislam/uptime-kuma",
+    "url": "https://github.com/louislam/uptime-kuma",
+    "stars": 85606,
+    "primaryLanguage": "JavaScript",
+    "createdAt": "2021-07-03T01:02:42Z",
+    "prCount": 2417
+  },
+  {
+    "nameWithOwner": "microsoft/ML-For-Beginners",
+    "url": "https://github.com/microsoft/ML-For-Beginners",
+    "stars": 85386,
+    "primaryLanguage": "Jupyter Notebook",
+    "createdAt": "2021-03-03T01:34:05Z",
+    "prCount": 649
+  },
+  {
+    "nameWithOwner": "punkpeye/awesome-mcp-servers",
+    "url": "https://github.com/punkpeye/awesome-mcp-servers",
+    "stars": 85353,
+    "primaryLanguage": null,
+    "createdAt": "2024-11-30T04:49:10Z",
+    "prCount": 3865
+  },
+  {
+    "nameWithOwner": "msitarzewski/agency-agents",
+    "url": "https://github.com/msitarzewski/agency-agents",
+    "stars": 85345,
+    "primaryLanguage": "Shell",
+    "createdAt": "2025-10-13T12:12:29Z",
+    "prCount": 248
+  },
+  {
+    "nameWithOwner": "MunGell/awesome-for-beginners",
+    "url": "https://github.com/MunGell/awesome-for-beginners",
+    "stars": 84876,
+    "primaryLanguage": null,
+    "createdAt": "2015-10-24T19:53:36Z",
+    "prCount": 1662
+  },
+  {
+    "nameWithOwner": "modelcontextprotocol/servers",
+    "url": "https://github.com/modelcontextprotocol/servers",
+    "stars": 84320,
+    "primaryLanguage": "TypeScript",
+    "createdAt": "2024-11-19T01:10:17Z",
+    "prCount": 2811
+  },
+  {
+    "nameWithOwner": "laravel/laravel",
+    "url": "https://github.com/laravel/laravel",
+    "stars": 84049,
+    "primaryLanguage": "Blade",
+    "createdAt": "2011-06-08T03:06:08Z",
+    "prCount": 5127
+  },
+  {
+    "nameWithOwner": "astral-sh/uv",
+    "url": "https://github.com/astral-sh/uv",
+    "stars": 83751,
+    "primaryLanguage": "Rust",
+    "createdAt": "2023-10-02T20:24:11Z",
+    "prCount": 9823
+  },
+  {
+    "nameWithOwner": "macrozheng/mall",
+    "url": "https://github.com/macrozheng/mall",
+    "stars": 83464,
+    "primaryLanguage": "Java",
+    "createdAt": "2018-04-04T01:11:44Z",
+    "prCount": 146
+  },
+  {
+    "nameWithOwner": "realworld-apps/realworld",
+    "url": "https://github.com/realworld-apps/realworld",
+    "stars": 83229,
+    "primaryLanguage": "TypeScript",
+    "createdAt": "2016-02-26T20:49:53Z",
+    "prCount": 917
+  },
+  {
+    "nameWithOwner": "syncthing/syncthing",
+    "url": "https://github.com/syncthing/syncthing",
+    "stars": 82883,
+    "primaryLanguage": "Go",
+    "createdAt": "2013-11-26T09:48:21Z",
+    "prCount": 4662
+  },
+  {
+    "nameWithOwner": "animate-css/animate.css",
+    "url": "https://github.com/animate-css/animate.css",
+    "stars": 82521,
+    "primaryLanguage": "CSS",
+    "createdAt": "2011-10-12T10:07:38Z",
+    "prCount": 901
+  },
+  {
+    "nameWithOwner": "bregman-arie/devops-exercises",
+    "url": "https://github.com/bregman-arie/devops-exercises",
+    "stars": 82108,
+    "primaryLanguage": "Python",
+    "createdAt": "2019-10-03T17:31:21Z",
+    "prCount": 425
+  },
+  {
+    "nameWithOwner": "DopplerHQ/awesome-interview-questions",
+    "url": "https://github.com/DopplerHQ/awesome-interview-questions",
+    "stars": 82085,
+    "primaryLanguage": null,
+    "createdAt": "2015-11-28T09:48:17Z",
+    "prCount": 211
+  },
+  {
+    "nameWithOwner": "sherlock-project/sherlock",
+    "url": "https://github.com/sherlock-project/sherlock",
+    "stars": 81745,
+    "primaryLanguage": "Python",
+    "createdAt": "2018-12-24T14:30:48Z",
+    "prCount": 1327
+  },
+  {
+    "nameWithOwner": "tonsky/FiraCode",
+    "url": "https://github.com/tonsky/FiraCode",
+    "stars": 81471,
+    "primaryLanguage": "Clojure",
+    "createdAt": "2014-11-11T19:32:38Z",
+    "prCount": 202
+  },
+  {
+    "nameWithOwner": "spring-projects/spring-boot",
+    "url": "https://github.com/spring-projects/spring-boot",
+    "stars": 80474,
+    "primaryLanguage": "Java",
+    "createdAt": "2012-10-19T15:02:57Z",
+    "prCount": 7478
+  },
+  {
+    "nameWithOwner": "Developer-Y/cs-video-courses",
+    "url": "https://github.com/Developer-Y/cs-video-courses",
+    "stars": 80435,
+    "primaryLanguage": null,
+    "createdAt": "2016-10-21T17:02:11Z",
+    "prCount": 320
+  },
+  {
+    "nameWithOwner": "garrytan/gstack",
+    "url": "https://github.com/garrytan/gstack",
+    "stars": 80337,
+    "primaryLanguage": "TypeScript",
+    "createdAt": "2026-03-11T21:22:45Z",
+    "prCount": 595
+  },
+  {
+    "nameWithOwner": "vitejs/vite",
+    "url": "https://github.com/vitejs/vite",
+    "stars": 80125,
+    "primaryLanguage": "TypeScript",
+    "createdAt": "2020-04-21T05:03:57Z",
+    "prCount": 8074
+  },
+  {
+    "nameWithOwner": "junegunn/fzf",
+    "url": "https://github.com/junegunn/fzf",
+    "stars": 79703,
+    "primaryLanguage": "Go",
+    "createdAt": "2013-10-23T16:04:23Z",
+    "prCount": 1101
+  },
+  {
+    "nameWithOwner": "zed-industries/zed",
+    "url": "https://github.com/zed-industries/zed",
+    "stars": 79540,
+    "primaryLanguage": "Rust",
+    "createdAt": "2021-02-20T03:01:06Z",
+    "prCount": 27224
+  },
+  {
+    "nameWithOwner": "anuraghazra/github-readme-stats",
+    "url": "https://github.com/anuraghazra/github-readme-stats",
+    "stars": 79125,
+    "primaryLanguage": "JavaScript",
+    "createdAt": "2020-07-09T10:34:22Z",
+    "prCount": 2863
+  },
+  {
+    "nameWithOwner": "hoppscotch/hoppscotch",
+    "url": "https://github.com/hoppscotch/hoppscotch",
+    "stars": 79007,
+    "primaryLanguage": "TypeScript",
+    "createdAt": "2019-08-21T13:15:24Z",
+    "prCount": 3041
+  },
+  {
+    "nameWithOwner": "doocs/advanced-java",
+    "url": "https://github.com/doocs/advanced-java",
+    "stars": 78951,
+    "primaryLanguage": "Java",
+    "createdAt": "2018-10-06T11:38:30Z",
+    "prCount": 142
+  },
+  {
+    "nameWithOwner": "infiniflow/ragflow",
+    "url": "https://github.com/infiniflow/ragflow",
+    "stars": 78758,
+    "primaryLanguage": "Python",
+    "createdAt": "2023-12-12T06:13:13Z",
+    "prCount": 6561
+  },
+  {
+    "nameWithOwner": "localsend/localsend",
+    "url": "https://github.com/localsend/localsend",
+    "stars": 78641,
+    "primaryLanguage": "Dart",
+    "createdAt": "2022-12-16T00:46:07Z",
+    "prCount": 812
+  },
+  {
+    "nameWithOwner": "netdata/netdata",
+    "url": "https://github.com/netdata/netdata",
+    "stars": 78558,
+    "primaryLanguage": "C",
+    "createdAt": "2013-06-17T18:39:10Z",
+    "prCount": 13302
+  },
+  {
+    "nameWithOwner": "vllm-project/vllm",
+    "url": "https://github.com/vllm-project/vllm",
+    "stars": 77722,
+    "primaryLanguage": "Python",
+    "createdAt": "2023-02-09T11:23:20Z",
+    "prCount": 22398
+  },
+  {
+    "nameWithOwner": "tensorflow/models",
+    "url": "https://github.com/tensorflow/models",
+    "stars": 77668,
+    "primaryLanguage": "Python",
+    "createdAt": "2016-02-05T01:15:20Z",
+    "prCount": 3688
+  },
+  {
+    "nameWithOwner": "Stirling-Tools/Stirling-PDF",
+    "url": "https://github.com/Stirling-Tools/Stirling-PDF",
+    "stars": 77581,
+    "primaryLanguage": "TypeScript",
+    "createdAt": "2023-01-27T18:22:42Z",
+    "prCount": 4079
+  },
+  {
+    "nameWithOwner": "d2l-ai/d2l-zh",
+    "url": "https://github.com/d2l-ai/d2l-zh",
+    "stars": 77382,
+    "primaryLanguage": "Python",
+    "createdAt": "2017-08-23T04:40:24Z",
+    "prCount": 1274
+  },
+  {
+    "nameWithOwner": "nomic-ai/gpt4all",
+    "url": "https://github.com/nomic-ai/gpt4all",
+    "stars": 77356,
+    "primaryLanguage": "C++",
+    "createdAt": "2023-03-27T18:49:32Z",
+    "prCount": 1160
+  },
+  {
+    "nameWithOwner": "coder/code-server",
+    "url": "https://github.com/coder/code-server",
+    "stars": 77224,
+    "primaryLanguage": "TypeScript",
+    "createdAt": "2019-02-27T16:50:41Z",
+    "prCount": 2149
+  },
+  {
+    "nameWithOwner": "swisskyrepo/PayloadsAllTheThings",
+    "url": "https://github.com/swisskyrepo/PayloadsAllTheThings",
+    "stars": 77089,
+    "primaryLanguage": "Python",
+    "createdAt": "2016-10-18T07:29:07Z",
+    "prCount": 731
+  },
+  {
+    "nameWithOwner": "openai/codex",
+    "url": "https://github.com/openai/codex",
+    "stars": 77009,
+    "primaryLanguage": "Rust",
+    "createdAt": "2025-04-13T05:37:54Z",
+    "prCount": 8806
+  },
+  {
+    "nameWithOwner": "jesseduffield/lazygit",
+    "url": "https://github.com/jesseduffield/lazygit",
+    "stars": 76863,
+    "primaryLanguage": "Go",
+    "createdAt": "2018-05-19T00:53:06Z",
+    "prCount": 2237
+  },
+  {
+    "nameWithOwner": "elastic/elasticsearch",
+    "url": "https://github.com/elastic/elasticsearch",
+    "stars": 76566,
+    "primaryLanguage": "Java",
+    "createdAt": "2010-02-08T13:20:56Z",
+    "prCount": 101484
+  },
+  {
+    "nameWithOwner": "FortAwesome/Font-Awesome",
+    "url": "https://github.com/FortAwesome/Font-Awesome",
+    "stars": 76527,
+    "primaryLanguage": "JavaScript",
+    "createdAt": "2012-02-17T14:19:43Z",
+    "prCount": 694
+  },
+  {
+    "nameWithOwner": "PaddlePaddle/PaddleOCR",
+    "url": "https://github.com/PaddlePaddle/PaddleOCR",
+    "stars": 76208,
+    "primaryLanguage": "Python",
+    "createdAt": "2020-05-08T10:38:16Z",
+    "prCount": 3890
+  },
+  {
+    "nameWithOwner": "ventoy/Ventoy",
+    "url": "https://github.com/ventoy/Ventoy",
+    "stars": 76017,
+    "primaryLanguage": "C",
+    "createdAt": "2020-03-10T15:19:19Z",
+    "prCount": 464
+  },
+  {
+    "nameWithOwner": "sdmg15/Best-websites-a-programmer-should-visit",
+    "url": "https://github.com/sdmg15/Best-websites-a-programmer-should-visit",
+    "stars": 75994,
+    "primaryLanguage": null,
+    "createdAt": "2017-03-05T20:25:17Z",
+    "prCount": 1013
+  },
+  {
+    "nameWithOwner": "karpathy/autoresearch",
+    "url": "https://github.com/karpathy/autoresearch",
+    "stars": 75584,
+    "primaryLanguage": "Python",
+    "createdAt": "2026-03-06T22:00:43Z",
+    "prCount": 192
+  },
+  {
+    "nameWithOwner": "typicode/json-server",
+    "url": "https://github.com/typicode/json-server",
+    "stars": 75557,
+    "primaryLanguage": "JavaScript",
+    "createdAt": "2013-11-27T13:21:13Z",
+    "prCount": 404
+  },
+  {
+    "nameWithOwner": "lobehub/lobehub",
+    "url": "https://github.com/lobehub/lobehub",
+    "stars": 75491,
+    "primaryLanguage": "TypeScript",
+    "createdAt": "2023-05-21T07:19:12Z",
+    "prCount": 6612
+  },
+  {
+    "nameWithOwner": "nestjs/nest",
+    "url": "https://github.com/nestjs/nest",
+    "stars": 75291,
+    "primaryLanguage": "TypeScript",
+    "createdAt": "2017-02-04T20:12:52Z",
+    "prCount": 10605
+  },
+  {
+    "nameWithOwner": "awesomedata/awesome-public-datasets",
+    "url": "https://github.com/awesomedata/awesome-public-datasets",
+    "stars": 74146,
+    "primaryLanguage": null,
+    "createdAt": "2014-11-20T06:20:50Z",
+    "prCount": 296
+  },
+  {
+    "nameWithOwner": "unionlabs/union",
+    "url": "https://github.com/unionlabs/union",
+    "stars": 74128,
+    "primaryLanguage": "Rust",
+    "createdAt": "2023-05-16T22:33:39Z",
+    "prCount": 3433
+  },
+  {
+    "nameWithOwner": "redis/redis",
+    "url": "https://github.com/redis/redis",
+    "stars": 73960,
+    "primaryLanguage": "C",
+    "createdAt": "2009-03-21T22:32:25Z",
+    "prCount": 7114
+  },
+  {
+    "nameWithOwner": "dair-ai/Prompt-Engineering-Guide",
+    "url": "https://github.com/dair-ai/Prompt-Engineering-Guide",
+    "stars": 73681,
+    "primaryLanguage": "MDX",
+    "createdAt": "2022-12-16T16:04:50Z",
+    "prCount": 404
+  },
+  {
+    "nameWithOwner": "tesseract-ocr/tesseract",
+    "url": "https://github.com/tesseract-ocr/tesseract",
+    "stars": 73662,
+    "primaryLanguage": "C++",
+    "createdAt": "2014-08-12T18:04:59Z",
+    "prCount": 1678
+  },
+  {
+    "nameWithOwner": "vuejs/awesome-vue",
+    "url": "https://github.com/vuejs/awesome-vue",
+    "stars": 73608,
+    "primaryLanguage": null,
+    "createdAt": "2015-10-20T00:16:14Z",
+    "prCount": 4012
+  },
+  {
+    "nameWithOwner": "grafana/grafana",
+    "url": "https://github.com/grafana/grafana",
+    "stars": 73363,
+    "primaryLanguage": "TypeScript",
+    "createdAt": "2013-12-11T15:59:56Z",
+    "prCount": 75688
+  },
+  {
+    "nameWithOwner": "twitter/the-algorithm",
+    "url": "https://github.com/twitter/the-algorithm",
+    "stars": 73045,
+    "primaryLanguage": "Scala",
+    "createdAt": "2023-03-27T14:57:57Z",
+    "prCount": 380
+  },
+  {
+    "nameWithOwner": "enaqx/awesome-react",
+    "url": "https://github.com/enaqx/awesome-react",
+    "stars": 72991,
+    "primaryLanguage": null,
+    "createdAt": "2014-08-06T05:31:44Z",
+    "prCount": 1416
+  },
+  {
+    "nameWithOwner": "openai/openai-cookbook",
+    "url": "https://github.com/openai/openai-cookbook",
+    "stars": 72887,
+    "primaryLanguage": "Jupyter Notebook",
+    "createdAt": "2022-03-11T02:08:53Z",
+    "prCount": 1530
+  },
+  {
+    "nameWithOwner": "ocornut/imgui",
+    "url": "https://github.com/ocornut/imgui",
+    "stars": 72740,
+    "primaryLanguage": "C++",
+    "createdAt": "2014-07-21T14:29:47Z",
+    "prCount": 1531
+  },
+  {
+    "nameWithOwner": "apache/superset",
+    "url": "https://github.com/apache/superset",
+    "stars": 72538,
+    "primaryLanguage": "TypeScript",
+    "createdAt": "2015-07-21T18:55:34Z",
+    "prCount": 22002
+  },
+  {
+    "nameWithOwner": "thedaviddias/Front-End-Checklist",
+    "url": "https://github.com/thedaviddias/Front-End-Checklist",
+    "stars": 72509,
+    "primaryLanguage": null,
+    "createdAt": "2017-10-16T10:12:36Z",
+    "prCount": 314
+  },
+  {
+    "nameWithOwner": "PKUFlyingPig/cs-self-learning",
+    "url": "https://github.com/PKUFlyingPig/cs-self-learning",
+    "stars": 72457,
+    "primaryLanguage": "HTML",
+    "createdAt": "2021-10-20T13:43:42Z",
+    "prCount": 376
+  },
+  {
+    "nameWithOwner": "python/cpython",
+    "url": "https://github.com/python/cpython",
+    "stars": 72413,
+    "primaryLanguage": "Python",
+    "createdAt": "2017-02-10T19:23:51Z",
+    "prCount": 68330
+  },
+  {
+    "nameWithOwner": "daytonaio/daytona",
+    "url": "https://github.com/daytonaio/daytona",
+    "stars": 72363,
+    "primaryLanguage": "TypeScript",
+    "createdAt": "2024-02-06T08:21:20Z",
+    "prCount": 3247
+  },
+  {
+    "nameWithOwner": "abi/screenshot-to-code",
+    "url": "https://github.com/abi/screenshot-to-code",
+    "stars": 72315,
+    "primaryLanguage": "TypeScript",
+    "createdAt": "2023-11-14T17:53:32Z",
+    "prCount": 166
+  },
+  {
+    "nameWithOwner": "josephmisiti/awesome-machine-learning",
+    "url": "https://github.com/josephmisiti/awesome-machine-learning",
+    "stars": 72254,
+    "primaryLanguage": "Python",
+    "createdAt": "2014-07-15T19:11:19Z",
+    "prCount": 1063
+  },
+  {
+    "nameWithOwner": "strapi/strapi",
+    "url": "https://github.com/strapi/strapi",
+    "stars": 71975,
+    "primaryLanguage": "TypeScript",
+    "createdAt": "2015-09-30T15:34:48Z",
+    "prCount": 12553
+  },
+  {
+    "nameWithOwner": "obsproject/obs-studio",
+    "url": "https://github.com/obsproject/obs-studio",
+    "stars": 71867,
+    "primaryLanguage": "C",
+    "createdAt": "2013-10-01T02:40:31Z",
+    "prCount": 7449
+  },
+  {
+    "nameWithOwner": "OpenHands/OpenHands",
+    "url": "https://github.com/OpenHands/OpenHands",
+    "stars": 71766,
+    "primaryLanguage": "Python",
+    "createdAt": "2024-03-13T03:33:31Z",
+    "prCount": 9581
+  },
+  {
+    "nameWithOwner": "caddyserver/caddy",
+    "url": "https://github.com/caddyserver/caddy",
+    "stars": 71759,
+    "primaryLanguage": "Go",
+    "createdAt": "2015-01-13T19:45:03Z",
+    "prCount": 2829
+  }
+]
