@@ -7,3 +7,7 @@ __pycache__/
 
 # Virtual environment
 .venv/
+
+# Test outputs and generated reports
+*_test.*
+reports/figures/
