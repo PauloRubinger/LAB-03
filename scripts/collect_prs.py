@@ -151,11 +151,11 @@ def collect_prs(
             logger.info(f"[{idx}/{len(repos)}] {repo_name}...")
 
             cursor = None
-            repo_count = 0
+            repo_rows = []  # buffer rows in memory; only flush to CSV on success
             repo_failed = False
 
-            while repo_count < prs_per_repo:
-                batch = min(batch_size, prs_per_repo - repo_count)
+            while len(repo_rows) < prs_per_repo:
+                batch = min(batch_size, prs_per_repo - len(repo_rows))
 
                 try:
                     result = client.fetch_pull_requests(owner, name, batch, cursor)
@@ -199,7 +199,7 @@ def collect_prs(
 
                     body = pr.get("bodyText") or ""
 
-                    row = {
+                    repo_rows.append({
                         "repo": repo_name,
                         "pr_number": pr["number"],
                         "title": pr.get("title", ""),
@@ -215,11 +215,7 @@ def collect_prs(
                         "review_count": review_count,
                         "participants": pr.get("participants", {}).get("totalCount", 0),
                         "comments": pr.get("comments", {}).get("totalCount", 0),
-                    }
-                    writer.writerow(row)
-                    csvfile.flush()
-                    repo_count += 1
-                    total_prs += 1
+                    })
 
                 if not page_info.get("hasNextPage"):
                     break
@@ -228,16 +224,22 @@ def collect_prs(
 
             if repo_failed:
                 failed_repos.append(repo_name)
-                logger.warning(f"  FAILED: {repo_name}")
+                logger.warning(f"  FAILED: {repo_name} (partial data discarded, will retry)")
             else:
+                # Write all rows atomically only after full success
+                for row in repo_rows:
+                    writer.writerow(row)
+                csvfile.flush()
+                total_prs += len(repo_rows)
+
                 completed_repos.add(repo_name)
                 with open(checkpoint_file, "w", encoding="utf-8") as f:
                     json.dump({"completed_repos": list(completed_repos)}, f, indent=2)
 
-                if repo_count == 0:
+                if len(repo_rows) == 0:
                     logger.info("  PRs collected: 0 (no PRs matched the filters)")
                 else:
-                    logger.info(f"  PRs collected: {repo_count}")
+                    logger.info(f"  PRs collected: {len(repo_rows)}")
 
     logger.info(f"Total PRs collected this run: {total_prs}")
     logger.info(f"Dataset saved to: {output_file}")

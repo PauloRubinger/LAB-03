@@ -21,6 +21,7 @@ PRS_PER_REPO = 10  # Only 10 PRs per repo
 BATCH_SIZE = 10  # Smaller batch for testing
 
 OUTPUT_FILE = os.path.join(os.path.dirname(__file__), "..", "data/processed", "pull_requests_test.csv")
+CHECKPOINT_FILE = os.path.join(os.path.dirname(__file__), "..", "data/processed", "pull_requests_test_checkpoint.json")
 
 
 if __name__ == "__main__":
@@ -30,6 +31,7 @@ if __name__ == "__main__":
         prs_per_repo=PRS_PER_REPO,
         batch_size=BATCH_SIZE,
         output_file=OUTPUT_FILE,
+        checkpoint_file=CHECKPOINT_FILE,
     )
     print(f"\n✅ Test complete! Results saved to: {OUTPUT_FILE}")
     print("  Safe to open in Excel and validate before running full collection.")
