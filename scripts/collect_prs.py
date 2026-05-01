@@ -144,11 +144,11 @@ def collect_prs(
             repo_name = repo["nameWithOwner"]
 
             if repo_name in completed_repos:
-                logger.info(f"\n[{idx}/{len(repos)}] {repo_name}... (skipped - already collected)")
+                logger.info(f"[{idx}/{len(repos)}] {repo_name}... (skipped - already collected)")
                 continue
 
             owner, name = repo_name.split("/")
-            logger.info(f"\n[{idx}/{len(repos)}] {repo_name}...")
+            logger.info(f"[{idx}/{len(repos)}] {repo_name}...")
 
             cursor = None
             repo_count = 0
@@ -239,11 +239,11 @@ def collect_prs(
                 else:
                     logger.info(f"  PRs collected: {repo_count}")
 
-    logger.info(f"\nTotal PRs collected this run: {total_prs}")
+    logger.info(f"Total PRs collected this run: {total_prs}")
     logger.info(f"Dataset saved to: {output_file}")
 
     if failed_repos:
-        logger.warning(f"\nFailed repositories ({len(failed_repos)}):")
+        logger.warning(f"Failed repositories ({len(failed_repos)}):")
         for r in failed_repos:
             logger.warning(f"  - {r}")
         logger.warning("Re-run the script to retry failed repositories.")
