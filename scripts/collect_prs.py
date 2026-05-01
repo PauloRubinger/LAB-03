@@ -18,6 +18,7 @@ import os
 import json
 import time
 import csv
+import logging
 from datetime import datetime
 from dotenv import load_dotenv
 from github_api import GitHubAPIClient
@@ -31,6 +32,32 @@ DEFAULT_REPOS_FILE = os.path.join(os.path.dirname(__file__), "..", "data/raw", "
 DEFAULT_OUTPUT_CSV = os.path.join(os.path.dirname(__file__), "..", "data/processed", "pull_requests.csv")
 DEFAULT_PRS_PER_REPO = 100
 DEFAULT_BATCH_SIZE = 50  # maximum per page in GraphQL API
+DEFAULT_CHECKPOINT_FILE = os.path.join(os.path.dirname(__file__), "..", "data/processed", "pull_requests_checkpoint.json")
+DEFAULT_LOGS_DIR = os.path.join(os.path.dirname(__file__), "..", "logs")
+
+
+def setup_logging(logs_dir: str) -> logging.Logger:
+    os.makedirs(logs_dir, exist_ok=True)
+    timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
+    log_file = os.path.join(logs_dir, f"collect_prs_{timestamp}.log")
+
+    logger = logging.getLogger("collect_prs")
+    logger.setLevel(logging.DEBUG)
+    logger.handlers.clear()
+
+    fh = logging.FileHandler(log_file, encoding="utf-8")
+    fh.setLevel(logging.DEBUG)
+    fh.setFormatter(logging.Formatter("%(asctime)s [%(levelname)s] %(message)s"))
+
+    ch = logging.StreamHandler()
+    ch.setLevel(logging.INFO)
+    ch.setFormatter(logging.Formatter("%(message)s"))
+
+    logger.addHandler(fh)
+    logger.addHandler(ch)
+
+    logger.info(f"Log file: {log_file}")
+    return logger
 
 
 def parse_datetime(dt_str: str) -> datetime:
@@ -51,27 +78,47 @@ def collect_prs(
     batch_size: int = DEFAULT_BATCH_SIZE,
     output_file: str = DEFAULT_OUTPUT_CSV,
     repos_file: str = DEFAULT_REPOS_FILE,
+    checkpoint_file: str = DEFAULT_CHECKPOINT_FILE,
+    logs_dir: str = DEFAULT_LOGS_DIR,
 ):
     """
     Collect PRs from repositories with the necessary metrics.
-    
+
+    Supports resuming: if a checkpoint file exists, already-completed repos
+    are skipped and the CSV is opened in append mode.
+
     Args:
         repos_limit: Limit number of repos to process (None = all)
         prs_per_repo: Maximum PRs to collect per repository
         batch_size: Batch size for API requests
         output_file: Output CSV file path
         repos_file: Input repositories JSON file path
+        checkpoint_file: JSON file tracking completed repos for resume
+        logs_dir: Directory where per-run log files are saved
     """
+    logger = setup_logging(logs_dir)
     client = GitHubAPIClient(GITHUB_TOKEN)
-    
+
     with open(repos_file, "r", encoding="utf-8") as f:
         repos = json.load(f)
 
-    # Apply repos limit if specified
     if repos_limit is not None:
         repos = repos[:repos_limit]
-    
-    print(f"Collecting PRs from {len(repos)} repositories...")
+
+    # --- Resume support: load checkpoint ---
+    completed_repos = set()
+    if os.path.exists(checkpoint_file):
+        with open(checkpoint_file, "r", encoding="utf-8") as f:
+            checkpoint = json.load(f)
+        completed_repos = set(checkpoint.get("completed_repos", []))
+        logger.info(f"Resuming: {len(completed_repos)}/{len(repos)} repos already completed.")
+
+    resume_mode = bool(completed_repos) and os.path.exists(output_file)
+    csv_mode = "a" if resume_mode else "w"
+    if resume_mode:
+        logger.info("Appending to existing CSV (resume mode).")
+
+    logger.info(f"Collecting PRs from {len(repos)} repositories...")
 
     csv_fields = [
         "repo", "pr_number", "title", "state",
@@ -82,21 +129,30 @@ def collect_prs(
         "review_count", "participants", "comments",
     ]
 
-    # Create output directory if it doesn't exist
     os.makedirs(os.path.dirname(output_file), exist_ok=True)
 
-    with open(output_file, "w", newline="", encoding="utf-8") as csvfile:
+    failed_repos = []
+
+    with open(output_file, csv_mode, newline="", encoding="utf-8") as csvfile:
         writer = csv.DictWriter(csvfile, fieldnames=csv_fields)
-        writer.writeheader()
+        if not resume_mode:
+            writer.writeheader()
 
         total_prs = 0
 
         for idx, repo in enumerate(repos, 1):
-            owner, name = repo["nameWithOwner"].split("/")
-            print(f"\n[{idx}/{len(repos)}] {repo['nameWithOwner']}...")
+            repo_name = repo["nameWithOwner"]
+
+            if repo_name in completed_repos:
+                logger.info(f"\n[{idx}/{len(repos)}] {repo_name}... (skipped - already collected)")
+                continue
+
+            owner, name = repo_name.split("/")
+            logger.info(f"\n[{idx}/{len(repos)}] {repo_name}...")
 
             cursor = None
             repo_count = 0
+            repo_failed = False
 
             while repo_count < prs_per_repo:
                 batch = min(batch_size, prs_per_repo - repo_count)
@@ -104,12 +160,14 @@ def collect_prs(
                 try:
                     result = client.fetch_pull_requests(owner, name, batch, cursor)
                 except RuntimeError as e:
-                    print(f"  Error: {e}. Skipping repository.")
+                    logger.error(f"  Error: {e}. Skipping repository.")
+                    repo_failed = True
                     break
 
                 repo_data = result.get("data", {}).get("repository")
                 if not repo_data:
-                    print("  Repository not found or no access.")
+                    logger.warning("  Repository not found or no access. Skipping.")
+                    repo_failed = True
                     break
 
                 pr_data = repo_data.get("pullRequests", {})
@@ -142,7 +200,7 @@ def collect_prs(
                     body = pr.get("bodyText") or ""
 
                     row = {
-                        "repo": repo["nameWithOwner"],
+                        "repo": repo_name,
                         "pr_number": pr["number"],
                         "title": pr.get("title", ""),
                         "state": pr["state"],
@@ -159,6 +217,7 @@ def collect_prs(
                         "comments": pr.get("comments", {}).get("totalCount", 0),
                     }
                     writer.writerow(row)
+                    csvfile.flush()
                     repo_count += 1
                     total_prs += 1
 
@@ -167,13 +226,32 @@ def collect_prs(
                 cursor = page_info["endCursor"]
                 time.sleep(0.5)
 
-            if repo_count == 0:
-                print(f"  PRs collected: 0 (no PRs matched the filters)")
+            if repo_failed:
+                failed_repos.append(repo_name)
+                logger.warning(f"  FAILED: {repo_name}")
             else:
-                print(f"  PRs collected: {repo_count}")
+                completed_repos.add(repo_name)
+                with open(checkpoint_file, "w", encoding="utf-8") as f:
+                    json.dump({"completed_repos": list(completed_repos)}, f, indent=2)
 
-    print(f"\nTotal PRs collected: {total_prs}")
-    print(f"Dataset saved to: {output_file}")
+                if repo_count == 0:
+                    logger.info("  PRs collected: 0 (no PRs matched the filters)")
+                else:
+                    logger.info(f"  PRs collected: {repo_count}")
+
+    logger.info(f"\nTotal PRs collected this run: {total_prs}")
+    logger.info(f"Dataset saved to: {output_file}")
+
+    if failed_repos:
+        logger.warning(f"\nFailed repositories ({len(failed_repos)}):")
+        for r in failed_repos:
+            logger.warning(f"  - {r}")
+        logger.warning("Re-run the script to retry failed repositories.")
+    else:
+        # All repos succeeded - clear the checkpoint
+        if os.path.exists(checkpoint_file):
+            os.remove(checkpoint_file)
+        logger.info("Collection complete. Checkpoint cleared.")
 
 
 if __name__ == "__main__":

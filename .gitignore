@@ -11,3 +11,6 @@ __pycache__/
 # Test outputs and generated reports
 *_test.*
 reports/figures/
+
+# Logs
+logs/
