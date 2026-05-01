@@ -4,6 +4,7 @@ Reusable client for GitHub GraphQL API.
 
 import time
 import requests
+from requests.exceptions import ChunkedEncodingError, ConnectionError
 from queries import SEARCH_REPOS_QUERY, PR_QUERY
 
 
@@ -43,35 +44,41 @@ class GitHubAPIClient:
             payload["variables"] = variables
 
         for attempt in range(self.MAX_RETRIES):
-            resp = requests.post(
-                self.GRAPHQL_URL,
-                json=payload,
-                headers=self.headers,
-                timeout=60
-            )
+            try:
+                resp = requests.post(
+                    self.GRAPHQL_URL,
+                    json=payload,
+                    headers=self.headers,
+                    timeout=60
+                )
 
-            if resp.status_code == 200:
-                result = resp.json()
-                if "errors" in result:
-                    errors = result["errors"]
-                    print(f"  GraphQL errors: {errors}")
-                    # Even with errors, return the result
-                return result
+                if resp.status_code == 200:
+                    result = resp.json()
+                    if "errors" in result:
+                        errors = result["errors"]
+                        print(f"  GraphQL errors: {errors}")
+                        # Even with errors, return the result
+                    return result
 
-            elif resp.status_code == 403:
-                # Rate limit – wait and retry
-                reset = int(resp.headers.get("X-RateLimit-Reset", time.time() + 60))
-                wait = max(reset - int(time.time()), 10)
-                print(f"  Rate limit hit. Waiting {wait}s...")
-                time.sleep(wait)
+                elif resp.status_code == 403:
+                    # Rate limit – wait and retry
+                    reset = int(resp.headers.get("X-RateLimit-Reset", time.time() + 60))
+                    wait = max(reset - int(time.time()), 10)
+                    print(f"  Rate limit hit. Waiting {wait}s...")
+                    time.sleep(wait)
 
-            elif resp.status_code == 502:
-                # Bad Gateway – retry
-                print(f"  502 Bad Gateway. Attempt {attempt + 1}/{self.MAX_RETRIES}...")
-                time.sleep(self.RETRY_WAIT)
+                elif resp.status_code == 502:
+                    # Bad Gateway – retry
+                    print(f"  502 Bad Gateway. Attempt {attempt + 1}/{self.MAX_RETRIES}...")
+                    time.sleep(self.RETRY_WAIT)
 
-            else:
-                print(f"  HTTP {resp.status_code}: {resp.text}")
+                else:
+                    print(f"  HTTP {resp.status_code}: {resp.text}")
+                    time.sleep(self.RETRY_WAIT)
+            
+            except (ChunkedEncodingError, ConnectionError) as e:
+                # Network error – retry
+                print(f"  Connection error: {type(e).__name__}. Attempt {attempt + 1}/{self.MAX_RETRIES}...")
                 time.sleep(self.RETRY_WAIT)
 
         raise RuntimeError(f"Failed after {self.MAX_RETRIES} attempts on GraphQL API.")

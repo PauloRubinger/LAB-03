@@ -167,7 +167,10 @@ def collect_prs(
                 cursor = page_info["endCursor"]
                 time.sleep(0.5)
 
-            print(f"  PRs collected: {repo_count}")
+            if repo_count == 0:
+                print(f"  PRs collected: 0 (no PRs matched the filters)")
+            else:
+                print(f"  PRs collected: {repo_count}")
 
     print(f"\nTotal PRs collected: {total_prs}")
     print(f"Dataset saved to: {output_file}")
