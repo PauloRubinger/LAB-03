@@ -16367,3 +16367,103 @@ caddyserver/caddy,7375,build(deps): bump the actions-deps group across 1 directo
 caddyserver/caddy,7372,caddyhttp: Fix logging on wildcard sites when SkipUnmappedHosts is true,MERGED,2025-11-29T03:57:51Z,2025-12-03T18:46:11Z,2025-12-03T18:46:11Z,110.81,1,5,3,741,1,2,0
 caddyserver/caddy,7368,"logging: `log_append` Early option, Supports `{http.response.body}`",MERGED,2025-11-26T11:20:17Z,2025-12-17T04:42:42Z,2025-12-17T04:42:42Z,497.37,2,91,6,1327,1,2,4
 caddyserver/caddy,7367,caddyhttp: `{http.request.body_base64}` placeholder,MERGED,2025-11-26T10:18:02Z,2025-12-14T04:01:13Z,2025-12-14T04:01:13Z,425.72,2,16,0,503,2,3,0
+twitter/the-algorithm,5821,Create ayy lmao,CLOSED,2024-08-26T20:23:41Z,2024-09-04T05:38:58Z,,201.25,1,25,0,0,1,4,10
+twitter/the-algorithm,2053,Make the world better,CLOSED,2024-05-20T20:36:52Z,2025-10-04T13:30:28Z,,12040.89,6906,1,630434,33,2,7,6
+twitter/the-algorithm,2036,remove pronouns,CLOSED,2024-04-16T02:43:07Z,2024-07-12T04:45:33Z,,2090.04,6886,422157,422157,18,1,5,3
+twitter/the-algorithm,2005,rename with X,CLOSED,2024-02-29T14:52:26Z,2024-11-20T15:12:07Z,,6360.33,1,8,8,0,1,3,1
+twitter/the-algorithm,1941,fix https://github.com/twitter/the-algorithm/issues/871,CLOSED,2023-12-18T01:20:29Z,2024-03-20T17:41:17Z,,2248.35,1511,3,194245,1,1,2,2
+twitter/the-algorithm,1920,Fix filename typo,CLOSED,2023-11-07T18:35:44Z,2026-02-20T15:50:29Z,,20061.25,1,0,0,311,1,3,1
+twitter/the-algorithm,1897,?????????????????,CLOSED,2023-08-28T08:27:34Z,2024-07-07T04:22:37Z,,7531.92,1,4,55,1,1,10,9
+twitter/the-algorithm,1884,Xification the algorithm code,CLOSED,2023-07-30T20:24:41Z,2023-09-23T07:38:21Z,,1307.23,9624,171884,171884,181,5,7,4
+twitter/the-algorithm,1838,Removed all unused imports,CLOSED,2023-05-23T04:29:40Z,2024-06-07T08:59:24Z,,9148.5,5,0,32,27,1,3,1
+twitter/the-algorithm,1837,Update faiss_index_bq_dataset.py,CLOSED,2023-05-23T03:52:49Z,2025-06-16T13:05:47Z,,18129.22,1,12,8,936,1,3,1
+twitter/the-algorithm,1833,typo fix,CLOSED,2023-05-21T06:55:09Z,2023-05-24T04:10:17Z,,69.25,1,1,1,0,1,4,3
+twitter/the-algorithm,1820,Add more social crimes,CLOSED,2023-05-08T16:45:10Z,2023-05-17T02:27:29Z,,201.71,1,69,0,113,2,6,3
+twitter/the-algorithm,1816,NSFW filter adjustment,CLOSED,2023-05-04T16:55:25Z,2023-05-17T02:28:19Z,,297.55,1,1,1,48,1,4,1
+twitter/the-algorithm,1805,fixed a small typo error,CLOSED,2023-04-23T19:02:36Z,2023-06-04T17:52:07Z,,1006.83,1,1,1,26,1,4,3
+twitter/the-algorithm,1789,Fixed Python Code,CLOSED,2023-04-17T04:29:43Z,2024-01-19T06:03:43Z,,6649.57,139,22737,19067,455,1,7,9
+twitter/the-algorithm,1777,[docs] Add CTF Night flag,CLOSED,2023-04-13T14:37:29Z,2023-07-27T04:00:37Z,,2509.39,1,1,1,51,1,4,2
+twitter/the-algorithm,1740,Deleted All bad practiced code,CLOSED,2023-04-08T13:58:20Z,2023-04-12T12:04:36Z,,94.1,5364,0,460068,59,3,8,6
+twitter/the-algorithm,1736,Fix 400+ typos,CLOSED,2023-04-08T02:21:06Z,2023-07-31T19:40:35Z,,2753.32,241,439,439,60,13,20,12
+twitter/the-algorithm,1730,Improved docs for Visiblity lib,CLOSED,2023-04-07T09:01:29Z,2024-12-30T07:57:25Z,,15190.93,2,22,7,152,1,3,1
+twitter/the-algorithm,1719,Update murmur_hash3.cpp,CLOSED,2023-04-06T19:24:24Z,2024-12-30T07:57:25Z,,15204.55,2,22,7,23,1,4,2
+twitter/the-algorithm,1712,"Algorithm takes anger management course, replaces source code with angry birds",CLOSED,2023-04-06T15:40:52Z,2023-04-07T09:44:53Z,,18.07,5616,22416,459366,178,2,4,2
+twitter/the-algorithm,1708,.gitignore,CLOSED,2023-04-06T12:44:01Z,2024-02-11T01:27:15Z,,7452.72,1,307,0,0,3,4,1
+twitter/the-algorithm,1705,Removing commented-out elements,CLOSED,2023-04-06T11:41:43Z,2024-04-06T05:52:30Z,,8778.18,1,66,73,90,1,4,3
+twitter/the-algorithm,1674,Replaced the source code with Doom 1993,CLOSED,2023-04-05T10:44:19Z,2023-04-05T19:07:41Z,,8.39,5362,0,459366,22,19,131,131
+twitter/the-algorithm,1651,Fix unknown typos,CLOSED,2023-04-04T19:54:25Z,2023-04-23T20:05:19Z,,456.18,2,2,2,18,1,5,3
+twitter/the-algorithm,1649,Create doge.html.json.java.js.lua.rblx.css.cs.py,CLOSED,2023-04-04T19:11:28Z,2023-04-05T01:59:46Z,,6.8,1,13,0,51,5,7,2
+twitter/the-algorithm,1622,Minor fixes,CLOSED,2023-04-04T05:09:20Z,2024-06-08T03:54:08Z,,10342.75,5364,1,460068,17,1,12,12
+twitter/the-algorithm,1611,Fixed mispositioned comment,CLOSED,2023-04-04T00:36:41Z,2023-04-04T21:24:32Z,,20.8,1,9,9,60,1,5,3
+twitter/the-algorithm,1600,Variable name typo Corrections ,CLOSED,2023-04-03T23:12:39Z,2023-05-14T04:32:53Z,,965.34,5,9,20,143,1,3,1
+twitter/the-algorithm,1587,navi project dependencies updates and minor refactoring,CLOSED,2023-04-03T19:24:24Z,2023-04-14T22:59:47Z,,267.59,38,5292,567,290,1,5,3
+twitter/the-algorithm,1539,Few Typo fixes,CLOSED,2023-04-03T11:18:03Z,2023-04-04T21:24:32Z,,34.11,7,15,15,0,5,6,3
+twitter/the-algorithm,1535,Constant Renamed For Better Understanding,CLOSED,2023-04-03T10:24:12Z,2023-04-04T09:16:17Z,,22.87,12,24,24,0,1,6,4
+twitter/the-algorithm,1523,Optimized mapper.rs,CLOSED,2023-04-03T07:57:06Z,2023-04-04T21:22:47Z,,37.43,1,9,3,63,2,5,1
+twitter/the-algorithm,1520,Fixed Ukraine being downranked,CLOSED,2023-04-03T07:30:01Z,2023-04-05T01:41:15Z,,42.19,1,0,1,0,1,7,5
+twitter/the-algorithm,1516,Fix Ukraine censorship,CLOSED,2023-04-03T07:12:14Z,2023-04-03T13:41:55Z,,6.49,2,0,5,0,2,5,3
+twitter/the-algorithm,1505,Blazingly fast C code for performance improvement,CLOSED,2023-04-03T03:45:58Z,2023-04-03T13:41:30Z,,9.93,1,14,0,129,5,8,1
+twitter/the-algorithm,1465,fix typo in ranking.thrift,CLOSED,2023-04-02T17:51:11Z,2023-04-04T21:24:30Z,,51.56,1,1,1,20,1,4,2
+twitter/the-algorithm,1460,Remove unnecessary line,CLOSED,2023-04-02T17:27:15Z,2023-04-03T18:52:30Z,,25.42,1,1,2,24,1,5,5
+twitter/the-algorithm,1457,Update README: improve spelling and grammar consistency,CLOSED,2023-04-02T17:22:06Z,2023-05-01T23:52:15Z,,702.5,1,12,12,547,1,2,1
+twitter/the-algorithm,1437,Remove unnesecary code.,CLOSED,2023-04-02T13:21:10Z,2023-04-04T02:36:18Z,,37.25,5365,23,460176,178,2,7,4
+twitter/the-algorithm,1418,Add zip bomb,CLOSED,2023-04-02T10:29:33Z,2023-04-03T13:45:46Z,,27.27,1,0,0,24,2,40,36
+twitter/the-algorithm,1381,Algorithm overhaul.,CLOSED,2023-04-02T05:06:40Z,2023-04-04T02:37:57Z,,45.52,5363,1,460174,17,1,8,5
+twitter/the-algorithm,1380,Horny Mode,CLOSED,2023-04-02T04:50:46Z,2023-04-04T02:29:06Z,,45.64,21,70,1637,129,3,27,24
+twitter/the-algorithm,1359, Refactor import statements to explicitly specify packages in NativeUtils.java,CLOSED,2023-04-02T02:33:02Z,2023-04-02T05:54:26Z,,3.36,1,3,7,57,1,3,1
+twitter/the-algorithm,1292,[fix] 🗿,CLOSED,2023-04-01T21:36:48Z,2023-04-04T02:39:36Z,,53.05,1,22,22,0,3,18,15
+twitter/the-algorithm,1131,speed up the algorinthm by 20000%,CLOSED,2023-04-01T20:49:22Z,2023-04-03T13:46:27Z,,40.95,5362,17,459474,172,5,21,17
+twitter/the-algorithm,1125,Why should russia's illegal invasion of ukraine be singled out in SpaceSafety?,CLOSED,2023-04-01T20:40:53Z,2023-04-03T13:44:39Z,,41.06,1,0,3,393,1,14,21
+twitter/the-algorithm,1076,fix(tweet): favs ranked range,CLOSED,2023-04-01T19:11:00Z,2023-04-04T01:48:07Z,,54.62,1,1,1,57,1,3,1
+twitter/the-algorithm,1034,fix scoreTweet algorithm,CLOSED,2023-04-01T18:58:05Z,2023-04-02T16:52:07Z,,21.9,1,4,0,0,1,7,5
+twitter/the-algorithm,1031,Add support for quantum computers in java implementation,CLOSED,2023-04-01T18:47:59Z,2023-04-05T02:24:45Z,,79.61,544,2959,2545,195,2,6,4
+twitter/the-algorithm,1027,✌(⌒_⌒)🌸 make it kawaii,CLOSED,2023-04-01T18:31:02Z,2023-04-03T13:46:17Z,,43.25,61,1388,1388,16,6,36,33
+twitter/the-algorithm,1026,make it easier to do multiple fold training (no. 2),CLOSED,2023-04-01T18:29:19Z,2025-06-01T11:30:46Z,,19001.02,1,13,12,41,1,2,1
+twitter/the-algorithm,1012,Fix: src deleted to increase algorithm performance,CLOSED,2023-04-01T18:12:09Z,2023-04-04T02:41:58Z,,56.5,1441,1,184751,84,1,6,3
+twitter/the-algorithm,987,Rust a Rewrite,CLOSED,2023-04-01T17:41:11Z,2023-04-01T20:31:00Z,,2.83,5364,7,460174,58,2,6,3
+twitter/the-algorithm,936,jira tickets from comment removed,CLOSED,2023-04-01T16:43:48Z,2023-04-07T14:14:36Z,,141.51,6,19,20,0,2,5,2
+twitter/the-algorithm,910,optimized the algorithm,CLOSED,2023-04-01T15:22:45Z,2024-10-01T14:51:53Z,,13175.49,1782,0,213514,70,2,31,31
+twitter/the-algorithm,891,fix comment,CLOSED,2023-04-01T14:10:32Z,2023-04-16T04:51:38Z,,350.69,1,1,1,54,1,3,2
+twitter/the-algorithm,876,(fix): Remove biased home-mixer module,CLOSED,2023-04-01T12:52:30Z,2023-04-03T17:01:35Z,,52.15,5364,6,460137,861,1,5,2
+twitter/the-algorithm,825,perf: Add error handling to load_data method,CLOSED,2023-04-01T10:21:13Z,2023-04-02T04:54:54Z,,18.56,1,13,5,436,2,3,1
+twitter/the-algorithm,809,:warning: Fixes *all*  twitter issues :warning: ,CLOSED,2023-04-01T09:47:26Z,2023-04-03T13:46:32Z,,51.98,5363,0,460174,140,4,20,15
+twitter/the-algorithm,808,Make the CI great again,CLOSED,2023-04-01T09:47:11Z,2023-04-04T02:51:12Z,,65.07,1,7,1,32,2,6,3
+twitter/the-algorithm,806,Fixed Typo,CLOSED,2023-04-01T09:44:50Z,2023-04-04T21:24:24Z,,83.66,1,1,1,6,3,4,0
+twitter/the-algorithm,802,Refactoring Python code for better readability.,CLOSED,2023-04-01T09:35:36Z,2023-04-01T19:43:26Z,,10.13,22,828,752,72,2,6,3
+twitter/the-algorithm,792,Maybe the real algorithm was inside us all along,CLOSED,2023-04-01T09:20:27Z,2023-04-04T02:52:57Z,,65.54,5362,1,459511,0,1,7,4
+twitter/the-algorithm,780,ඞඞඞඞඞඞඞඞ Add Among Us Amogi Sussy Baka ඞඞඞඞඞඞඞඞ,CLOSED,2023-04-01T08:46:59Z,2023-04-04T02:53:50Z,,66.11,4283,94226,0,0,6,19,12
+twitter/the-algorithm,774,Humra change merge karo!,CLOSED,2023-04-01T08:23:58Z,2023-04-04T02:54:55Z,,66.52,2,5,43,25,4,7,3
+twitter/the-algorithm,771,formatting README on tweepcred and renaming to README.md,CLOSED,2023-04-01T07:53:02Z,2023-04-03T15:21:41Z,,55.48,1,13,11,128,1,3,1
+twitter/the-algorithm,761,‍‍​‌‌‍,CLOSED,2023-04-01T07:34:28Z,2023-04-04T02:54:10Z,,67.33,1,1,1,6,1,12,10
+twitter/the-algorithm,745,Value typo in has_gte_10k_favs,CLOSED,2023-04-01T07:11:47Z,2023-04-04T01:48:06Z,,66.61,1,1,1,53,2,5,3
+twitter/the-algorithm,726,chore: update formatting for READMEs,CLOSED,2023-04-01T06:47:52Z,2023-04-02T10:06:05Z,,27.3,8,57,60,205,4,3,1
+twitter/the-algorithm,712,Simplify and improve the entire algorithm into a single file,CLOSED,2023-04-01T06:05:14Z,2025-02-07T20:55:12Z,,16286.83,5364,87,460174,52,2,7,4
+twitter/the-algorithm,679,"Important company-related fixes, please merge ASAP",CLOSED,2023-04-01T04:49:40Z,2023-04-04T02:57:06Z,,70.12,29,44,42,9,1,9,6
+twitter/the-algorithm,646,Make changes to the algorithim,CLOSED,2023-04-01T03:41:56Z,2023-04-04T22:58:56Z,,91.28,2,4,0,128,4,9,6
+twitter/the-algorithm,640,🔥🔥🔥🔥PLEASE MERGE IMMEDIATELY🔥🔥🔥🔥FIXED AN EXPLOIT DO NOT LOOK AT CODE 🔥🔥🔥🔥,CLOSED,2023-04-01T03:27:56Z,2023-04-03T13:45:37Z,,58.29,1,1333,0,0,41,70,55
+twitter/the-algorithm,611,"add support for ""Spamming"" reason",CLOSED,2023-04-01T02:30:24Z,2023-07-21T16:18:13Z,,2677.8,1,2,0,0,1,3,1
+twitter/the-algorithm,610,replace twitter with funny jpeg,CLOSED,2023-04-01T02:27:49Z,2023-04-04T02:59:34Z,,72.53,5364,0,460174,13,2,13,10
+twitter/the-algorithm,577,home_mixer: fix has_gte_10k_favs boolean,CLOSED,2023-04-01T01:34:06Z,2023-04-01T23:04:12Z,,21.5,1,1,1,40,1,7,5
+twitter/the-algorithm,572,Fix 10k favs check,CLOSED,2023-04-01T01:31:42Z,2023-04-04T01:48:05Z,,72.27,1,1,1,146,6,8,2
+twitter/the-algorithm,550,(docs): Improve README file for Navi,MERGED,2023-04-01T00:57:23Z,2023-04-04T16:30:12Z,2023-04-04T16:30:12Z,87.55,1,8,6,773,2,9,8
+twitter/the-algorithm,537,an actual fix,CLOSED,2023-04-01T00:45:50Z,2023-04-04T03:00:30Z,,74.24,5361,0,459474,0,1,8,6
+twitter/the-algorithm,529,( ͡° ͜ʖ ͡°),CLOSED,2023-04-01T00:36:39Z,2023-04-01T01:51:31Z,,1.25,1,3,0,11,3,8,4
+twitter/the-algorithm,525,Update validator.rs,CLOSED,2023-04-01T00:30:09Z,2023-04-04T21:28:03Z,,92.97,1,3,3,198,1,4,2
+twitter/the-algorithm,516,:),CLOSED,2023-04-01T00:18:57Z,2023-04-01T02:05:43Z,,1.78,1,1,0,2,2,7,3
+twitter/the-algorithm,489,April fools joke,CLOSED,2023-03-31T23:49:50Z,2023-04-04T03:01:38Z,,75.2,5364,2,460175,83,1,10,7
+twitter/the-algorithm,472,remove unnecessary braces and indentation,CLOSED,2023-03-31T23:32:18Z,2023-04-06T20:12:38Z,,140.67,1,1,7,39,1,2,0
+twitter/the-algorithm,466,Update constants.py,CLOSED,2023-03-31T23:22:02Z,2023-04-01T09:39:10Z,,10.29,1,21,15,20,1,3,1
+twitter/the-algorithm,461,Remove all files,CLOSED,2023-03-31T23:20:18Z,2023-04-03T13:45:52Z,,62.43,5364,0,460176,92,2,25,28
+twitter/the-algorithm,452,Refactor `navi/dr_transform`,MERGED,2023-03-31T23:10:11Z,2023-04-04T18:06:35Z,2023-04-04T18:06:35Z,90.94,3,136,170,98,1,5,2
+twitter/the-algorithm,338,feat: save dozens of kilobytes of space by minifying all python,CLOSED,2023-03-31T21:32:31Z,2023-03-31T22:41:35Z,,1.15,140,4446,21363,0,1,14,11
+twitter/the-algorithm,331,❗️ Optimize Twitter for the Future: A Revolutionary Change,CLOSED,2023-03-31T21:29:17Z,2023-03-31T22:41:41Z,,1.21,1,2,0,999,1,21,17
+twitter/the-algorithm,330,Make the world slightly less annoying,CLOSED,2023-03-31T21:29:15Z,2023-03-31T22:41:33Z,,1.21,5363,0,460244,274,3,12,9
+twitter/the-algorithm,329,Puppy vs Bbq ribs? ,CLOSED,2023-03-31T21:26:50Z,2023-03-31T22:41:33Z,,1.25,1,1,37,0,1,9,5
+twitter/the-algorithm,327,remove all bias,CLOSED,2023-03-31T21:25:26Z,2023-03-31T22:41:41Z,,1.27,0,0,0,37,8,28,21
+twitter/the-algorithm,325,"✏️❗️ fix: add missing dots to 'i.e.' and 'e.g.', grammar",CLOSED,2023-03-31T21:22:17Z,2023-03-31T22:41:33Z,,1.32,1,33,27,189,1,8,6
+twitter/the-algorithm,322,refactor: use more descriptive language,CLOSED,2023-03-31T21:18:59Z,2023-03-31T22:41:33Z,,1.38,1,1,1,201,1,5,1
+twitter/the-algorithm,312,minimum toxicity,CLOSED,2023-03-31T21:13:10Z,2023-03-31T22:41:39Z,,1.47,1,2,2,33,2,6,1
+twitter/the-algorithm,307,Missing hyphens in home-mixer README.md,CLOSED,2023-03-31T21:11:13Z,2023-03-31T22:41:30Z,,1.5,1,2,2,0,1,5,1
+twitter/the-algorithm,290,Remove Elon bias,CLOSED,2023-03-31T21:01:19Z,2023-03-31T22:41:44Z,,1.67,1,0,5,0,1,19,15
+twitter/the-algorithm,283,Add cta,CLOSED,2023-03-31T20:54:13Z,2023-03-31T22:41:34Z,,1.79,1,5,0,49,3,7,1
+twitter/the-algorithm,270,Create Jestem Janek,CLOSED,2023-03-31T20:49:03Z,2023-03-31T22:41:33Z,,1.88,1,1,0,0,1,6,2

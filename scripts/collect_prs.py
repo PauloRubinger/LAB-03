@@ -223,8 +223,76 @@ def collect_prs(
                 time.sleep(0.5)
 
             if repo_failed:
-                failed_repos.append(repo_name)
-                logger.warning(f"  FAILED: {repo_name} (partial data discarded, will retry)")
+                # Retry once with a smaller batch size to handle heavy repositories
+                fallback_batch = max(10, batch_size // 5)
+                if fallback_batch < batch_size:
+                    logger.info(f"  Retrying {repo_name} with smaller batch size ({fallback_batch})...")
+                    cursor = None
+                    repo_rows = []
+                    repo_failed = False
+
+                    while len(repo_rows) < prs_per_repo:
+                        batch = min(fallback_batch, prs_per_repo - len(repo_rows))
+                        try:
+                            result = client.fetch_pull_requests(owner, name, batch, cursor)
+                        except RuntimeError as e:
+                            logger.error(f"  Fallback also failed: {e}")
+                            repo_failed = True
+                            break
+
+                        repo_data = result.get("data", {}).get("repository")
+                        if not repo_data:
+                            logger.warning("  Repository not found or no access on fallback. Skipping.")
+                            repo_failed = True
+                            break
+
+                        pr_data = repo_data.get("pullRequests", {})
+                        nodes = pr_data.get("nodes", [])
+                        page_info = pr_data.get("pageInfo", {})
+
+                        if not nodes:
+                            break
+
+                        for pr in nodes:
+                            if pr is None:
+                                continue
+                            review_count = pr.get("reviews", {}).get("totalCount", 0)
+                            if review_count < 1:
+                                continue
+                            created = parse_datetime(pr.get("createdAt"))
+                            merged = parse_datetime(pr.get("mergedAt"))
+                            closed = parse_datetime(pr.get("closedAt"))
+                            last_activity = merged or closed
+                            analysis_hours = hours_diff(created, last_activity)
+                            if analysis_hours < 1.0:
+                                continue
+                            body = pr.get("bodyText") or ""
+                            repo_rows.append({
+                                "repo": repo_name,
+                                "pr_number": pr["number"],
+                                "title": pr.get("title", ""),
+                                "state": pr["state"],
+                                "created_at": pr.get("createdAt"),
+                                "closed_at": pr.get("closedAt"),
+                                "merged_at": pr.get("mergedAt"),
+                                "analysis_time_hours": round(analysis_hours, 2),
+                                "changed_files": pr.get("changedFiles", 0),
+                                "additions": pr.get("additions", 0),
+                                "deletions": pr.get("deletions", 0),
+                                "body_length": len(body),
+                                "review_count": review_count,
+                                "participants": pr.get("participants", {}).get("totalCount", 0),
+                                "comments": pr.get("comments", {}).get("totalCount", 0),
+                            })
+
+                        if not page_info.get("hasNextPage"):
+                            break
+                        cursor = page_info["endCursor"]
+                        time.sleep(0.5)
+
+                if repo_failed:
+                    failed_repos.append(repo_name)
+                    logger.warning(f"  FAILED: {repo_name} (partial data discarded, will retry)")
             else:
                 # Write all rows atomically only after full success
                 for row in repo_rows:

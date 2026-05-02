@@ -4,7 +4,7 @@ Reusable client for GitHub GraphQL API.
 
 import time
 import requests
-from requests.exceptions import ChunkedEncodingError, ConnectionError
+from requests.exceptions import ChunkedEncodingError, ConnectionError, Timeout
 from queries import SEARCH_REPOS_QUERY, PR_QUERY
 
 
@@ -13,7 +13,7 @@ class GitHubAPIClient:
 
     GRAPHQL_URL = "https://api.github.com/graphql"
     MAX_RETRIES = 5
-    RETRY_WAIT = 10
+    RETRY_WAIT = 15  # base wait in seconds; doubles each attempt (exponential backoff)
 
     def __init__(self, token: str):
         """
@@ -49,7 +49,7 @@ class GitHubAPIClient:
                     self.GRAPHQL_URL,
                     json=payload,
                     headers=self.headers,
-                    timeout=60
+                    timeout=120
                 )
 
                 if resp.status_code == 200:
@@ -67,19 +67,28 @@ class GitHubAPIClient:
                     print(f"  Rate limit hit. Waiting {wait}s...")
                     time.sleep(wait)
 
-                elif resp.status_code == 502:
-                    # Bad Gateway – retry
-                    print(f"  502 Bad Gateway. Attempt {attempt + 1}/{self.MAX_RETRIES}...")
-                    time.sleep(self.RETRY_WAIT)
+                elif resp.status_code in (502, 503):
+                    # Bad Gateway / Service Unavailable – retry with backoff
+                    wait = self.RETRY_WAIT * (2 ** attempt)
+                    print(f"  HTTP {resp.status_code}. Attempt {attempt + 1}/{self.MAX_RETRIES}. Waiting {wait}s...")
+                    time.sleep(wait)
 
                 else:
+                    wait = self.RETRY_WAIT * (2 ** attempt)
                     print(f"  HTTP {resp.status_code}: {resp.text}")
-                    time.sleep(self.RETRY_WAIT)
-            
+                    time.sleep(wait)
+
+            except Timeout:
+                # Request timed out – retry with backoff
+                wait = self.RETRY_WAIT * (2 ** attempt)
+                print(f"  Request timed out. Attempt {attempt + 1}/{self.MAX_RETRIES}. Waiting {wait}s...")
+                time.sleep(wait)
+
             except (ChunkedEncodingError, ConnectionError) as e:
-                # Network error – retry
-                print(f"  Connection error: {type(e).__name__}. Attempt {attempt + 1}/{self.MAX_RETRIES}...")
-                time.sleep(self.RETRY_WAIT)
+                # Network error – retry with backoff
+                wait = self.RETRY_WAIT * (2 ** attempt)
+                print(f"  Connection error: {type(e).__name__}. Attempt {attempt + 1}/{self.MAX_RETRIES}. Waiting {wait}s...")
+                time.sleep(wait)
 
         raise RuntimeError(f"Failed after {self.MAX_RETRIES} attempts on GraphQL API.")
 
