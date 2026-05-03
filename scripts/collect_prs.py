@@ -293,8 +293,9 @@ def collect_prs(
                 if repo_failed:
                     failed_repos.append(repo_name)
                     logger.warning(f"  FAILED: {repo_name} (partial data discarded, will retry)")
-            else:
-                # Write all rows atomically only after full success
+
+            if not repo_failed:
+                # Write all rows atomically only after full success (primary or fallback)
                 for row in repo_rows:
                     writer.writerow(row)
                 csvfile.flush()

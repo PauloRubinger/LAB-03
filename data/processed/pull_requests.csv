@@ -16467,3 +16467,442 @@ twitter/the-algorithm,307,Missing hyphens in home-mixer README.md,CLOSED,2023-03
 twitter/the-algorithm,290,Remove Elon bias,CLOSED,2023-03-31T21:01:19Z,2023-03-31T22:41:44Z,,1.67,1,0,5,0,1,19,15
 twitter/the-algorithm,283,Add cta,CLOSED,2023-03-31T20:54:13Z,2023-03-31T22:41:34Z,,1.79,1,5,0,49,3,7,1
 twitter/the-algorithm,270,Create Jestem Janek,CLOSED,2023-03-31T20:49:03Z,2023-03-31T22:41:33Z,,1.88,1,1,0,0,1,6,2
+Chalarangelo/30-seconds-of-code,2153,Bump vite from 6.4.1 to 6.4.2,MERGED,2026-04-07T04:26:24Z,2026-04-14T10:06:24Z,2026-04-14T10:06:24Z,173.67,1,3,3,2069,1,1,0
+Chalarangelo/30-seconds-of-code,2152,Bump defu from 6.1.4 to 6.1.6,MERGED,2026-04-04T06:19:48Z,2026-04-06T09:21:25Z,2026-04-06T09:21:25Z,51.03,1,3,3,2536,1,1,0
+Chalarangelo/30-seconds-of-code,2150,Bump h3 from 1.15.4 to 1.15.10,MERGED,2026-03-30T09:59:11Z,2026-04-01T07:35:00Z,2026-04-01T07:35:00Z,45.6,1,11,11,3304,1,1,0
+Chalarangelo/30-seconds-of-code,2148,Bump picomatch,MERGED,2026-03-25T21:32:47Z,2026-04-01T08:08:02Z,2026-04-01T08:08:01Z,154.59,1,16,15,3560,1,1,0
+Chalarangelo/30-seconds-of-code,2147,Bump flatted from 3.3.3 to 3.4.2,MERGED,2026-03-21T10:30:09Z,2026-04-01T08:10:52Z,2026-04-01T08:10:52Z,261.68,1,5,4,1586,1,1,0
+Chalarangelo/30-seconds-of-code,2142,Bump devalue from 5.6.3 to 5.6.4,MERGED,2026-03-12T16:10:28Z,2026-03-30T09:57:56Z,2026-03-30T09:57:56Z,425.79,1,3,3,2305,1,1,1
+Chalarangelo/30-seconds-of-code,2111,Bump vite from 6.2.6 to 6.3.4,MERGED,2025-04-30T19:36:09Z,2025-05-21T17:12:03Z,2025-05-21T17:12:03Z,501.6,1,45,11,5290,1,2,1
+Chalarangelo/30-seconds-of-code,2100,Update README.md,CLOSED,2025-02-08T07:50:56Z,2025-02-08T09:56:53Z,,2.1,1,1,1,17,1,2,0
+Chalarangelo/30-seconds-of-code,2092,Bump astro from 4.13.1 to 4.16.1,MERGED,2024-10-14T20:13:46Z,2024-10-15T07:23:07Z,2024-10-15T07:23:06Z,11.16,2,547,408,7562,1,1,0
+Chalarangelo/30-seconds-of-code,2083,Bump braces from 3.0.2 to 3.0.3,MERGED,2024-06-21T20:10:46Z,2024-08-20T13:32:03Z,2024-08-20T13:32:03Z,1433.35,1,7,7,2089,1,1,4
+Chalarangelo/30-seconds-of-code,2060,fix typo,MERGED,2023-10-20T20:55:35Z,2023-10-21T04:12:58Z,2023-10-21T04:12:58Z,7.29,1,1,1,0,1,2,0
+Chalarangelo/30-seconds-of-code,2058,Add more examples,MERGED,2023-10-20T20:35:39Z,2023-10-21T04:16:08Z,2023-10-21T04:16:08Z,7.67,1,6,0,0,1,2,0
+Chalarangelo/30-seconds-of-code,2056,fix git syntax,MERGED,2023-10-20T20:20:13Z,2023-10-21T04:15:15Z,2023-10-21T04:15:15Z,7.92,1,1,1,0,1,2,0
+Chalarangelo/30-seconds-of-code,2049,Cleaning up grammar in 5-tips-for-better-pull-requests.md,MERGED,2023-10-18T18:33:49Z,2023-10-19T06:07:15Z,2023-10-19T06:07:15Z,11.56,1,1,1,0,1,2,0
+Chalarangelo/30-seconds-of-code,2045,Added method that returns value from nested and untested object,CLOSED,2023-10-13T21:07:05Z,2023-10-24T07:03:03Z,,249.93,1,57,0,87,1,2,0
+Chalarangelo/30-seconds-of-code,2040,Bump postcss from 8.4.30 to 8.4.31,MERGED,2023-10-08T04:04:44Z,2023-10-08T08:47:23Z,2023-10-08T08:47:23Z,4.71,1,5,5,1985,1,1,0
+Chalarangelo/30-seconds-of-code,2025,Fix unnecessary parameters in Queue class method and elaborated on explanation,MERGED,2023-09-28T02:48:52Z,2023-09-28T06:38:11Z,2023-09-28T06:38:11Z,3.82,1,3,3,443,1,2,0
+Chalarangelo/30-seconds-of-code,2020,refactor: modify condition based on es2020,MERGED,2023-09-27T14:13:28Z,2023-09-29T07:25:52Z,2023-09-29T07:25:52Z,41.21,1,2,2,62,1,2,1
+Chalarangelo/30-seconds-of-code,2017,footer space style fix,MERGED,2023-09-25T13:21:20Z,2023-09-27T17:13:26Z,2023-09-27T17:13:26Z,51.87,1,1,1,54,1,2,0
+Chalarangelo/30-seconds-of-code,2016,Issue #2015 Fix typo in event loop explanation,MERGED,2023-09-25T07:27:21Z,2023-09-25T08:38:42Z,2023-09-25T08:38:42Z,1.19,1,1,1,202,1,2,0
+Chalarangelo/30-seconds-of-code,2004,Added a python snippet to check if a number is an Armstrong number,CLOSED,2023-09-12T17:16:48Z,2023-09-29T07:44:47Z,,398.47,1,38,0,0,2,3,1
+Chalarangelo/30-seconds-of-code,2003,Add target-sum-in-list,CLOSED,2023-09-12T09:28:44Z,2023-10-06T06:53:36Z,,573.41,1859,50516,23,0,1,12,1
+Chalarangelo/30-seconds-of-code,1975,Update README.md . Block quote not matching 30secondsofcode website's heading.,MERGED,2023-08-12T15:04:49Z,2023-08-16T06:48:56Z,2023-08-16T06:48:56Z,87.74,1,1,1,280,1,2,0
+Chalarangelo/30-seconds-of-code,1962,Added new python snippet,CLOSED,2023-07-13T04:10:26Z,2023-09-29T10:28:54Z,,1878.31,1,21,0,0,2,3,3
+Chalarangelo/30-seconds-of-code,1953,Added is-even-bitwise.md,CLOSED,2023-06-18T11:06:56Z,2023-08-28T12:35:23Z,,1705.47,1,36,0,97,1,3,2
+Chalarangelo/30-seconds-of-code,1949,Fixes Typo,MERGED,2023-06-06T15:06:48Z,2023-06-06T17:28:34Z,2023-06-06T17:28:34Z,2.36,1,1,1,0,1,2,0
+Chalarangelo/30-seconds-of-code,1941,Add alternating text snippet,MERGED,2023-05-25T12:09:43Z,2023-05-25T19:51:16Z,2023-05-25T19:51:16Z,7.69,1,50,0,0,1,2,0
+Chalarangelo/30-seconds-of-code,1940,added a snippet for prime factors in python,MERGED,2023-05-24T17:23:00Z,2023-05-25T19:39:16Z,2023-05-25T19:39:16Z,26.27,1,31,0,0,1,3,0
+Chalarangelo/30-seconds-of-code,1936,Added is-perm,MERGED,2023-05-23T16:07:21Z,2023-05-23T20:40:35Z,2023-05-23T20:40:35Z,4.55,1,29,0,96,1,2,0
+Chalarangelo/30-seconds-of-code,1916,Fix typo,MERGED,2022-09-13T07:56:37Z,2022-09-13T08:58:44Z,2022-09-13T08:58:44Z,1.04,1,1,1,0,1,2,0
+Chalarangelo/30-seconds-of-code,1914,Retitle snippets,MERGED,2022-02-13T17:27:24Z,2022-02-18T19:01:52Z,2022-02-18T19:01:52Z,121.57,542,559,557,0,1,2,0
+Chalarangelo/30-seconds-of-code,1913,docs: Use oxford comma in Readme,CLOSED,2021-10-23T11:06:00Z,2021-10-24T12:38:10Z,,25.54,1,3,3,0,1,2,0
+Chalarangelo/30-seconds-of-code,1912,allEqualBy - return true for zero sized array,CLOSED,2021-10-23T11:03:04Z,2021-10-24T12:37:11Z,,25.57,1,2,0,0,1,2,0
+Chalarangelo/30-seconds-of-code,1911,bugfix: addDaysToDate for all timezones,CLOSED,2021-10-23T10:51:29Z,2021-10-24T12:35:57Z,,25.74,1,3,1,97,1,3,0
+Chalarangelo/30-seconds-of-code,1909,added colorLighten,CLOSED,2021-10-22T13:51:47Z,2021-10-24T12:30:31Z,,46.65,1,49,0,70,1,2,0
+Chalarangelo/30-seconds-of-code,1906,add dayDIf,CLOSED,2021-10-21T14:08:06Z,2021-10-24T12:29:59Z,,70.36,1,18,0,0,1,2,0
+Chalarangelo/30-seconds-of-code,1902,add findLongestr,CLOSED,2021-10-16T10:45:45Z,2021-10-16T13:20:07Z,,2.57,1,21,0,0,1,2,0
+Chalarangelo/30-seconds-of-code,1901,todoList was created,CLOSED,2021-10-15T13:36:28Z,2021-10-15T17:51:32Z,,4.25,2,32,0,17,1,2,0
+Chalarangelo/30-seconds-of-code,1899,added create httpserver in node,CLOSED,2021-10-14T15:42:10Z,2021-10-14T18:29:34Z,,2.79,3,47,0,0,1,2,0
+Chalarangelo/30-seconds-of-code,1897,Add reverse,CLOSED,2021-10-08T05:26:54Z,2021-10-08T13:43:45Z,,8.28,1,21,0,34,1,2,0
+Chalarangelo/30-seconds-of-code,1892,add parseJWT to get object,CLOSED,2021-10-02T10:31:49Z,2022-03-31T10:30:48Z,,4319.98,1,39,0,450,1,4,0
+Chalarangelo/30-seconds-of-code,1891,Create largeFactorial.md,CLOSED,2021-10-02T04:33:47Z,2021-10-02T13:48:27Z,,9.24,1,155,0,72,1,2,0
+Chalarangelo/30-seconds-of-code,1889,Added code snippet for creating hexagon using CSS,CLOSED,2021-09-29T15:22:06Z,2021-10-02T13:55:52Z,,70.56,1,50,0,0,1,2,0
+Chalarangelo/30-seconds-of-code,1888,Add oncontextmenu ,CLOSED,2021-09-28T14:46:03Z,2021-10-02T13:53:03Z,,95.12,1,37,0,109,1,2,0
+Chalarangelo/30-seconds-of-code,1886,Add arrayNegativeIndex,CLOSED,2021-09-27T05:53:19Z,2021-09-28T05:57:01Z,,24.06,1,35,0,48,1,2,0
+Chalarangelo/30-seconds-of-code,1884,Add toPascalCase,MERGED,2021-09-21T17:47:48Z,2021-09-23T15:22:50Z,2021-09-23T15:22:50Z,45.58,1,27,0,75,1,2,0
+Chalarangelo/30-seconds-of-code,1878,Added haversineDistance.md,CLOSED,2021-09-17T20:26:26Z,2021-09-19T13:38:47Z,,41.21,2,37,1,200,1,2,0
+Chalarangelo/30-seconds-of-code,1875,Created StringToBase64.md,CLOSED,2021-09-14T04:42:49Z,2021-09-14T13:49:54Z,,9.12,1,23,0,75,2,3,0
+Chalarangelo/30-seconds-of-code,1866,Added JStoJSON.md,CLOSED,2021-09-05T15:55:31Z,2021-09-06T08:42:10Z,,16.78,1,41,0,55,1,2,0
+Chalarangelo/30-seconds-of-code,1863,Check for requiring values be passed for a given argument,CLOSED,2021-08-31T07:13:35Z,2021-08-31T09:38:06Z,,2.41,1,26,0,72,1,2,0
+Chalarangelo/30-seconds-of-code,1862,Make Changes in project to solve issues #1861,CLOSED,2021-08-31T06:43:04Z,2021-08-31T09:37:07Z,,2.9,15,145,56,1435,1,3,0
+Chalarangelo/30-seconds-of-code,1859,added sanitize string snippet,CLOSED,2021-08-28T07:02:51Z,2022-03-31T10:27:04Z,,5163.4,2,58,0,82,1,3,0
+Chalarangelo/30-seconds-of-code,1858,Fix RGBtoHSB edge-cases returning NaN,MERGED,2021-08-26T16:24:42Z,2021-08-26T18:26:10Z,2021-08-26T18:26:10Z,2.02,1,1,1,222,1,2,0
+Chalarangelo/30-seconds-of-code,1856,Added matrixMultiplication,CLOSED,2021-08-24T04:12:19Z,2022-03-31T11:45:37Z,,5263.56,1,29,0,0,3,6,0
+Chalarangelo/30-seconds-of-code,1855,Added dijkstra,CLOSED,2021-08-22T07:38:26Z,2021-08-26T07:50:30Z,,96.2,2,121,0,39,1,3,0
+Chalarangelo/30-seconds-of-code,1854,Added 2 files that finds a palindrome number greater and smaller than a given number  ,CLOSED,2021-08-19T16:21:10Z,2021-08-26T07:49:06Z,,159.47,2,61,0,321,1,2,0
+Chalarangelo/30-seconds-of-code,1848,Added the snippet for rotating an array by k units to right or to left.,CLOSED,2021-08-06T11:30:02Z,2021-08-16T13:44:48Z,,242.25,1,44,0,39,1,2,0
+Chalarangelo/30-seconds-of-code,1847,added functionExistance snippet,CLOSED,2021-08-06T07:15:57Z,2021-08-16T13:44:06Z,,246.47,1,21,0,0,1,2,1
+Chalarangelo/30-seconds-of-code,1845,Corrected function call,MERGED,2021-07-29T21:47:28Z,2021-08-16T13:38:20Z,2021-08-16T13:38:20Z,423.85,1,1,1,86,1,2,0
+Chalarangelo/30-seconds-of-code,1844,Created 3 new snippets,CLOSED,2021-07-29T14:00:05Z,2021-08-16T13:39:26Z,,431.66,3,101,0,181,1,2,0
+Chalarangelo/30-seconds-of-code,1843,Radix Sort ,CLOSED,2021-07-24T14:59:17Z,2022-03-31T11:39:08Z,,5996.66,1,55,0,135,5,5,1
+Chalarangelo/30-seconds-of-code,1841,Added reduceRightSingle.md and reverseArray.md files in the snippets folder,CLOSED,2021-07-24T03:41:28Z,2021-07-24T07:18:08Z,,3.61,2,41,0,247,1,2,0
+Chalarangelo/30-seconds-of-code,1838,fix snippets/hide.md,MERGED,2021-07-20T20:48:02Z,2021-07-23T13:09:28Z,2021-07-23T13:09:28Z,64.36,1,2,2,74,1,2,0
+Chalarangelo/30-seconds-of-code,1837,Support for initializing data and passing parameters,CLOSED,2021-07-20T10:06:41Z,2021-07-23T13:13:46Z,,75.12,1,15,5,86,1,2,0
+Chalarangelo/30-seconds-of-code,1836,Add findObject,CLOSED,2021-07-18T08:20:27Z,2021-07-23T13:16:44Z,,124.94,1,36,0,69,5,3,1
+Chalarangelo/30-seconds-of-code,1835,"Fix : using ""func"" instead of ""fn"" as the short term for function",CLOSED,2021-07-17T10:32:19Z,2021-07-23T11:24:22Z,,144.87,1,2,2,200,2,3,0
+Chalarangelo/30-seconds-of-code,1834,Add randomCapitalize,CLOSED,2021-07-17T04:16:36Z,2021-07-23T11:22:27Z,,151.1,1,29,0,0,4,3,0
+Chalarangelo/30-seconds-of-code,1833,Add 3 new snippets,CLOSED,2021-07-17T00:54:32Z,2021-07-23T13:17:33Z,,156.38,3,135,0,75,2,3,0
+Chalarangelo/30-seconds-of-code,1832,add: returning random item in array,CLOSED,2021-07-16T22:00:43Z,2021-07-23T13:18:48Z,,159.3,1,20,0,57,2,3,1
+Chalarangelo/30-seconds-of-code,1831,Add flattenDeep,CLOSED,2021-07-15T12:17:33Z,2021-07-23T13:20:15Z,,193.04,1,19,0,0,2,2,0
+Chalarangelo/30-seconds-of-code,1826,Add parse url,CLOSED,2021-07-12T18:15:09Z,2021-07-23T13:21:21Z,,259.1,1,60,0,107,1,2,0
+Chalarangelo/30-seconds-of-code,1824,extractEmailsFromString snippet created,CLOSED,2021-07-08T00:51:39Z,2021-07-23T13:24:13Z,,372.54,1,24,0,0,1,2,0
+Chalarangelo/30-seconds-of-code,1823,Fix bubbleSort,MERGED,2021-06-30T09:45:58Z,2021-07-13T15:30:04Z,2021-07-13T15:30:04Z,317.74,1,1,1,150,3,4,0
+Chalarangelo/30-seconds-of-code,1821,Fix luhnsCheck's miscalculation for some credit card numbers,CLOSED,2021-06-28T19:10:19Z,2021-07-23T13:32:58Z,,594.38,1,1,2,138,2,3,0
+Chalarangelo/30-seconds-of-code,1820,Fix typo 'toKebabCase' -> 'toSnakeCase',MERGED,2021-06-28T13:29:55Z,2021-07-23T11:14:28Z,2021-07-23T11:14:28Z,597.74,1,2,2,0,1,2,0
+Chalarangelo/30-seconds-of-code,1814,Added Radix sort to the snippets,CLOSED,2021-06-23T14:56:23Z,2021-07-23T13:36:39Z,,718.67,1,54,0,280,1,2,0
+Chalarangelo/30-seconds-of-code,1813,Created a sortOddOnly snippet,CLOSED,2021-06-18T18:34:42Z,2021-06-20T10:02:37Z,,39.47,1,27,0,162,1,2,0
+Chalarangelo/30-seconds-of-code,1811,Update toCamelCase snippet to use const instead of let,MERGED,2021-06-08T14:26:29Z,2021-06-20T10:02:15Z,2021-06-20T10:02:15Z,283.6,1,1,1,55,2,5,4
+Chalarangelo/30-seconds-of-code,1810,Add snippet for getMonthDays,MERGED,2021-06-02T12:43:15Z,2021-06-20T09:57:38Z,2021-06-20T09:57:38Z,429.24,1,20,0,0,1,2,0
+Chalarangelo/30-seconds-of-code,1808,new snippet length of last word,CLOSED,2021-05-30T14:40:52Z,2021-05-31T10:18:56Z,,19.63,1,76,0,38,2,4,3
+Chalarangelo/30-seconds-of-code,1807,Add consoleInput snippet,CLOSED,2021-05-29T05:37:06Z,2021-05-31T10:19:32Z,,52.71,1,34,0,177,1,2,1
+Chalarangelo/30-seconds-of-code,1798, added getAllDatesBetweenTwoDates.md,CLOSED,2021-05-18T12:16:57Z,2021-06-20T09:39:29Z,,789.38,1,20,0,0,1,3,2
+Chalarangelo/30-seconds-of-code,1797,Add mysqlQueryNoParams snippet,CLOSED,2021-05-17T19:53:23Z,2021-05-18T06:16:20Z,,10.38,1,44,0,128,1,2,0
+Chalarangelo/30-seconds-of-code,1796,Add toArabicDigits snippet,CLOSED,2021-05-13T01:05:49Z,2021-05-13T05:46:06Z,,4.67,1,29,0,0,1,2,0
+Chalarangelo/30-seconds-of-code,1793,Add snippet,CLOSED,2021-05-11T15:54:33Z,2021-05-13T05:48:02Z,,37.89,1,25,0,0,2,3,0
+Chalarangelo/30-seconds-of-code,1791,Add snippet for formatSeconds,MERGED,2021-05-09T09:46:02Z,2021-05-17T06:00:02Z,2021-05-17T06:00:02Z,188.23,1,33,0,0,11,9,1
+Chalarangelo/30-seconds-of-code,1764,Added reverseWords snippet,CLOSED,2021-04-23T19:52:03Z,2021-04-24T09:14:54Z,,13.38,1,27,0,0,1,2,0
+Chalarangelo/30-seconds-of-code,1759,Create HashFromString,CLOSED,2021-04-22T19:50:10Z,2021-04-23T18:43:51Z,,22.89,1,32,0,66,1,2,0
+Chalarangelo/30-seconds-of-code,1757,Add reverseArrayInPlace,CLOSED,2021-04-22T16:22:31Z,2021-04-23T18:48:30Z,,26.43,1,26,0,0,1,2,0
+Chalarangelo/30-seconds-of-code,1745,For React Hook - add snippet for useHistory,CLOSED,2021-04-10T21:07:28Z,2021-04-14T20:32:41Z,,95.42,1,18,0,0,1,2,0
+Chalarangelo/30-seconds-of-code,1744,"added CSS example to addClass.md snippet, @5usana",CLOSED,2021-04-10T20:48:26Z,2021-04-14T20:34:06Z,,95.76,1,8,0,292,1,2,0
+Chalarangelo/30-seconds-of-code,1743,Device Information,CLOSED,2021-04-10T18:08:12Z,2021-04-14T20:25:10Z,,98.28,1,49,0,82,1,3,3
+Chalarangelo/30-seconds-of-code,1741,Added an Email Validation Function,CLOSED,2021-04-07T03:03:54Z,2021-04-07T06:04:52Z,,3.02,1,20,0,0,1,2,0
+Chalarangelo/30-seconds-of-code,1740,Add binaryToDecimal,CLOSED,2021-04-03T11:40:53Z,2021-04-03T13:03:15Z,,1.37,1,16,0,0,1,2,0
+Chalarangelo/30-seconds-of-code,1737,added nor snippet,MERGED,2021-03-29T18:27:06Z,2021-04-02T13:47:51Z,2021-04-02T13:47:51Z,91.35,1,19,0,261,2,4,0
+Chalarangelo/30-seconds-of-code,1736,Adds new snippet for random rgba color,CLOSED,2021-03-28T19:59:14Z,2021-04-02T12:06:16Z,,112.12,1,26,0,75,2,3,0
+Chalarangelo/30-seconds-of-code,1733,New Snippet: Reversing an Array,CLOSED,2021-03-18T19:14:17Z,2021-03-19T07:56:38Z,,12.71,1,28,0,128,1,2,0
+Chalarangelo/30-seconds-of-code,1732,Add random color snippets,CLOSED,2021-03-16T12:48:11Z,2021-03-16T14:53:04Z,,2.08,5,140,0,114,1,2,0
+Chalarangelo/30-seconds-of-code,1729,add randomSortArray,CLOSED,2021-02-18T10:27:36Z,2021-02-20T19:08:40Z,,56.68,1,18,0,46,1,2,0
+Chalarangelo/30-seconds-of-code,1727,Get window size,CLOSED,2021-02-16T18:29:03Z,2021-02-20T19:15:24Z,,96.77,2,74,0,42,1,2,0
+microsoft/generative-ai-for-beginners,1200,chore(deps): bump python-dotenv from 1.0.1 to 1.2.2 in /06-text-generation-apps/python,MERGED,2026-04-21T19:44:48Z,2026-04-26T18:37:27Z,2026-04-26T18:37:27Z,118.88,1,1,1,5675,1,2,1
+microsoft/generative-ai-for-beginners,1156,test,CLOSED,2026-03-10T07:03:46Z,2026-04-18T08:55:03Z,,937.85,1,1,0,4,1,3,2
+microsoft/generative-ai-for-beginners,1152,Me,CLOSED,2026-03-06T22:26:31Z,2026-04-20T11:45:28Z,,1069.32,21,1667,43,0,10,6,1
+microsoft/generative-ai-for-beginners,1151,chore(i18n): sync translations with latest source changes,MERGED,2026-03-06T10:24:26Z,2026-03-27T18:07:44Z,2026-03-27T18:07:44Z,511.72,378,20915,19858,1798,7,5,3
+microsoft/generative-ai-for-beginners,1148,docs: add lesson audio overview via NotebookLM,CLOSED,2026-03-06T05:30:58Z,2026-03-06T10:24:40Z,,4.89,1,8,1,252,1,4,3
+microsoft/generative-ai-for-beginners,1115,chore: fix typos in GitHub Actions workflow files,MERGED,2026-02-15T00:44:03Z,2026-02-16T12:12:15Z,2026-02-16T12:12:15Z,35.47,2,3,3,400,1,2,1
+microsoft/generative-ai-for-beginners,1114,"fix: repair broken markdown links in Lessons 14, 17, and 18",MERGED,2026-02-15T00:42:42Z,2026-02-16T12:11:43Z,2026-02-16T12:11:43Z,35.48,3,12,12,628,1,2,1
+microsoft/generative-ai-for-beginners,1113,"docs: fix typos, grammar, and code bugs in Lessons 19-21",MERGED,2026-02-15T00:40:51Z,2026-02-16T12:10:42Z,2026-02-16T12:10:42Z,35.5,3,37,38,956,1,2,1
+microsoft/generative-ai-for-beginners,1112,Update Co-op Translator disclaimer in Japanese README,MERGED,2026-02-14T15:45:37Z,2026-02-16T12:09:54Z,2026-02-16T12:09:54Z,44.4,1,2,2,142,1,2,1
+microsoft/generative-ai-for-beginners,1101,Fix link to sandbox section in the lecture,MERGED,2026-02-05T11:34:01Z,2026-02-16T12:05:42Z,2026-02-16T12:05:42Z,264.53,1,2,1,0,3,4,1
+microsoft/generative-ai-for-beginners,1099,docs: fix grammar in Lesson 00 setup instructions,MERGED,2026-02-04T12:18:13Z,2026-02-06T07:30:53Z,2026-02-06T07:30:53Z,43.21,1,1,1,317,1,3,1
+microsoft/generative-ai-for-beginners,1090,chore(deps): bump pandas from 2.3.3 to 3.0.0,MERGED,2026-01-26T03:43:47Z,2026-01-28T08:28:27Z,2026-01-28T08:28:27Z,52.74,1,1,1,4045,1,2,1
+microsoft/generative-ai-for-beginners,1089,chore(deps-dev): bump @types/node from 25.0.6 to 25.0.10,MERGED,2026-01-26T03:42:57Z,2026-01-28T08:29:05Z,2026-01-28T08:29:05Z,52.77,2,5,5,1524,1,2,1
+microsoft/generative-ai-for-beginners,1087,chore: Update outdated GitHub Actions version,MERGED,2026-01-23T08:29:00Z,2026-01-28T08:43:56Z,2026-01-28T08:43:56Z,120.25,1,5,5,133,2,4,1
+microsoft/generative-ai-for-beginners,1086,chore(deps-dev): bump lodash from 4.17.21 to 4.17.23,MERGED,2026-01-22T13:40:13Z,2026-01-28T08:30:12Z,2026-01-28T08:30:12Z,138.83,1,5,4,2183,1,2,1
+microsoft/generative-ai-for-beginners,1085,"Code review, standards compliance, and feature improvements",MERGED,2026-01-21T10:02:12Z,2026-02-16T12:04:51Z,2026-02-16T12:04:51Z,626.04,20,1576,52,1503,1,3,1
+microsoft/generative-ai-for-beginners,1084,Fix Issue #1060: Update RAG notebook and dependencies for OpenAI v1.0…,MERGED,2026-01-20T14:08:27Z,2026-02-16T12:02:10Z,2026-02-16T12:02:10Z,645.9,1,3,2,413,1,3,1
+microsoft/generative-ai-for-beginners,1082,chore(i18n): sync translations with latest source changes,MERGED,2026-01-18T16:43:51Z,2026-01-28T08:31:02Z,2026-01-28T08:31:02Z,231.79,111,10311,9761,118,1,3,2
+microsoft/generative-ai-for-beginners,1080,Create python-package-conda.yml,CLOSED,2026-01-15T23:41:49Z,2026-02-05T12:22:31Z,,492.68,1,34,0,0,1,3,2
+microsoft/generative-ai-for-beginners,1079,fix: upgrade openai from 4.10.0 to 4.104.0,CLOSED,2026-01-13T01:18:00Z,2026-02-06T07:29:27Z,,582.19,2,48,57,262,1,5,2
+microsoft/generative-ai-for-beginners,1071,chore(deps): bump qs from 6.13.0 to 6.14.1 in /06-text-generation-apps/typescript/recipe-app,MERGED,2026-01-01T13:57:32Z,2026-01-12T10:52:49Z,2026-01-12T10:52:49Z,260.92,1,83,76,3476,1,1,1
+microsoft/generative-ai-for-beginners,1070,fix unit 15 README.md final example code bug,MERGED,2025-12-22T04:14:41Z,2026-01-12T10:50:26Z,2026-01-12T10:50:26Z,510.6,1,1,1,559,1,3,2
+microsoft/generative-ai-for-beginners,1066,Update unit 15 README.md to clarify retrieval options,MERGED,2025-12-21T20:14:32Z,2026-01-12T10:47:53Z,2026-01-12T10:47:53Z,518.56,1,1,3,833,2,3,1
+microsoft/generative-ai-for-beginners,1065,chore(i18n): sync translations with latest source changes,MERGED,2025-12-21T15:04:22Z,2026-01-18T16:35:11Z,2026-01-18T16:35:11Z,673.51,0,0,0,141,1,3,2
+microsoft/generative-ai-for-beginners,1062,Update Fine-tuning section README.md,MERGED,2025-12-16T23:55:14Z,2026-01-12T10:46:29Z,2026-01-12T10:46:29Z,634.85,1,2,1,708,1,2,1
+microsoft/generative-ai-for-beginners,1056,Add insurance AI use case examples,CLOSED,2025-12-13T00:02:31Z,2026-02-16T12:00:43Z,,1571.97,2,43,0,277,1,4,4
+microsoft/generative-ai-for-beginners,1051,Bump openai from 6.9.0 to 6.10.0,MERGED,2025-12-08T03:05:54Z,2025-12-09T11:44:05Z,2025-12-09T11:44:05Z,32.64,2,5,28,2654,1,1,1
+microsoft/generative-ai-for-beginners,1047,Bump actions/checkout from 5 to 6,CLOSED,2025-11-24T03:40:51Z,2025-12-17T11:01:52Z,,559.35,2,6,6,4876,1,2,3
+microsoft/generative-ai-for-beginners,1046,Bump numpy from 2.3.4 to 2.3.5,MERGED,2025-11-24T03:20:40Z,2025-12-09T11:44:42Z,2025-12-09T11:44:42Z,368.4,1,1,1,3662,1,1,1
+microsoft/generative-ai-for-beginners,1043,Bump glob from 10.3.10 to 10.5.0 in /07-building-chat-applications/typescript/chat-completions-app,MERGED,2025-11-19T03:52:24Z,2025-12-09T11:45:22Z,2025-12-09T11:45:22Z,487.88,1,194,133,3027,1,1,1
+microsoft/generative-ai-for-beginners,1042,Bump glob from 10.3.10 to 10.5.0 in /09-building-image-applications/typescript/image-generation-app,MERGED,2025-11-18T17:40:50Z,2025-12-09T11:45:44Z,2025-12-09T11:45:43Z,498.08,1,79,50,3239,1,1,1
+microsoft/generative-ai-for-beginners,1038,fix(docs): correct typos found during code review,MERGED,2025-11-17T15:30:43Z,2025-11-18T16:43:54Z,2025-11-18T16:43:54Z,25.22,13,17,17,217,1,3,1
+microsoft/generative-ai-for-beginners,1036,Update devcontainer image version to 2.13,MERGED,2025-11-15T11:20:25Z,2025-12-03T13:47:14Z,2025-12-03T13:47:14Z,434.45,1,1,1,58,1,2,1
+microsoft/generative-ai-for-beginners,1024,Bump openai from 6.5.0 to 6.8.1,MERGED,2025-11-10T03:07:02Z,2025-11-12T07:54:13Z,2025-11-12T07:54:13Z,52.79,2,5,5,3350,1,1,1
+microsoft/generative-ai-for-beginners,1023,Bump ipywidgets from 8.1.7 to 8.1.8,MERGED,2025-11-03T03:12:42Z,2025-11-12T08:02:03Z,2025-11-12T08:02:03Z,220.82,1,1,1,2123,1,1,1
+microsoft/generative-ai-for-beginners,1022,Bump @types/node from 24.8.1 to 24.10.0,MERGED,2025-11-03T03:09:53Z,2025-11-12T08:02:34Z,2025-11-12T08:02:34Z,220.88,2,9,9,1524,1,1,1
+microsoft/generative-ai-for-beginners,1021,Bump python-dotenv from 1.1.1 to 1.2.1,MERGED,2025-10-27T03:19:40Z,2025-11-12T08:02:58Z,2025-11-12T08:02:58Z,388.72,1,1,1,3875,3,2,1
+microsoft/generative-ai-for-beginners,1010,Bump openai from 6.3.0 to 6.5.0,MERGED,2025-10-20T03:06:34Z,2025-10-24T12:13:11Z,2025-10-24T12:13:11Z,105.11,2,5,5,2461,1,3,2
+microsoft/generative-ai-for-beginners,993,Bump matplotlib from 3.9.4 to 3.10.7,MERGED,2025-10-13T03:15:03Z,2025-10-13T07:33:43Z,2025-10-13T07:33:43Z,4.31,1,1,1,3746,1,1,1
+microsoft/generative-ai-for-beginners,992,Bump numpy from 2.0.2 to 2.3.3,MERGED,2025-10-13T03:14:59Z,2025-10-13T07:40:20Z,2025-10-13T07:40:20Z,4.42,1,1,1,4207,1,1,1
+microsoft/generative-ai-for-beginners,991,Bump @types/node from 24.6.2 to 24.7.2,MERGED,2025-10-13T03:09:33Z,2025-10-13T07:35:12Z,2025-10-13T07:35:12Z,4.43,2,9,9,1735,1,1,1
+microsoft/generative-ai-for-beginners,990,Bump openai from 6.1.0 to 6.3.0,MERGED,2025-10-13T03:09:25Z,2025-10-13T07:34:36Z,2025-10-13T07:34:36Z,4.42,2,5,5,2781,1,1,1
+microsoft/generative-ai-for-beginners,989,🌐 Update translations via Co-op Translator,MERGED,2025-10-11T12:33:03Z,2025-10-11T14:11:18Z,2025-10-11T14:11:18Z,1.64,466,45778,1607,514,1,2,1
+microsoft/generative-ai-for-beginners,986,Bump pandas from 2.3.2 to 2.3.3,MERGED,2025-10-06T03:12:29Z,2025-10-11T10:21:49Z,2025-10-11T10:21:49Z,127.16,1,1,1,3087,2,3,1
+microsoft/generative-ai-for-beginners,985,Bump @types/node from 24.5.2 to 24.6.2,MERGED,2025-10-06T03:06:28Z,2025-10-11T10:22:54Z,2025-10-11T10:22:54Z,127.27,2,9,9,1523,1,2,1
+microsoft/generative-ai-for-beginners,984,Bump openai from 5.23.1 to 6.1.0,MERGED,2025-10-06T03:06:21Z,2025-10-11T10:21:00Z,2025-10-11T10:21:00Z,127.24,2,6,6,3978,2,3,1
+microsoft/generative-ai-for-beginners,983,Fix grammar,MERGED,2025-10-05T07:52:32Z,2025-10-17T18:10:14Z,2025-10-17T18:10:14Z,298.3,3,3,3,0,1,3,2
+microsoft/generative-ai-for-beginners,979,Fix grammar,MERGED,2025-10-03T06:37:14Z,2025-10-03T07:43:43Z,2025-10-03T07:43:43Z,1.11,1,2,3,0,1,3,1
+microsoft/generative-ai-for-beginners,976,Microsoft main,CLOSED,2025-10-02T11:20:03Z,2025-10-03T07:45:23Z,,20.42,128,31333,28191,0,1,4,1
+microsoft/generative-ai-for-beginners,975,Fix typo in 04-prompt-engineering-fundamentals,CLOSED,2025-09-30T16:29:44Z,2025-10-03T07:44:39Z,,63.25,1,2,1,0,2,4,2
+microsoft/generative-ai-for-beginners,969,Update README.md (Markdown emphasis not handled correctly),MERGED,2025-09-29T15:57:15Z,2025-09-29T20:44:33Z,2025-09-29T20:44:33Z,4.79,1,3,2,114,1,3,1
+microsoft/generative-ai-for-beginners,968,Bump openai from 5.19.1 to 5.23.1,MERGED,2025-09-29T03:20:28Z,2025-09-29T20:51:56Z,2025-09-29T20:51:56Z,17.52,2,5,5,3657,1,2,1
+microsoft/generative-ai-for-beginners,967,Update README.md (Italic formatting not handled correctly),MERGED,2025-09-28T15:43:59Z,2025-09-29T20:45:10Z,2025-09-29T20:45:10Z,29.02,1,12,11,177,1,3,1
+microsoft/generative-ai-for-beginners,966,Update README.md (Italic formatting not handled correctly),MERGED,2025-09-27T15:38:23Z,2025-09-29T20:47:22Z,2025-09-29T20:47:22Z,53.15,1,3,2,171,1,3,1
+microsoft/generative-ai-for-beginners,965,Update README.md (Bold formatting not handled correctly),MERGED,2025-09-26T15:46:29Z,2025-09-29T20:45:44Z,2025-09-29T20:45:44Z,76.99,1,2,2,116,1,3,1
+microsoft/generative-ai-for-beginners,964,"Update README.md (""Top 10 list"" link is broken)",MERGED,2025-09-25T15:10:03Z,2025-09-29T20:49:40Z,2025-09-29T20:49:40Z,101.66,1,3,2,144,1,3,1
+microsoft/generative-ai-for-beginners,963,Update README.md (Image link is incorrect),MERGED,2025-09-24T15:51:30Z,2025-09-29T20:46:54Z,2025-09-29T20:46:54Z,124.92,1,5,4,138,1,3,1
+microsoft/generative-ai-for-beginners,962,Update README.md (Typo ```),MERGED,2025-09-24T15:24:46Z,2025-09-29T20:48:27Z,2025-09-29T20:48:27Z,125.39,1,18,17,151,1,3,1
+microsoft/generative-ai-for-beginners,960,Update README.md (Italic formatting not handled correctly),MERGED,2025-09-23T15:50:32Z,2025-09-29T20:47:55Z,2025-09-29T20:47:55Z,148.96,1,10,9,173,1,3,1
+microsoft/generative-ai-for-beginners,959,Update README.md (Italic formatting not handled correctly),MERGED,2025-09-22T15:43:16Z,2025-09-29T20:48:57Z,2025-09-29T20:48:57Z,173.09,1,4,3,167,1,3,1
+microsoft/generative-ai-for-beginners,958,Bump numpy from 1.24.2 to 2.0.2,MERGED,2025-09-22T03:10:50Z,2025-09-29T20:52:38Z,2025-09-29T20:52:38Z,185.7,1,1,1,3979,1,2,1
+microsoft/generative-ai-for-beginners,957,Bump @types/node from 24.3.1 to 24.5.2,MERGED,2025-09-22T03:06:08Z,2025-09-29T20:53:06Z,2025-09-29T20:53:06Z,185.78,2,9,9,1523,1,2,1
+microsoft/generative-ai-for-beginners,955,Update README.md (Responding to Japanese prompts in English),MERGED,2025-09-21T16:41:00Z,2025-09-29T20:50:42Z,2025-09-29T20:50:42Z,196.16,1,64,63,131,1,3,1
+microsoft/generative-ai-for-beginners,954,Update 03-providers.md (Italic formatting not handled correctly),MERGED,2025-09-21T16:18:42Z,2025-09-29T20:51:18Z,2025-09-29T20:51:18Z,196.54,1,9,8,138,1,3,1
+microsoft/generative-ai-for-beginners,953,Update README.md (Responding to Japanese prompts in English),MERGED,2025-09-20T16:37:12Z,2025-09-29T20:53:38Z,2025-09-29T20:53:38Z,220.27,1,61,60,131,1,3,1
+microsoft/generative-ai-for-beginners,952,Update README.md (Typo ```),MERGED,2025-09-19T22:21:52Z,2025-09-29T20:54:14Z,2025-09-29T20:54:14Z,238.54,1,16,16,122,2,4,1
+microsoft/generative-ai-for-beginners,951,Swapping out Learn videos with YouTube video links,CLOSED,2025-09-19T18:52:57Z,2025-09-30T05:42:05Z,,250.82,19,36,36,50,1,4,2
+microsoft/generative-ai-for-beginners,949,Update README.md (``` not handled correctly),MERGED,2025-09-18T16:25:39Z,2025-09-29T20:54:43Z,2025-09-29T20:54:43Z,268.48,1,11,9,165,1,3,1
+microsoft/generative-ai-for-beginners,946,"Update README.md (Untranslated ""Note, that there are～"")",MERGED,2025-09-17T16:33:23Z,2025-09-29T20:55:12Z,2025-09-29T20:55:12Z,292.36,1,3,2,127,1,4,2
+microsoft/generative-ai-for-beginners,943,"Update README.md (Untranslated ""Solution"")",MERGED,2025-09-16T16:04:03Z,2025-09-29T20:50:14Z,2025-09-29T20:50:14Z,316.77,1,3,2,167,1,3,1
+microsoft/generative-ai-for-beginners,940,Bump @azure/core-auth from 1.10.0 to 1.10.1,MERGED,2025-09-15T03:14:48Z,2025-09-29T20:55:38Z,2025-09-29T20:55:38Z,353.68,2,72,12,2220,1,2,1
+microsoft/generative-ai-for-beginners,938,Bump axios from 1.8.2 to 1.12.0 in /11-integrating-with-function-calling/typescript/function-app,MERGED,2025-09-13T11:56:29Z,2025-09-29T20:56:25Z,2025-09-29T20:56:25Z,393.0,2,6,6,4983,1,2,1
+microsoft/generative-ai-for-beginners,927,Bump actions/setup-python from 4 to 6,MERGED,2025-09-08T03:39:43Z,2025-09-08T19:03:39Z,2025-09-08T19:03:39Z,15.4,1,1,1,5191,1,2,1
+microsoft/generative-ai-for-beginners,926,Bump actions/github-script from 6 to 8,MERGED,2025-09-08T03:39:38Z,2025-09-08T19:04:14Z,2025-09-08T19:04:14Z,15.41,2,2,2,4954,1,2,1
+microsoft/generative-ai-for-beginners,925,Bump actions/stale from 9 to 10,MERGED,2025-09-08T03:39:37Z,2025-09-08T19:04:47Z,2025-09-08T19:04:47Z,15.42,1,1,1,6930,1,2,1
+microsoft/generative-ai-for-beginners,924,Bump @types/node from 24.3.0 to 24.3.1,MERGED,2025-09-08T03:06:35Z,2025-09-08T19:05:29Z,2025-09-08T19:05:29Z,15.98,2,5,5,1523,1,2,1
+microsoft/generative-ai-for-beginners,923,Bump openai from 5.16.0 to 5.19.1,MERGED,2025-09-08T03:06:28Z,2025-09-08T19:05:55Z,2025-09-08T19:05:55Z,15.99,2,5,5,3393,1,2,1
+microsoft/generative-ai-for-beginners,922,Update 03-providers.md (Italic formatting not handled correctly),MERGED,2025-09-06T15:38:50Z,2025-09-29T20:46:26Z,2025-09-29T20:46:26Z,557.13,1,11,10,129,1,3,1
+microsoft/generative-ai-for-beginners,919,"Update README.md (Untranslated ""[generative AI]"")",MERGED,2025-09-05T15:41:23Z,2025-09-06T09:54:25Z,2025-09-06T09:54:25Z,18.22,1,3,2,131,1,3,1
+microsoft/generative-ai-for-beginners,916,Bump openai from 5.15.0 to 5.16.0,MERGED,2025-09-01T07:26:25Z,2025-09-06T09:55:10Z,2025-09-06T09:55:10Z,122.48,2,5,5,2118,1,2,1
+microsoft/generative-ai-for-beginners,910,🌐 Update translations via Co-op Translator,MERGED,2025-08-27T09:04:46Z,2025-08-27T11:08:30Z,2025-08-27T11:08:30Z,2.06,48,6655,6722,514,1,2,1
+microsoft/generative-ai-for-beginners,908,Update translations via Co‑op Translator v0.10.0; restore deleted files and link translated notebooks,MERGED,2025-08-26T13:23:13Z,2025-08-27T07:55:50Z,2025-08-27T07:55:50Z,18.54,0,0,0,649,1,3,1
+microsoft/generative-ai-for-beginners,907,coop v0.10 fix,MERGED,2025-08-26T10:52:27Z,2025-08-26T13:17:00Z,2025-08-26T13:17:00Z,2.41,47,0,564,87,1,2,1
+microsoft/generative-ai-for-beginners,905,Bump pandas from 2.3.1 to 2.3.2,MERGED,2025-08-25T05:48:50Z,2025-08-26T19:13:59Z,2025-08-26T19:13:59Z,37.42,1,1,1,2990,1,2,1
+microsoft/generative-ai-for-beginners,904,Bump openai from 5.12.2 to 5.15.0,MERGED,2025-08-25T04:38:01Z,2025-08-27T08:01:23Z,2025-08-27T08:01:22Z,51.39,2,7,216,3780,1,2,1
+microsoft/generative-ai-for-beginners,903,Remove tracking parameters from course links,MERGED,2025-08-22T15:25:44Z,2025-08-27T07:59:40Z,2025-08-27T07:59:40Z,112.57,1,15,15,62,1,3,1
+microsoft/generative-ai-for-beginners,899,Update brace-expansion to version 2.0.2,MERGED,2025-08-20T23:33:34Z,2025-08-27T08:02:01Z,2025-08-27T08:02:01Z,152.47,1,6,6,0,1,3,1
+microsoft/generative-ai-for-beginners,893,Bump @types/node from 24.0.7 to 24.3.0,MERGED,2025-08-18T05:10:36Z,2025-08-20T23:09:58Z,2025-08-20T23:09:58Z,65.99,2,11,9,1523,1,2,1
+microsoft/generative-ai-for-beginners,892,Bump actions/checkout from 4 to 5,MERGED,2025-08-18T05:05:54Z,2025-08-20T23:11:13Z,2025-08-20T23:11:12Z,66.09,2,6,6,6032,1,2,1
+microsoft/generative-ai-for-beginners,890,Bump openai from 4.103.0 to 5.12.2,MERGED,2025-08-11T05:20:16Z,2025-08-20T23:13:06Z,2025-08-20T23:13:06Z,233.88,2,13,176,3583,1,2,1
+microsoft/generative-ai-for-beginners,887,Add Generative AI for Beginners using Java to README,MERGED,2025-08-07T08:38:02Z,2025-08-20T23:30:47Z,2025-08-20T23:30:47Z,326.88,1,1,0,119,1,3,1
+microsoft/generative-ai-for-beginners,878,feat: update itens to use variable like parameters,MERGED,2025-07-28T18:47:51Z,2025-10-03T07:51:16Z,2025-10-03T07:51:16Z,1597.06,2,4,3,707,7,5,2
+microsoft/generative-ai-for-beginners,871,🌐 Update translations via Co-op Translator,MERGED,2025-07-24T07:35:13Z,2025-08-21T14:28:29Z,2025-08-21T14:28:29Z,678.89,564,4465,73203,514,1,3,1
+microsoft/generative-ai-for-beginners,870,Update README.md,MERGED,2025-07-23T07:04:55Z,2025-07-24T07:34:33Z,2025-07-24T07:34:33Z,24.49,1,1,1,116,2,2,1
+microsoft/generative-ai-for-beginners,869,Lesson 6 - Translate examples to pt-br,MERGED,2025-07-22T19:45:10Z,2025-07-24T07:35:16Z,2025-07-24T07:35:16Z,35.84,2,252,252,496,1,2,1
+microsoft/generative-ai-for-beginners,868,Bump peter-evans/create-pull-request from 5 to 7,MERGED,2025-07-21T04:10:42Z,2025-08-20T23:23:58Z,2025-08-20T23:23:58Z,739.22,1,1,1,6299,1,2,2
+microsoft/generative-ai-for-beginners,867,Bump openai from 4.103.0 to 5.10.1,CLOSED,2025-07-21T03:55:42Z,2025-07-28T04:57:42Z,,169.03,2,16,177,1438,1,2,2
+microsoft/generative-ai-for-beginners,863,Add .python-version file to specify Python 3.13.3,CLOSED,2025-07-14T17:44:55Z,2025-08-26T08:44:04Z,,1022.99,1,1,0,476,1,3,3
+microsoft/generative-ai-for-beginners,862,Bump pandas from 1.5.3 to 2.3.1,MERGED,2025-07-14T04:01:11Z,2025-08-20T23:22:50Z,2025-08-20T23:22:50Z,907.36,1,1,1,4031,1,2,2
+microsoft/generative-ai-for-beginners,860,Bump @azure/core-auth from 1.9.0 to 1.10.0,MERGED,2025-07-14T03:32:50Z,2025-08-20T23:21:50Z,2025-08-20T23:21:49Z,907.82,1,4,4,2220,1,2,2
+microsoft/TypeScript,63446,Redirect Claude Code to read AGENTS.md,MERGED,2026-04-27T16:43:07Z,2026-04-27T19:32:50Z,2026-04-27T19:32:50Z,2.83,1,1,0,72,2,4,0
+microsoft/TypeScript,63433,docs: improve Math.sign JSDoc grammar and clarity,MERGED,2026-04-25T06:31:59Z,2026-04-27T17:35:28Z,2026-04-27T17:35:28Z,59.06,1,1,1,305,1,4,1
+microsoft/TypeScript,63407,🤖 Pick PR #63401 (Also check package name validity in...) into release-6.0,MERGED,2026-04-15T19:26:48Z,2026-04-15T20:44:45Z,2026-04-15T20:44:45Z,1.3,3,474,0,117,1,3,1
+microsoft/TypeScript,63401,Also check package name validity in InstallPackageRequest,MERGED,2026-04-14T21:17:51Z,2026-04-15T18:45:56Z,2026-04-15T18:45:56Z,21.47,3,474,0,143,3,5,3
+microsoft/TypeScript,63368,Harden ATA package name filtering,MERGED,2026-04-06T22:57:39Z,2026-04-07T17:01:31Z,2026-04-07T17:01:31Z,18.06,5,21,19,465,2,5,3
+microsoft/TypeScript,63362,fix(checker): allow unknown[] as valid mixin constructor rest param type,CLOSED,2026-04-06T11:27:17Z,2026-04-06T15:36:21Z,,4.15,6,178,1,822,1,3,2
+microsoft/TypeScript,63344,Document charCodeAt edge case behavior in first line,MERGED,2026-04-02T20:22:49Z,2026-04-06T16:56:29Z,2026-04-06T16:56:29Z,92.56,2,4,4,1119,2,3,7
+microsoft/TypeScript,63341,Fix redundant leading apostrophe in TS1344 diagnostic message,MERGED,2026-04-02T16:01:46Z,2026-04-02T17:34:17Z,2026-04-02T17:34:17Z,1.54,29,153,153,489,4,4,1
+microsoft/TypeScript,63327,🤖 Pick PR #63310 (Mark class property initializers as...) into release-6.0,MERGED,2026-03-31T16:23:21Z,2026-04-06T17:44:55Z,2026-04-06T17:44:55Z,145.36,5,264,0,117,2,4,0
+microsoft/TypeScript,63319,Bump the github-actions group with 2 updates,MERGED,2026-03-30T00:54:49Z,2026-03-30T12:28:20Z,2026-03-30T12:28:20Z,11.56,3,5,5,10301,1,1,0
+microsoft/TypeScript,63310,Mark class property initializers as outside of CFA containers,MERGED,2026-03-27T23:30:27Z,2026-03-31T15:54:45Z,2026-03-31T15:54:45Z,88.41,5,264,0,772,5,7,9
+microsoft/TypeScript,63296,Update deps,MERGED,2026-03-24T23:17:21Z,2026-03-25T16:23:24Z,2026-03-25T16:23:24Z,17.1,2,650,644,77,3,3,0
+microsoft/TypeScript,63290,fix: handle inspector session leak on Profiler.enable/start failure,CLOSED,2026-03-24T09:46:40Z,2026-03-24T21:23:58Z,,11.62,1,1991,1981,1014,1,3,1
+microsoft/TypeScript,63285,Bump the github-actions group with 3 updates,MERGED,2026-03-23T00:54:45Z,2026-03-24T21:50:20Z,2026-03-24T21:50:20Z,44.93,3,6,6,16320,1,1,0
+microsoft/TypeScript,63272,Bump fast-xml-parser from 5.4.1 to 5.5.7,CLOSED,2026-03-20T01:24:10Z,2026-03-24T22:56:52Z,,117.55,1,48,19,3626,1,1,1
+microsoft/TypeScript,63255,fix(compiler): small improvement to error message handling,CLOSED,2026-03-16T10:33:35Z,2026-03-23T15:47:55Z,,173.24,1,2,2,653,1,5,2
+microsoft/TypeScript,63254,fix(compiler): small improvement to error message handling,CLOSED,2026-03-16T09:26:35Z,2026-03-24T21:23:53Z,,203.96,5,12,12,268,1,4,2
+microsoft/TypeScript,63246,🤖 Pick PR #63239 (Fix missing lib files in reused pro...) into release-6.0,MERGED,2026-03-12T16:25:31Z,2026-03-13T21:48:14Z,2026-03-13T21:48:14Z,29.38,32,40,49,117,1,4,0
+microsoft/TypeScript,63239,Fix missing lib files in reused programs,MERGED,2026-03-11T18:14:24Z,2026-03-12T15:55:42Z,2026-03-12T15:55:42Z,21.69,30,34,49,133,2,4,8
+microsoft/TypeScript,63226,Use optional chaining for getMemoryUsage in GcTimer,CLOSED,2026-03-09T20:06:17Z,2026-03-10T18:16:51Z,,22.18,2,4,4,303,1,5,2
+microsoft/TypeScript,63224,Bump the github-actions group with 2 updates,MERGED,2026-03-09T00:55:13Z,2026-03-16T19:03:26Z,2026-03-16T19:03:26Z,186.14,14,29,29,10240,1,1,0
+microsoft/TypeScript,63222,fix: suppress TS4055/TS4073 for protected methods using typeof parameter,CLOSED,2026-03-08T12:15:41Z,2026-03-24T21:23:48Z,,393.14,8,393,0,1294,3,4,1
+microsoft/TypeScript,63221,fix: suppress TS4055/TS4073 for protected methods using typeof parameter,CLOSED,2026-03-08T10:22:41Z,2026-03-08T12:13:03Z,,1.84,9,277,1,593,1,3,1
+microsoft/TypeScript,63215,Fix stack overflow in error generation for recursive mapped types,CLOSED,2026-03-07T00:25:41Z,2026-03-24T21:23:48Z,,428.97,6,54,0,1335,1,2,2
+microsoft/TypeScript,63205,Bump the github-actions group across 1 directory with 2 updates,MERGED,2026-03-02T00:55:05Z,2026-03-02T17:35:35Z,2026-03-02T17:35:35Z,16.68,4,8,8,8215,1,3,0
+microsoft/TypeScript,63201,"Revert ""discrete pluralizer for lib.esnext.temporal unit unions""",CLOSED,2026-02-28T00:54:34Z,2026-03-03T00:06:40Z,,71.2,2,145,159,14,1,5,4
+microsoft/TypeScript,63200,Adds the symbol name to the error message for TS2742,MERGED,2026-02-27T15:19:58Z,2026-02-27T19:06:19Z,2026-02-27T19:06:19Z,3.77,24,152,39,840,6,7,3
+microsoft/TypeScript,63190,discrete pluralizer for lib.esnext.temporal unit unions,MERGED,2026-02-24T14:24:13Z,2026-02-25T22:20:51Z,2026-02-25T22:20:51Z,31.94,2,159,145,195,2,6,9
+microsoft/TypeScript,63188,Eliminate interpolation from workflows,MERGED,2026-02-23T18:26:38Z,2026-02-23T20:36:09Z,2026-02-23T20:36:09Z,2.16,6,44,27,202,2,5,0
+microsoft/TypeScript,63183,DOM update,MERGED,2026-02-23T00:39:07Z,2026-02-28T01:05:49Z,2026-02-28T01:05:49Z,120.44,2,8,7,0,2,5,5
+microsoft/TypeScript,63172,Deprecate assert in import(),MERGED,2026-02-20T22:22:16Z,2026-03-02T22:03:25Z,2026-03-02T22:03:25Z,239.69,45,501,340,117,4,5,2
+microsoft/TypeScript,63163,Port anyFunctionType subtype fix and JSX children NonInferrableType propagation from typescript-go,MERGED,2026-02-19T23:12:31Z,2026-03-03T02:14:48Z,2026-03-03T02:14:48Z,267.04,11,991,2,1633,2,8,20
+microsoft/TypeScript,63156,Update dependencies,MERGED,2026-02-18T18:18:10Z,2026-03-02T20:25:59Z,2026-03-02T20:25:59Z,290.13,8,1253,1640,256,3,5,0
+microsoft/TypeScript,63154,Fix crash in declaration emit with nested binding patterns,MERGED,2026-02-17T22:44:55Z,2026-02-18T00:45:15Z,2026-02-18T00:45:15Z,2.01,6,477,1,2507,3,6,0
+microsoft/TypeScript,63147,Deprioritize native Function methods in IntelliSense,CLOSED,2026-02-16T10:34:12Z,2026-03-24T21:23:42Z,,874.83,10,530,474,907,1,3,2
+microsoft/TypeScript,63145,Bump github/codeql-action from 4.32.2 to 4.32.3 in the github-actions group,MERGED,2026-02-16T00:55:03Z,2026-02-17T00:07:12Z,2026-02-17T00:07:12Z,23.2,2,4,4,4557,1,3,0
+microsoft/TypeScript,63142,Fix `from` and `with` method types of `Temporal.PlainMonthDay`,MERGED,2026-02-15T12:19:38Z,2026-02-17T20:03:02Z,2026-02-17T20:03:02Z,55.72,6,377,316,346,6,5,2
+microsoft/TypeScript,63137,Update DOM types,MERGED,2026-02-13T22:59:24Z,2026-02-18T23:02:44Z,2026-02-18T23:02:44Z,120.06,16,1672,59,44,2,5,11
+microsoft/TypeScript,63123,Bump github/codeql-action from 4.32.0 to 4.32.2 in the github-actions group,MERGED,2026-02-09T00:55:18Z,2026-02-09T20:23:10Z,2026-02-09T20:23:10Z,19.46,2,4,4,4537,1,3,0
+microsoft/TypeScript,63117,Properly account for intersections in `getKeyPropertyName`,CLOSED,2026-02-08T17:41:55Z,2026-03-24T21:23:35Z,,1059.69,1,2,2,1940,1,3,9
+microsoft/TypeScript,63099,fix(case): apply using pnpm with store outside,CLOSED,2026-02-04T23:20:19Z,2026-03-24T21:23:32Z,,1150.05,1,2,2,1734,1,4,4
+microsoft/TypeScript,63097,Disable macOS in PR CI,MERGED,2026-02-04T22:40:05Z,2026-02-05T00:24:19Z,2026-02-05T00:24:19Z,1.74,1,19,33,116,3,5,0
+microsoft/TypeScript,63095,Update descriptions for strict-related flags,MERGED,2026-02-04T20:48:42Z,2026-02-05T00:51:57Z,2026-02-05T00:51:56Z,4.05,3,17,17,104,5,6,0
+microsoft/TypeScript,63089,Deprecate `alwaysStrict: false`,MERGED,2026-02-04T05:27:17Z,2026-02-04T18:46:49Z,2026-02-04T18:46:49Z,13.33,2543,22667,2527,42,8,6,3
+microsoft/TypeScript,63087,Switch the default of `--strict` to `true`,MERGED,2026-02-03T23:49:21Z,2026-02-04T04:47:40Z,2026-02-04T04:47:40Z,4.97,13088,127635,53265,12,3,6,0
+microsoft/TypeScript,63086,Fix some tests that should have stayed ES5,MERGED,2026-02-03T23:40:21Z,2026-02-04T19:20:38Z,2026-02-04T19:20:38Z,19.67,29,1136,3,18,5,6,0
+microsoft/TypeScript,63084,Add --stableTypeOrdering for TS7 ordering compat,MERGED,2026-02-03T21:09:51Z,2026-02-06T20:28:10Z,2026-02-06T20:28:10Z,71.31,55,1249,347,971,10,7,9
+microsoft/TypeScript,63081,Hide omitted expression types in type baselines,MERGED,2026-02-03T05:30:28Z,2026-02-03T16:06:13Z,2026-02-03T16:06:13Z,10.6,91,4,647,236,2,4,0
+microsoft/TypeScript,63079,Sort JSDoc @param completions by argument position,CLOSED,2026-02-02T11:08:53Z,2026-03-24T21:23:30Z,,1210.24,2,29,5,694,1,3,2
+microsoft/TypeScript,63078,Bump the github-actions group with 2 updates,MERGED,2026-02-02T00:55:21Z,2026-02-02T18:37:07Z,2026-02-02T18:37:07Z,17.7,3,5,5,7009,1,3,0
+microsoft/TypeScript,63077,Deprecate import assert in favor of import with,MERGED,2026-01-31T18:10:43Z,2026-02-02T16:42:27Z,2026-02-02T16:42:27Z,46.53,139,1242,1137,104,3,5,0
+microsoft/TypeScript,63076,Update implied default for module based on target,MERGED,2026-01-31T06:13:18Z,2026-02-02T17:21:02Z,2026-02-02T17:21:02Z,59.13,2,19,11,564,2,4,4
+microsoft/TypeScript,63075,"Remove ES5 references, misc cleanup",MERGED,2026-01-31T05:58:15Z,2026-02-03T00:18:03Z,2026-02-03T00:18:03Z,66.33,7,199,4,904,2,5,0
+microsoft/TypeScript,63072,Fix incorrectly reported 2689 error,CLOSED,2026-01-30T21:54:28Z,2026-03-24T21:23:30Z,,1271.48,5,67,2,258,5,3,2
+microsoft/TypeScript,63071,Deprecate downlevelIteration,MERGED,2026-01-30T21:50:46Z,2026-02-04T23:09:22Z,2026-02-04T23:09:22Z,121.31,63,565,0,258,4,6,9
+microsoft/TypeScript,63070,Be more lenient about iteration when `lib=es5` / `noLib`,MERGED,2026-01-30T21:26:55Z,2026-01-30T22:54:14Z,2026-01-30T22:54:14Z,1.46,71,1890,3318,708,10,5,0
+microsoft/TypeScript,63067,"Default `target` to ""latest standard"", deprecate ES5",MERGED,2026-01-30T03:37:34Z,2026-01-31T05:22:42Z,2026-01-31T05:22:42Z,25.75,5507,80406,66011,342,15,7,23
+microsoft/TypeScript,63066,"Update tests in prep for ES5 deprecation, target default change",MERGED,2026-01-29T20:45:46Z,2026-01-29T22:49:19Z,2026-01-29T22:49:19Z,2.06,23058,416516,99734,983,2,5,0
+microsoft/TypeScript,63056,"Eliminate `tests/lib/lib.d.ts`, fix up fourslash to use real libs and defaults",MERGED,2026-01-28T03:10:34Z,2026-01-28T19:32:51Z,2026-01-28T19:32:51Z,16.37,782,25577,34186,2117,3,5,5
+microsoft/TypeScript,63055,Support FORCE_COLOR,MERGED,2026-01-28T01:14:59Z,2026-01-28T19:09:01Z,2026-01-28T19:09:01Z,17.9,4,361,1,36,2,5,0
+microsoft/TypeScript,63054,"Set default `types` array to `[]`; support `""*""` wildcard",MERGED,2026-01-28T00:42:02Z,2026-02-05T00:52:40Z,2026-02-05T00:52:40Z,192.18,1810,4661,58679,72,14,6,14
+microsoft/TypeScript,63053,Bump the github-actions group with 2 updates,MERGED,2026-01-26T00:55:57Z,2026-01-26T17:02:55Z,2026-01-26T17:02:55Z,16.12,16,35,35,8023,1,3,0
+microsoft/TypeScript,63052,feat: comprehensive Type Hierarchy LSP support,CLOSED,2026-01-25T15:48:59Z,2026-01-29T13:23:44Z,,93.58,67,22595,64,9198,2,4,7
+microsoft/TypeScript,63046,Introduce ES2025 target & Add missing ScriptTargetFeatures,MERGED,2026-01-24T19:32:06Z,2026-02-06T19:12:04Z,2026-02-06T19:12:04Z,311.67,2272,34182,33590,274,13,6,24
+microsoft/TypeScript,63038,Fix: Consult referenced project options for synthetic default export eligibility,MERGED,2026-01-22T19:31:22Z,2026-01-26T23:17:37Z,2026-01-26T23:17:37Z,99.77,4,126,0,6063,14,6,10
+microsoft/TypeScript,63036,Add support for import attributes in ambient module declarations,CLOSED,2026-01-22T05:36:56Z,2026-03-24T21:23:27Z,,1479.78,29,1949,22,2740,1,4,7
+microsoft/TypeScript,63031,Change default of `types` to `[]` in tsconfig.json,CLOSED,2026-01-21T23:11:12Z,2026-01-28T17:48:19Z,,162.62,173,2822,4004,5951,25,6,10
+microsoft/TypeScript,63030,Deprecate alwaysStrict: false in TypeScript 6.0,CLOSED,2026-01-21T23:10:49Z,2026-02-04T05:28:42Z,,318.3,15231,133529,55648,3300,5,6,7
+microsoft/TypeScript,63026,Fixed a crash caused by circularly-reentrant `getEffectsSignature`,MERGED,2026-01-21T10:20:26Z,2026-02-02T18:54:21Z,2026-02-02T18:54:21Z,296.57,9,1387,4,3971,3,6,8
+microsoft/TypeScript,63024,"Explicitly set `strict: false` for project tests, eval tests, and more programmatic fourslash tests",MERGED,2026-01-21T01:13:52Z,2026-01-21T02:37:20Z,2026-01-21T02:37:20Z,1.39,260,344,83,370,2,5,1
+microsoft/TypeScript,63023,Turn `// @strict` off in all failing fourslash tests which do not contain baseline calls,MERGED,2026-01-21T00:04:05Z,2026-01-21T17:39:45Z,2026-01-21T17:39:45Z,17.59,147,147,0,361,3,5,0
+microsoft/TypeScript,63020,Fix a typo in the JSDoc of `Math.trunc(…)`,MERGED,2026-01-20T16:29:29Z,2026-01-21T00:27:42Z,2026-01-21T00:27:42Z,7.97,1,1,1,12,1,5,0
+microsoft/TypeScript,63013,Bump the github-actions group across 1 directory with 3 updates,MERGED,2026-01-19T01:01:24Z,2026-01-21T19:54:30Z,2026-01-21T19:54:30Z,66.89,14,30,30,7619,1,3,0
+microsoft/TypeScript,63008,"Add support for importing JSON modules ""as const""",CLOSED,2026-01-18T03:24:40Z,2026-03-24T21:23:23Z,,1577.98,16,540,0,1055,1,3,6
+microsoft/TypeScript,62997,Prevent contextual typing recursion in destructuring initializers,CLOSED,2026-01-16T18:05:22Z,2026-01-20T22:54:18Z,,100.82,6,169,2,1100,1,3,1
+microsoft/TypeScript,62990,🤖 Pick PR #62894 (Handle resolution watching when its...) into release-5.9,CLOSED,2026-01-15T19:29:03Z,2026-03-24T21:23:21Z,,1633.9,52,444,2063,174,1,3,1
+microsoft/TypeScript,62989,Prepare tests for `--noImplicitAny`,MERGED,2026-01-15T06:46:19Z,2026-01-16T19:20:19Z,2026-01-16T19:20:19Z,36.57,2034,2049,12,4662,3,6,4
+microsoft/TypeScript,62987,Correctly split line endings for `// @testOption: value` parsing,MERGED,2026-01-14T21:38:10Z,2026-01-15T03:25:01Z,2026-01-15T03:25:01Z,5.78,13,45,59,1123,8,6,2
+microsoft/TypeScript,62984,More strictness prep,MERGED,2026-01-13T22:44:08Z,2026-01-14T00:30:35Z,2026-01-14T00:30:35Z,1.77,109,1472,500,421,2,5,0
+microsoft/TypeScript,62982,fix(lib): allow 'default' in Intl.CollatorOptions.collation,CLOSED,2026-01-13T11:40:28Z,2026-02-04T18:27:28Z,,534.78,2,3,1,108,1,4,2
+microsoft/TypeScript,62981,Deprecate `--outFile`,MERGED,2026-01-13T00:48:34Z,2026-01-13T20:50:53Z,2026-01-13T20:50:53Z,20.04,534,12302,3255,12,3,6,4
+microsoft/TypeScript,62979,Fix duplicate JSDoc @typedef and @callback comments in declaration emit,CLOSED,2026-01-12T23:22:47Z,2026-03-24T21:23:19Z,,1702.01,23,15,190,377,1,3,2
+microsoft/TypeScript,62978,Fix #25083: Allow bracket notation for enum keys in computed properties,CLOSED,2026-01-12T20:02:26Z,2026-03-24T21:23:18Z,,1705.35,5,54708,53955,586,1,3,1
+microsoft/TypeScript,62971,add `collation` to `Intl.CollatorOptions`,MERGED,2026-01-10T00:45:20Z,2026-02-06T19:33:24Z,2026-02-06T19:33:24Z,666.8,1,1,1,12,3,5,3
+microsoft/TypeScript,62969,Remove unnecessary type assertions,CLOSED,2026-01-09T22:05:29Z,2026-01-13T20:45:13Z,,94.66,27,83,87,269,1,5,4
+microsoft/TypeScript,62968,[wontfix] fix(checker): Allow element access expressions in computed property names if argument is literal ,CLOSED,2026-01-09T22:01:36Z,2026-03-24T21:23:18Z,,1775.36,40,932,205,1105,2,3,1
+microsoft/TypeScript,62958,Test updates for strict initialization,MERGED,2026-01-07T00:24:12Z,2026-01-09T23:57:49Z,2026-01-09T23:57:49Z,71.56,2295,20290,21417,425,5,7,6
+microsoft/TypeScript,62950,Ignore computed name parents when looking up containing functions,CLOSED,2026-01-04T11:03:48Z,2026-03-24T21:23:17Z,,1906.32,24,1216,11,12,2,3,1
+microsoft/TypeScript,62947,"Update Apache License to version 2.0, January 2026",CLOSED,2026-01-03T23:27:47Z,2026-01-04T01:01:59Z,,1.57,1,2,1,96,1,3,2
+microsoft/TypeScript,62942,Bump qs from 6.14.0 to 6.14.1,CLOSED,2026-01-01T19:20:22Z,2026-02-14T10:07:28Z,,1046.79,1,7,7,2543,2,2,1
+microsoft/TypeScript,62935,Fix JSDoc @type completion inside function argument,CLOSED,2025-12-31T11:04:42Z,2026-03-24T21:23:16Z,,2002.31,3,460,1,4531,5,3,2
+microsoft/TypeScript,62931,Fix type parameter leak when using 'this' in reverse mapped types,CLOSED,2025-12-28T06:19:44Z,2026-03-24T21:23:14Z,,2079.06,5,396,0,1149,1,3,2
+microsoft/TypeScript,62928,Fix crash in mixin checking,MERGED,2025-12-26T03:18:28Z,2025-12-26T23:25:58Z,2025-12-26T23:25:58Z,20.12,9,291,20,145,2,5,0
+microsoft/TypeScript,62927,Fixed mapped type modifier propagation when remapping multiple keys to same property,CLOSED,2025-12-25T09:02:13Z,2026-03-24T21:23:14Z,,2148.35,6,470,0,12,1,3,2
+microsoft/TypeScript,62923,Fix crash in abstract property checking,MERGED,2025-12-23T17:16:34Z,2025-12-28T21:22:42Z,2025-12-28T21:22:42Z,124.1,5,82,3,13,2,5,1
+microsoft/TypeScript,62914,Fixed crash when adding unreachable code diagnostic in situations with missing nodes,MERGED,2025-12-19T11:37:33Z,2025-12-19T13:29:32Z,2025-12-19T13:29:31Z,1.87,6,278,6,12,1,4,0
+microsoft/TypeScript,62907,Fix infinite loop in symbolWalker during extract function refactoring,CLOSED,2025-12-18T02:31:35Z,2026-03-24T21:23:11Z,,2322.86,2,65,30,2843,2,3,2
+microsoft/TypeScript,62900,Fix exhaustiveness checking for single-member enums in switch statements,CLOSED,2025-12-15T19:37:26Z,2026-03-24T21:23:09Z,,2377.76,6,782,0,6363,1,4,12
+microsoft/TypeScript,62899,Report error for function declarations as statement children in strict mode,CLOSED,2025-12-15T18:32:26Z,2026-03-24T21:23:08Z,,2378.84,8,364,1,1352,1,3,5
+microsoft/TypeScript,62897,Bump the github-actions group with 4 updates,MERGED,2025-12-15T00:07:10Z,2025-12-15T17:17:25Z,2025-12-15T17:17:25Z,17.17,4,10,10,12651,1,3,0
+FortAwesome/Font-Awesome,21525,docs: fix typos in documentation,CLOSED,2026-03-30T20:39:35Z,2026-03-31T07:41:17Z,,11.03,29,114,114,79,1,2,1
+FortAwesome/Font-Awesome,20877,Fixing the request templates (md → yml),MERGED,2025-12-02T17:43:48Z,2025-12-02T19:22:41Z,2025-12-02T19:22:41Z,1.65,7,135,130,33,2,2,0
+FortAwesome/Font-Awesome,20726,Fix README Upgrading link,MERGED,2025-07-24T09:24:50Z,2025-07-24T14:27:19Z,2025-07-24T14:27:19Z,5.04,1,2,2,218,1,2,1
+FortAwesome/Font-Awesome,20557,Fix typescript typing for `parse.icon`,CLOSED,2025-02-08T18:12:23Z,2025-08-02T07:38:34Z,,4189.44,1,1,1,269,1,6,5
+FortAwesome/Font-Awesome,20503,Release 6.7.2,MERGED,2024-12-16T17:26:05Z,2024-12-16T21:31:58Z,2024-12-16T21:31:58Z,4.1,4261,15857,23652,0,2,4,0
+FortAwesome/Font-Awesome,20295,Release 6.6.0,MERGED,2024-07-15T16:32:22Z,2024-07-16T17:13:31Z,2024-07-16T17:13:31Z,24.69,5579,87418,76050,0,1,4,1
+FortAwesome/Font-Awesome,20275,Updating Icon Request Template,MERGED,2024-07-01T14:44:18Z,2024-07-02T17:01:50Z,2024-07-02T17:01:50Z,26.29,1,46,22,100,2,3,0
+FortAwesome/Font-Awesome,20028,Update contributing guidelines,MERGED,2023-11-30T08:35:09Z,2023-12-15T20:33:40Z,2023-12-15T20:33:40Z,371.98,1,7,9,310,1,2,1
+FortAwesome/Font-Awesome,19848,Change isNaN to Number.isNaN,CLOSED,2023-08-03T08:47:56Z,2025-10-23T14:37:42Z,,19493.83,11,11,11,403,3,6,3
+FortAwesome/Font-Awesome,19578,fix: #19577 - remove postinstall script,CLOSED,2023-02-24T11:00:59Z,2024-07-21T09:54:56Z,,12310.9,12,9,51,218,2,4,1
+FortAwesome/Font-Awesome,19544,Fix #19423 by defaulting to 0 instead of none,CLOSED,2023-02-02T21:58:16Z,2024-05-20T16:23:37Z,,11346.42,2,2,2,304,2,5,1
+FortAwesome/Font-Awesome,19467,Typo fixed,MERGED,2022-12-09T07:56:23Z,2022-12-14T13:13:44Z,2022-12-14T13:13:44Z,125.29,1,1,1,250,1,2,0
+FortAwesome/Font-Awesome,19460,Add workaround for PostCSS parse error,CLOSED,2022-12-04T09:42:07Z,2024-05-17T20:57:31Z,,12731.26,1,1,1,387,2,3,2
+FortAwesome/Font-Awesome,19117,[5.x] Fix breaking change slash as division in Dart Sass 2.0.0,CLOSED,2022-06-10T14:41:24Z,2024-07-31T15:00:41Z,,18768.32,3,10,4,397,6,7,3
+FortAwesome/Font-Awesome,19011,Add Issue Forms,MERGED,2022-05-06T15:16:38Z,2022-05-20T14:22:27Z,2022-05-20T14:22:27Z,335.1,7,247,0,629,2,3,3
+FortAwesome/Font-Awesome,18907,Update README.md,MERGED,2022-04-13T18:46:59Z,2022-04-13T21:52:48Z,2022-04-13T21:52:48Z,3.1,1,1,1,24,1,2,0
+FortAwesome/Font-Awesome,18789,Add missing t-shirt sizes to SizeProp type,CLOSED,2022-03-07T20:40:13Z,2022-09-02T20:56:06Z,,4296.26,1,4,1,12,3,6,7
+FortAwesome/Font-Awesome,18737,Fix undefined operation from fa-divide in sass variable,CLOSED,2022-02-22T11:52:30Z,2022-02-23T10:39:57Z,,22.79,1,2,0,47,1,4,4
+FortAwesome/Font-Awesome,18704,Fix links pointing to the staging environment,MERGED,2022-02-15T22:13:44Z,2022-02-18T14:53:43Z,2022-02-18T14:53:43Z,64.67,3,5,5,131,2,2,0
+FortAwesome/Font-Awesome,18665,Thumbtack.js export name regression v5 -> v6,CLOSED,2022-02-09T11:56:23Z,2022-02-28T12:18:09Z,,456.36,1,2,2,650,1,2,1
+FortAwesome/Font-Awesome,18659,Hint people to use GitHub's TODO list feature properly,CLOSED,2022-02-08T16:04:34Z,2022-07-21T07:51:33Z,,3903.78,4,5,2,218,1,3,2
+FortAwesome/Font-Awesome,18402,"Fixed slash as a division SASS [Fixed in FA6 - our fix does not break libsass - Will be fixed in FA5 (No ETA, sorry)]",CLOSED,2021-10-30T12:17:04Z,2022-02-09T19:01:09Z,,2454.73,6,16,8,262,5,6,13
+FortAwesome/Font-Awesome,17345,solving minor grammatical mistakes,CLOSED,2020-11-01T13:59:04Z,2023-05-19T20:36:23Z,,22302.62,1,3,3,273,2,3,1
+FortAwesome/Font-Awesome,17286,Update README.md,CLOSED,2020-10-17T08:40:27Z,2022-03-07T16:07:23Z,,12151.45,1,4,4,267,4,5,1
+FortAwesome/Font-Awesome,15274,Updating Team Listing with New Members,MERGED,2019-07-18T15:11:11Z,2019-07-23T23:27:08Z,2019-07-23T23:27:08Z,128.27,1,4,1,101,1,2,0
+FortAwesome/Font-Awesome,14995,HTTPS relevant links,MERGED,2019-05-08T06:00:05Z,2019-05-17T19:30:44Z,2019-05-17T19:30:44Z,229.51,1,2,2,218,1,3,2
+FortAwesome/Font-Awesome,14921,New banner and home cta,MERGED,2019-04-18T15:58:57Z,2019-04-18T17:07:26Z,2019-04-18T17:07:26Z,1.14,8,96,17,218,1,2,0
+FortAwesome/Font-Awesome,13431,Updating README,MERGED,2018-06-26T16:39:24Z,2018-06-28T01:02:11Z,2018-06-28T01:02:11Z,32.38,1,31,15,0,1,2,0
+FortAwesome/Font-Awesome,13055,Fix typo in README,MERGED,2018-05-07T08:11:20Z,2018-11-16T22:44:14Z,2018-11-16T22:44:14Z,4646.55,1,1,1,218,1,3,2
+FortAwesome/Font-Awesome,13007,Fix library.add() typos,MERGED,2018-05-02T22:56:41Z,2018-05-03T11:41:40Z,2018-05-03T11:41:40Z,12.75,1,3,2,0,1,3,1
+FortAwesome/Font-Awesome,12760,Add 5.1 instructions,MERGED,2018-04-02T22:06:01Z,2018-04-11T03:11:56Z,2018-04-11T03:11:56Z,197.1,1,108,0,0,3,2,0
+FortAwesome/Font-Awesome,11824,Update icons.yml,MERGED,2017-12-01T21:36:48Z,2017-12-02T00:16:37Z,2017-12-02T00:16:37Z,2.66,1,2,1,92,4,3,1
+FortAwesome/Font-Awesome,11243,SASS -> Sass,CLOSED,2017-06-30T10:54:26Z,2018-01-31T23:12:49Z,,5172.31,15,15,15,37,1,4,4
+FortAwesome/Font-Awesome,10945,Changed http links to https,CLOSED,2017-04-13T22:05:19Z,2018-01-31T23:30:29Z,,7033.42,1,3,3,194,1,3,2
+FortAwesome/Font-Awesome,10803,Make icon names more human friendly.,CLOSED,2017-03-17T23:22:10Z,2018-01-31T23:30:14Z,,7680.13,1,123,123,229,1,3,2
+FortAwesome/Font-Awesome,10601,"Add ""castle"" filter for fort-awesome icon",CLOSED,2017-02-01T12:18:29Z,2018-01-31T23:29:50Z,,8747.19,1,2,0,76,1,3,2
+FortAwesome/Font-Awesome,10396,Fix cheatsheet print layout,MERGED,2016-12-18T18:24:28Z,2016-12-19T20:32:15Z,2016-12-19T20:32:15Z,26.13,3,8,2,308,6,3,2
+FortAwesome/Font-Awesome,8184,"Add ""no"" and ""prohibit"" filters to ban icon",CLOSED,2015-12-19T20:11:14Z,2018-01-31T23:45:42Z,,18579.57,1,2,0,98,1,3,2
+FortAwesome/Font-Awesome,7562,Allow easy use with bundlers,CLOSED,2015-09-29T07:54:18Z,2018-01-31T23:48:51Z,,20535.91,1,1,0,190,1,3,2
+openai/openai-cookbook,2650,docs(codex): update code review cookbook,MERGED,2026-04-28T17:21:48Z,2026-04-28T20:23:40Z,2026-04-28T20:23:40Z,3.03,2,200,7,553,1,3,2
+openai/openai-cookbook,2618,Add Computer Use via Agents SDK and Daytona example,MERGED,2026-04-19T18:29:25Z,2026-04-22T16:32:38Z,2026-04-22T16:32:38Z,70.05,7,1202,0,1451,1,2,2
+openai/openai-cookbook,2610,chatgpt prompt guide,MERGED,2026-04-15T06:39:27Z,2026-04-28T03:34:28Z,2026-04-28T03:34:28Z,308.92,3,568,2,1248,6,4,0
+openai/openai-cookbook,2558,[codex] Pin GitHub Actions workflow references,MERGED,2026-03-26T23:46:42Z,2026-04-08T05:13:41Z,2026-04-08T05:13:41Z,293.45,2,3,3,365,1,2,0
+openai/openai-cookbook,2530,Add free-web-search-ultimate cookbook: real-time web search with no A…,CLOSED,2026-03-18T07:01:30Z,2026-04-07T19:36:18Z,,492.58,3,195,1,1353,5,1,8
+openai/openai-cookbook,2509,Refresh How to parse PDF docs for RAG guidance,CLOSED,2026-03-11T10:46:58Z,2026-03-11T11:50:27Z,,1.06,1,179,170,3675,1,1,1
+openai/openai-cookbook,2503,Refresh How to handle rate limits guidance,CLOSED,2026-03-10T15:56:57Z,2026-03-11T11:50:22Z,,19.89,1,196,150,4426,1,1,0
+openai/openai-cookbook,2496,Add 5.4 Vision Cookbook,MERGED,2026-03-06T23:12:55Z,2026-03-07T00:46:55Z,2026-03-07T00:46:55Z,1.57,9,1004,0,0,2,3,0
+openai/openai-cookbook,2479,Move long horizon cookbook to developers blog,MERGED,2026-03-02T20:31:12Z,2026-03-04T19:53:52Z,2026-03-04T19:53:52Z,47.38,18,0,229,1404,1,2,0
+openai/openai-cookbook,2478,Tompakeman/realtime evals/results viewer,MERGED,2026-03-02T15:55:38Z,2026-03-03T18:25:56Z,2026-03-03T18:25:56Z,26.5,23,4013,7,111,2,3,3
+openai/openai-cookbook,2471,Tompakeman/realtime evals/types tooling,MERGED,2026-02-27T12:49:44Z,2026-03-02T15:55:55Z,2026-03-02T15:55:55Z,75.1,31,7632,322,1611,2,3,0
+openai/openai-cookbook,2466,docs: update Codex prompting guide to gpt-5.3-codex and refresh registry metadata,MERGED,2026-02-25T06:44:03Z,2026-02-25T21:04:30Z,2026-02-25T21:04:30Z,14.34,2,3,2,485,1,2,0
+openai/openai-cookbook,2464,Fix duplicate wording in GPT-Reatime-1.5 model description,MERGED,2026-02-25T01:36:07Z,2026-02-25T06:11:41Z,2026-02-25T06:11:41Z,4.59,1,2,0,585,1,2,0
+openai/openai-cookbook,2454,Fix Prompt Caching 201 copy edits,MERGED,2026-02-21T09:45:16Z,2026-03-03T17:10:32Z,2026-03-03T17:10:32Z,247.42,1,192,10,1406,2,4,2
+openai/openai-cookbook,2450,Agentic governance cookbook,MERGED,2026-02-18T19:45:45Z,2026-02-21T05:39:41Z,2026-02-21T05:39:41Z,57.9,16,5505,0,2436,3,2,0
+openai/openai-cookbook,2448,Codex/prompt caching 201,MERGED,2026-02-18T06:24:34Z,2026-02-18T16:35:19Z,2026-02-18T16:35:19Z,10.18,6,2565,1,3073,2,2,0
+openai/openai-cookbook,2446,feat: add persistent cognitive memory cookbook with Shodh-Memory,CLOSED,2026-02-16T16:56:05Z,2026-04-28T02:21:07Z,,1689.42,3,429,0,2069,1,1,2
+openai/openai-cookbook,2428,"Proofread, edit for clarity, and remove some things",MERGED,2026-02-10T15:28:19Z,2026-02-10T17:03:14Z,2026-02-10T17:03:14Z,1.58,1,105,99,1487,2,2,0
+openai/openai-cookbook,2427,Add Realtime Eval Harness Code section to the guide with links to ref…,MERGED,2026-02-09T18:18:45Z,2026-02-13T15:59:18Z,2026-02-13T15:59:18Z,93.68,1,13,0,23,1,2,0
+openai/openai-cookbook,2420,Enhance Realtime_eval_guide notebook with improved image formatting a…,MERGED,2026-02-04T05:21:22Z,2026-02-04T15:29:10Z,2026-02-04T15:29:10Z,10.13,3,176,40,1697,1,2,0
+openai/openai-cookbook,2408,Image Evals Cookbook,MERGED,2026-01-30T00:40:01Z,2026-02-03T21:00:33Z,2026-02-03T21:00:33Z,116.34,25,4842,0,1386,4,3,2
+openai/openai-cookbook,2402,[NEW] RL notebook for 2048 + Unsloth,CLOSED,2026-01-27T12:10:08Z,2026-04-26T02:20:01Z,,2126.16,1,6967,0,1357,2,2,3
+openai/openai-cookbook,2401,Improved image diagram,MERGED,2026-01-27T04:38:54Z,2026-01-27T15:01:52Z,2026-01-27T15:01:52Z,10.38,2,7,5,40,2,3,0
+openai/openai-cookbook,2397,Minh/realtime eval guide,MERGED,2026-01-26T14:44:04Z,2026-01-26T17:40:14Z,2026-01-26T17:40:14Z,2.94,49,3644,1,61,1,2,0
+openai/openai-cookbook,2379,Revert PRs #2377 and #2378,CLOSED,2026-01-14T11:24:37Z,2026-01-14T14:52:28Z,,3.46,2,12,6,0,1,1,0
+openai/openai-cookbook,2376,Add attribution to other contributors,MERGED,2026-01-14T08:05:24Z,2026-01-14T09:20:04Z,2026-01-14T09:20:04Z,1.24,1,19,0,1430,1,2,0
+openai/openai-cookbook,2374,codex-prompting-guide-edits,MERGED,2026-01-14T03:31:44Z,2026-01-14T05:43:05Z,2026-01-14T05:43:05Z,2.19,3,9,197,1241,3,2,0
+openai/openai-cookbook,2371,Fix codex exec plans markdown rendering,MERGED,2026-01-13T15:31:18Z,2026-01-15T12:00:22Z,2026-01-15T12:00:22Z,44.48,1,40,42,913,1,1,2
+openai/openai-cookbook,2369,Add Cerebras fact checker cookbook and metadata,MERGED,2026-01-13T10:46:59Z,2026-01-13T16:29:22Z,2026-01-13T16:29:22Z,5.71,3,1636,0,1130,1,1,0
+openai/openai-cookbook,2365,Adding slug/description fields to schema and registry,MERGED,2026-01-12T22:45:33Z,2026-01-13T00:10:28Z,2026-01-13T00:10:28Z,1.42,2,312,1,0,2,2,0
+openai/openai-cookbook,2364,Update authors.yaml,CLOSED,2026-01-12T20:07:33Z,2026-01-13T11:04:33Z,,14.95,1,5,0,1406,1,2,0
+openai/openai-cookbook,2363,Update registry.yaml,CLOSED,2026-01-12T19:52:54Z,2026-01-13T11:04:58Z,,15.2,1,13,0,1303,2,2,0
+openai/openai-cookbook,2358,Build your own content fact checker cerebras,CLOSED,2026-01-08T01:46:13Z,2026-01-13T11:05:38Z,,129.32,1,1616,0,1776,4,2,0
+openai/openai-cookbook,2357,Context Engineering for Personalization - State Management with Long-Term Memory Notes using OpenAI Agents SDK,MERGED,2026-01-08T00:26:12Z,2026-01-08T21:49:23Z,2026-01-08T21:49:23Z,21.39,2,1817,1,1425,2,2,0
+openai/openai-cookbook,2355,update authors.yaml and prompt-personality cookbook,MERGED,2026-01-07T21:36:22Z,2026-01-08T16:58:12Z,2026-01-08T16:58:12Z,19.36,2,77,78,1406,5,4,0
+openai/openai-cookbook,2353,Fix error in ‘Using vLLM for gpt-oss direct sampling’,MERGED,2026-01-07T11:32:18Z,2026-01-14T14:53:37Z,2026-01-14T14:53:37Z,171.36,1,1,1,248,1,2,0
+openai/openai-cookbook,2351,Msingh kathy lau,MERGED,2026-01-06T21:34:41Z,2026-01-07T20:16:06Z,2026-01-07T20:16:06Z,22.69,3,476,1,1348,3,3,0
+openai/openai-cookbook,2350,Update authors.yaml,CLOSED,2026-01-06T20:06:10Z,2026-01-07T19:34:08Z,,23.47,1,5,0,1406,1,2,0
+openai/openai-cookbook,2343,"EvalsAPI Images Inputs: Fix ""grading_results"" construction: it's .sample, not [""sample""]",MERGED,2026-01-02T22:34:29Z,2026-02-11T17:45:48Z,2026-02-11T17:45:48Z,955.19,1,22,13,1231,1,2,0
+openai/openai-cookbook,2339,Fix minor typos and improve registry comment clarity,CLOSED,2026-01-02T16:21:04Z,2026-01-30T13:17:35Z,,668.94,1,5,4,519,1,1,0
+openai/openai-cookbook,2338,Create wheather using js,CLOSED,2026-01-02T15:05:16Z,2026-03-17T02:18:05Z,,1763.21,1,100,0,1406,1,1,2
+openai/openai-cookbook,2334,docs: fix GPT-OSS vLLM install by removing expired PyTorch nightly,CLOSED,2026-01-01T11:16:04Z,2026-03-17T02:18:06Z,,1791.03,1,20,7,1123,2,1,2
+openai/openai-cookbook,2319,Create  kristentr/github/workflow/build-website.yaqml,CLOSED,2025-12-23T04:28:05Z,2026-03-13T02:18:23Z,,1917.84,1,0,0,1430,1,1,2
+openai/openai-cookbook,2315,Switch codex mcp -> codex mcp-server,MERGED,2025-12-22T06:35:37Z,2025-12-22T17:05:06Z,2025-12-22T17:05:06Z,10.49,1,7,7,189,2,4,1
+openai/openai-cookbook,2313,Fix typo in Codex CLI invocation,CLOSED,2025-12-21T23:15:31Z,2025-12-22T17:07:58Z,,17.87,1,1,1,198,1,2,2
+openai/openai-cookbook,2307,Add mention of GPT 5.2 Codex.,MERGED,2025-12-19T12:19:31Z,2025-12-19T13:20:28Z,2025-12-19T13:20:28Z,1.02,3,7,3,42,1,2,0
+openai/openai-cookbook,2292,Add Advanced Realtime API Agent Example (Tool Use + Interruptions),CLOSED,2025-12-15T11:21:32Z,2026-02-24T02:18:35Z,,1694.95,1,252,0,641,1,1,2
+openai/openai-cookbook,2290,Move web research prompt guidance to appendix,MERGED,2025-12-12T03:02:41Z,2025-12-12T17:10:06Z,2025-12-12T17:10:06Z,14.12,1,19,11,1404,1,2,0
+openai/openai-cookbook,2289,Update web search prompt guidance in GPT-5.2 prompting guide,MERGED,2025-12-12T00:27:37Z,2025-12-12T01:31:40Z,2025-12-12T01:31:40Z,1.07,1,98,37,1157,1,2,0
+openai/openai-cookbook,2284,docs: update README (fixes #2119) ,CLOSED,2025-12-11T15:41:06Z,2026-01-03T17:51:04Z,,554.17,1,107,12,3833,2,1,0
+openai/openai-cookbook,2283,Add docs for the Compliance API Logs Platform,MERGED,2025-12-10T22:40:32Z,2025-12-11T18:06:51Z,2025-12-11T18:06:51Z,19.44,3,427,1,1284,1,2,0
+openai/openai-cookbook,2264,Feature/gpt action snowflake cortex analyst,CLOSED,2025-12-01T00:03:29Z,2026-02-09T02:18:54Z,,1682.26,3,594,0,1403,1,1,2
+openai/openai-cookbook,2261,docs: add prisma postgres example,CLOSED,2025-11-28T00:42:24Z,2026-02-06T02:17:58Z,,1681.59,4,527,0,1483,1,1,2
+openai/openai-cookbook,2259,Fix: nbviewer does not render notebooks without any code cells correctly,MERGED,2025-11-25T23:59:53Z,2025-12-02T15:04:05Z,2025-12-02T15:04:05Z,159.07,6,23,6,1266,2,2,0
+openai/openai-cookbook,2258,Minh/feedback correction,MERGED,2025-11-25T19:29:32Z,2025-12-01T18:52:00Z,2025-12-01T18:52:00Z,143.37,1,1374,79,32,8,3,1
+openai/openai-cookbook,2251,Add gitlab example,MERGED,2025-11-20T06:40:35Z,2025-12-04T06:39:18Z,2025-12-04T06:39:18Z,335.98,1,264,0,268,5,2,0
+openai/openai-cookbook,2250,Minh/out of band transcription,MERGED,2025-11-20T05:22:00Z,2025-11-20T23:37:17Z,2025-11-20T23:37:17Z,18.25,4,1060,0,131,3,3,2
+openai/openai-cookbook,2243,Fix comma in vllm sample code,CLOSED,2025-11-17T13:38:11Z,2026-01-27T02:17:03Z,,1692.65,1,2,2,332,1,2,4
+openai/openai-cookbook,2241,tiktoken/core.py,CLOSED,2025-11-16T13:17:09Z,2026-01-26T02:17:03Z,,1693.0,1,1,814,1406,1,1,2
+openai/openai-cookbook,2234,minor issues on model selection,MERGED,2025-11-12T16:24:49Z,2025-11-13T10:28:13Z,2025-11-13T10:28:13Z,18.06,1,1,1,1428,2,3,0
+openai/openai-cookbook,2228,拉取標誌,CLOSED,2025-11-10T15:58:57Z,2025-11-15T15:12:02Z,,119.22,1,0,0,1406,2,2,0
+openai/openai-cookbook,2225,Update cookbook wording,MERGED,2025-11-05T19:32:33Z,2025-12-03T17:54:46Z,2025-12-03T17:54:46Z,670.37,2,2,1,28,2,2,1
+openai/openai-cookbook,2223,Fix typo on code-review cookbook and adjust AGENTS.md,MERGED,2025-11-05T16:48:21Z,2025-11-05T18:22:25Z,2025-11-05T18:22:25Z,1.57,2,34,10,191,2,3,0
+openai/openai-cookbook,2220,autonomous agent retraining cookbook v1,MERGED,2025-11-04T01:38:01Z,2025-11-07T23:47:54Z,2025-11-07T23:47:54Z,94.16,19,2199,11,1882,2,5,0
+openai/openai-cookbook,2211,Enrich tag data,CLOSED,2025-10-28T21:30:55Z,2026-01-11T02:17:01Z,,1780.77,1,34,22,549,1,2,2
+openai/openai-cookbook,2205,Fix type and add additional sections on prompt and structured outputs,MERGED,2025-10-24T05:39:44Z,2025-10-28T23:52:56Z,2025-10-28T23:52:56Z,114.22,1,44,10,99,1,2,0
+openai/openai-cookbook,2204,sudo su && Update README.md to include 'sudo su' command,CLOSED,2025-10-23T16:37:34Z,2025-10-23T19:13:42Z,,2.6,1,1,1,7300,1,2,2
+openai/openai-cookbook,2201,Build code review with codex sdk,MERGED,2025-10-22T04:55:08Z,2025-10-23T21:00:57Z,2025-10-23T21:00:57Z,40.1,3,628,0,1590,2,2,0
+openai/openai-cookbook,2200,Fix typo in Codex execution plans documentation,MERGED,2025-10-21T15:16:34Z,2025-10-23T19:14:37Z,2025-10-23T19:14:37Z,51.97,1,1,1,62,1,2,1
+openai/openai-cookbook,2199,Fix outdated link in libraries.txt for JuliaML,MERGED,2025-10-21T02:37:13Z,2025-10-24T14:45:26Z,2025-10-24T14:45:25Z,84.14,1,1,1,163,1,2,0
+openai/openai-cookbook,2198,Bump vite from 6.3.5 to 6.4.1 in /examples/mcp/building-a-supply-chain-copilot-with-agent-sdk-and-databricks-mcp/ui,CLOSED,2025-10-21T01:50:52Z,2026-03-31T02:18:41Z,,3864.46,2,5,5,4275,1,2,5
+openai/openai-cookbook,2197,Add AgentKit walkthrough cookbook,MERGED,2025-10-16T21:11:42Z,2025-10-20T15:53:05Z,2025-10-20T15:53:05Z,90.69,3,457,0,1470,1,2,1
+openai/openai-cookbook,2196,Wrap codex exec plans article at 100 characters,CLOSED,2025-10-14T23:10:03Z,2025-12-27T02:15:42Z,,1755.09,1,183,57,335,1,1,2
+openai/openai-cookbook,2192,fix typo,CLOSED,2025-10-14T02:12:46Z,2025-12-23T09:40:10Z,,1687.46,1,2,2,38,3,2,2
+openai/openai-cookbook,2190,byo realtime cookbook,MERGED,2025-10-11T08:33:45Z,2025-10-14T17:01:24Z,2025-10-14T17:01:24Z,80.46,4,515,0,1595,1,2,0
+openai/openai-cookbook,2188,Create SECURITY.md,CLOSED,2025-10-10T14:37:14Z,2025-10-12T04:57:19Z,,38.33,1,21,0,1406,2,2,1
+openai/openai-cookbook,2186,Enhance Realtime prompting guide with additional context on common tools,MERGED,2025-10-09T14:15:19Z,2025-10-09T16:37:35Z,2025-10-09T16:37:35Z,2.37,2,7,2,1406,1,3,1
+openai/openai-cookbook,2185,Document PLANS.md,MERGED,2025-10-08T18:13:10Z,2025-10-14T17:26:22Z,2025-10-14T17:26:22Z,143.22,3,195,0,1529,7,5,5
+openai/openai-cookbook,2182,Update avatar and website url for my authors.yaml entry.,MERGED,2025-10-07T18:09:39Z,2025-10-08T19:03:38Z,2025-10-08T19:03:38Z,24.9,1,2,2,0,1,2,0
+openai/openai-cookbook,2175,Fix avatar URL,CLOSED,2025-10-03T18:49:41Z,2025-12-15T02:16:25Z,,1735.45,1,1,1,29,1,2,2
+openai/openai-cookbook,2174,Refactor to use github action,MERGED,2025-10-03T10:31:58Z,2025-10-03T19:39:29Z,2025-10-03T19:39:29Z,9.13,3,16,40,57,1,2,0
+openai/openai-cookbook,2173,Fix images and give myself author credit,MERGED,2025-10-03T08:51:03Z,2025-10-03T16:11:17Z,2025-10-03T16:11:17Z,7.34,3,9,5,61,1,2,0
+openai/openai-cookbook,2170,Update authors.yaml,MERGED,2025-09-30T20:31:32Z,2025-09-30T22:06:04Z,2025-09-30T22:06:04Z,1.58,9,10,8,1494,1,2,0
+openai/openai-cookbook,2165,Agent SDK + Codex MCP,MERGED,2025-09-29T16:37:06Z,2025-10-02T15:40:48Z,2025-10-02T15:40:48Z,71.06,8,717,1,1443,1,2,0
+openai/openai-cookbook,2164,Compile all prompting-related example notebooks into a single directory,CLOSED,2025-09-27T04:00:05Z,2025-11-02T09:57:25Z,,869.96,184,1421,67,1566,1,8,0
+openai/openai-cookbook,2163,Rewrite the Cookbook introduction to make it more accessible,CLOSED,2025-09-27T03:17:28Z,2025-11-02T09:57:24Z,,870.67,4,203,170,2507,1,2,0
+openai/openai-cookbook,2156,Update RFT cookbook to work with latest OpenAI APIs,MERGED,2025-09-23T08:50:14Z,2025-09-25T10:53:09Z,2025-09-25T10:53:09Z,50.05,1,692,587,166,1,2,0
+openai/openai-cookbook,2155,Codex-cli auto-fix with Actions integrations,MERGED,2025-09-23T04:59:23Z,2025-09-24T19:51:39Z,2025-09-24T19:51:39Z,38.87,9,268,0,1957,4,2,0
+openai/openai-cookbook,2152,Organize prompting-related articles into unified prompting directory,CLOSED,2025-09-18T03:48:11Z,2025-09-26T09:45:17Z,,197.95,164,75,17,2750,1,3,0
+openai/openai-cookbook,2151,"Convert ""run-transformers"" GPT-OSS markdown article into an interactive notebook",CLOSED,2025-09-18T00:24:20Z,2025-09-26T09:45:16Z,,201.35,2,647,271,1930,1,2,0
+openai/openai-cookbook,2149,fix: fix title and adjusting wording to meta prompting section of GPT-5 Troubleshooting Cookbook,MERGED,2025-09-17T18:30:57Z,2025-09-17T19:59:06Z,2025-09-17T19:59:06Z,1.47,2,4,4,58,1,2,1
+openai/openai-cookbook,2143,Replace Intro Article,CLOSED,2025-09-16T04:37:03Z,2025-09-26T09:45:13Z,,245.14,178,1503,1608,2754,2,4,1
+openai/openai-cookbook,2141,Minh/formatting,MERGED,2025-09-14T20:49:57Z,2025-09-14T23:00:52Z,2025-09-14T23:00:52Z,2.18,2,22,52,39,1,2,0
+openai/openai-cookbook,2132,Consolidate prompting cookbook into examples/prompting and add comprehensive README,CLOSED,2025-09-12T02:34:03Z,2025-09-17T23:36:20Z,,141.04,0,0,0,1307,1,2,0
+openai/openai-cookbook,2129,Consolidate All LLM Prompting Examples into Single Folder,CLOSED,2025-09-11T06:09:28Z,2025-09-12T01:37:21Z,,19.46,163,102,0,2534,1,2,0
+openai/openai-cookbook,2125,Add automated RSS feed generation,CLOSED,2025-09-09T05:33:53Z,2025-09-26T07:39:35Z,,410.1,4,225,0,2815,2,3,0
+openai/openai-cookbook,2123,New cookbook: Context Engineering - Short-Term Memory Management with Sessions from OpenAI Agents SDK,MERGED,2025-09-08T17:05:29Z,2025-09-10T21:07:35Z,2025-09-10T21:07:35Z,52.03,6,1426,0,2429,1,3,3
+openai/openai-cookbook,2122,Update image understanding cookbook to use gpt-5,MERGED,2025-09-08T15:29:19Z,2025-09-08T17:04:19Z,2025-09-08T17:04:19Z,1.58,1,257,42,155,1,2,0
+openai/openai-cookbook,2121,Cookbook Introduction rewritten for relevance and more user-friendly experience.,CLOSED,2025-09-08T07:23:58Z,2025-09-11T05:43:41Z,,70.33,8,673,168,1406,2,3,0
+openai/openai-cookbook,2110,add ripgrep to codex+gitlab cookbook,CLOSED,2025-09-03T11:24:36Z,2025-11-22T02:08:44Z,,1910.74,1,284,230,67,4,3,6
