@@ -16906,3 +16906,203 @@ openai/openai-cookbook,2123,New cookbook: Context Engineering - Short-Term Memor
 openai/openai-cookbook,2122,Update image understanding cookbook to use gpt-5,MERGED,2025-09-08T15:29:19Z,2025-09-08T17:04:19Z,2025-09-08T17:04:19Z,1.58,1,257,42,155,1,2,0
 openai/openai-cookbook,2121,Cookbook Introduction rewritten for relevance and more user-friendly experience.,CLOSED,2025-09-08T07:23:58Z,2025-09-11T05:43:41Z,,70.33,8,673,168,1406,2,3,0
 openai/openai-cookbook,2110,add ripgrep to codex+gitlab cookbook,CLOSED,2025-09-03T11:24:36Z,2025-11-22T02:08:44Z,,1910.74,1,284,230,67,4,3,6
+microsoft/Web-Dev-For-Beginners,1795,fix: replace broken flexbox-vs-grid link with MDN reference,MERGED,2026-04-22T01:38:23Z,2026-04-24T11:27:55Z,2026-04-24T11:27:55Z,57.83,1,1,1,149,1,3,0
+microsoft/Web-Dev-For-Beginners,1792,fix: remove unsafe eval() in server.js,CLOSED,2026-04-20T07:33:34Z,2026-04-24T13:09:27Z,,101.6,2,82,12,819,1,3,1
+microsoft/Web-Dev-For-Beginners,1776,Fix grammar and improve readability in README,MERGED,2026-03-29T09:18:46Z,2026-04-20T16:08:17Z,2026-04-20T16:08:17Z,534.83,1,2,2,198,1,3,0
+microsoft/Web-Dev-For-Beginners,1770,Fix broken links and improve lesson template structure and readability,MERGED,2026-03-24T10:47:21Z,2026-04-20T16:09:12Z,2026-04-20T16:09:12Z,653.36,1,36,15,620,1,2,1
+microsoft/Web-Dev-For-Beginners,1748,fix: update dead Windows commands documentation link,MERGED,2026-03-04T18:56:33Z,2026-03-06T10:36:05Z,2026-03-06T10:36:05Z,39.66,1,1,1,179,1,2,0
+microsoft/Web-Dev-For-Beginners,1746,Fix broken links in intro to programming languages lesson,MERGED,2026-03-03T12:50:54Z,2026-03-06T10:33:28Z,2026-03-06T10:33:28Z,69.71,1,2,2,172,1,2,0
+microsoft/Web-Dev-For-Beginners,1676,chore: Update outdated GitHub Actions versions,CLOSED,2026-01-23T09:04:03Z,2026-02-06T14:11:00Z,,341.12,3,41,41,618,1,3,1
+microsoft/Web-Dev-For-Beginners,1657,feat: add multiplayer memory game functionality with UI improvements,CLOSED,2025-12-10T16:47:12Z,2026-01-05T14:52:48Z,,622.09,12,2934,118,2995,2,3,2
+microsoft/Web-Dev-For-Beginners,1656,Memory-Game,CLOSED,2025-12-10T13:08:22Z,2026-04-20T16:10:41Z,,3147.04,7,3990,3257,280,1,2,7
+microsoft/Web-Dev-For-Beginners,1649,Bump js-yaml from 4.1.0 to 4.1.1 in /quiz-app,MERGED,2025-11-25T21:39:10Z,2025-12-05T15:05:59Z,2025-12-05T15:05:59Z,233.45,1,9,3,1965,1,1,0
+microsoft/Web-Dev-For-Beginners,1641,Bump js-yaml from 3.14.1 to 3.14.2,MERGED,2025-11-24T18:44:56Z,2025-12-05T15:04:36Z,2025-12-05T15:04:36Z,260.33,1,7,8,3853,1,1,0
+microsoft/Web-Dev-For-Beginners,1623,Repeated Paragraph,MERGED,2025-11-18T00:57:15Z,2025-11-18T18:35:16Z,2025-11-18T18:35:16Z,17.63,1,0,2,543,1,2,0
+microsoft/Web-Dev-For-Beginners,1594,Fix calculateColor function declaration in browser-extension,CLOSED,2025-11-02T11:01:07Z,2026-02-06T13:48:57Z,,2306.8,2,2,2,485,1,5,3
+microsoft/Web-Dev-For-Beginners,1589,docs(README): fix broken Azure deploy link and improve instructions ...Docs/readme badge fix,MERGED,2025-10-30T17:00:24Z,2025-12-19T10:26:35Z,2025-12-19T10:26:35Z,1193.44,1,7,27,94,1,2,2
+microsoft/Web-Dev-For-Beginners,1586,Fix link to new AI Assistant project in README :Fix: broken README link to AI Assistant project (09→9),MERGED,2025-10-30T09:53:29Z,2025-12-19T10:31:32Z,2025-12-19T10:31:31Z,1200.63,1,1,1,695,2,3,0
+microsoft/Web-Dev-For-Beginners,1585,pedagogy refurbish,MERGED,2025-10-29T12:53:11Z,2025-10-30T20:13:48Z,2025-10-30T20:13:48Z,31.34,28,7650,17,465,3,2,0
+microsoft/Web-Dev-For-Beginners,1579,fix: convert calculateColor to arrow function,CLOSED,2025-10-24T19:57:16Z,2026-02-06T14:00:11Z,,2514.05,1,1,1,164,1,3,0
+microsoft/Web-Dev-For-Beginners,1566,"feat(bank-project): Add Dark Mode, Custom Scrollbar, and Fix Transaction Rendering",CLOSED,2025-10-22T09:59:41Z,2026-02-06T14:02:23Z,,2572.05,3,488,824,1841,1,3,1
+microsoft/Web-Dev-For-Beginners,1536,Updated Package.json description and keywords,CLOSED,2025-10-05T15:59:07Z,2026-02-06T14:06:59Z,,2974.13,1,3,2,297,1,3,1
+microsoft/Web-Dev-For-Beginners,1520,Update README.md,MERGED,2025-10-01T09:22:22Z,2025-10-03T08:07:05Z,2025-10-03T08:07:05Z,46.75,1,2,2,440,1,2,0
+microsoft/Web-Dev-For-Beginners,1516,"Upgraded typing game, chat backend, and main index files",MERGED,2025-09-22T10:59:47Z,2025-10-03T08:08:57Z,2025-10-03T08:08:57Z,261.15,24,3211,1205,414,3,3,1
+microsoft/Web-Dev-For-Beginners,1513,Included more robust client side validation,CLOSED,2025-09-21T02:45:01Z,2025-12-13T04:03:23Z,,1993.31,1,22,13,1144,2,3,6
+microsoft/Web-Dev-For-Beginners,1512,Fixing function ilustration,CLOSED,2025-09-15T16:18:58Z,2025-10-03T08:14:41Z,,423.93,1,0,0,161,1,2,1
+microsoft/Web-Dev-For-Beginners,1505,"docs: AI project, with framework",MERGED,2025-09-01T16:58:37Z,2025-10-11T14:17:05Z,2025-10-11T14:17:05Z,957.31,5,464,0,414,3,3,0
+microsoft/Web-Dev-For-Beginners,1500,Memory game,MERGED,2025-08-30T04:03:23Z,2025-10-03T11:50:00Z,2025-10-03T11:49:59Z,823.78,18,6481,0,1209,25,3,5
+microsoft/Web-Dev-For-Beginners,1457,Fix HTML validation error in accessibility lesson,MERGED,2025-08-13T10:35:23Z,2025-08-28T22:25:05Z,2025-08-28T22:25:05Z,371.83,1,1,1,635,1,2,0
+microsoft/Web-Dev-For-Beginners,1456,Fix missing alt text for accessibility compliance,CLOSED,2025-08-13T10:26:56Z,2025-10-03T08:16:05Z,,1221.82,5,5,5,742,2,4,3
+microsoft/Web-Dev-For-Beginners,1448,Add Generative AI with Java course to README,MERGED,2025-08-07T09:07:58Z,2025-08-07T12:14:26Z,2025-08-07T12:14:26Z,3.11,1,1,0,518,1,2,0
+microsoft/Web-Dev-For-Beginners,1443,Bump form-data from 4.0.0 to 4.0.4 in /5-browser-extension/start,MERGED,2025-07-21T23:17:41Z,2025-08-20T16:09:39Z,2025-08-20T16:09:39Z,712.87,1,182,7,4283,1,1,0
+microsoft/Web-Dev-For-Beginners,1437,Fix: Removed broken API request from 7.bank solution (Fixes #1384),MERGED,2025-07-06T04:40:30Z,2025-08-29T23:21:38Z,2025-08-29T23:21:38Z,1314.69,2,72,19,402,2,3,1
+microsoft/Web-Dev-For-Beginners,1425,docs: add links to other language versions of README,CLOSED,2025-06-12T03:21:47Z,2025-08-29T23:23:15Z,,1892.02,1,10,0,578,1,3,2
+microsoft/Web-Dev-For-Beginners,1406,Improve Flexbox lesson with real-world example,CLOSED,2025-05-17T12:35:20Z,2025-08-29T23:25:44Z,,2506.84,1,68,0,32,3,6,3
+microsoft/Web-Dev-For-Beginners,1398,Update index.css,CLOSED,2025-04-21T16:44:33Z,2026-02-06T14:07:36Z,,6981.38,1,4,0,434,3,5,3
+microsoft/Web-Dev-For-Beginners,1394,Update assignment.md,CLOSED,2025-04-07T06:24:42Z,2025-08-29T23:28:14Z,,3473.06,1,46,1,414,1,5,4
+microsoft/Web-Dev-For-Beginners,1392,Fix issue #1391 with displaying browser extension icon,MERGED,2025-04-02T00:57:08Z,2025-10-03T12:10:44Z,2025-10-03T12:10:44Z,4427.23,2,4,4,431,1,4,4
+microsoft/Web-Dev-For-Beginners,1379,Create index.html,CLOSED,2025-03-21T08:42:35Z,2026-02-06T13:57:45Z,,7733.25,1,100,0,414,3,4,4
+microsoft/Web-Dev-For-Beginners,1372,docs: announce gen ai javascript,MERGED,2025-03-07T16:29:46Z,2025-03-10T20:27:28Z,2025-03-10T20:27:28Z,75.96,3,21,6,390,17,4,0
+microsoft/Web-Dev-For-Beginners,1371,docs: Update README.md,CLOSED,2025-03-07T16:26:04Z,2025-10-03T12:09:23Z,,5035.72,1,1,1,414,1,2,1
+microsoft/Web-Dev-For-Beginners,1365,Update README.md,MERGED,2025-02-19T12:56:42Z,2025-03-01T13:45:27Z,2025-03-01T13:45:27Z,240.81,1,12,12,82,2,3,1
+microsoft/Web-Dev-For-Beginners,1364,Added Footer Feature,CLOSED,2025-02-16T16:51:08Z,2025-10-03T09:03:43Z,,5488.21,1,8,0,353,1,3,1
+microsoft/Web-Dev-For-Beginners,1362,fixed a typo in README.md,MERGED,2025-02-12T19:03:42Z,2025-10-03T13:23:33Z,2025-10-03T13:23:33Z,5586.33,1,1,1,414,2,3,2
+microsoft/Web-Dev-For-Beginners,1360,Add Details on Setting Upstream Branch and Branch Switching Alternatives,MERGED,2025-01-24T10:34:32Z,2025-10-03T13:32:26Z,2025-10-03T13:32:26Z,6050.97,1,6,2,582,4,3,4
+microsoft/Web-Dev-For-Beginners,1349,Bump cookie and express in /7-bank-project/api,MERGED,2024-10-19T21:06:09Z,2025-05-29T15:57:34Z,2025-05-29T15:57:34Z,5322.86,2,209,41,7139,1,1,3
+microsoft/Web-Dev-For-Beginners,1342,Bump rollup from 4.21.1 to 4.22.4 in /quiz-app,MERGED,2024-09-24T04:25:06Z,2025-05-29T15:58:20Z,2025-05-29T15:58:20Z,5939.55,1,69,69,4075,1,1,1
+microsoft/Web-Dev-For-Beginners,1339,Bump send and express in /7-bank-project/api,MERGED,2024-09-18T04:15:42Z,2025-05-29T16:01:52Z,2025-05-29T16:01:52Z,6083.77,0,0,0,7031,1,1,2
+microsoft/Web-Dev-For-Beginners,1337,Bump body-parser and express in /7-bank-project/api,MERGED,2024-09-17T01:37:05Z,2025-05-29T16:21:32Z,2025-05-29T16:21:32Z,6110.74,2,32,67,8706,1,1,2
+microsoft/Web-Dev-For-Beginners,1335,Bump serve-static from 1.14.1 to 1.16.2,MERGED,2024-09-13T07:59:23Z,2025-05-29T16:22:15Z,2025-05-29T16:22:15Z,6200.38,1,153,79,3205,1,1,3
+microsoft/Web-Dev-For-Beginners,1332,Added instructions to run quiz app locally and on Azure,MERGED,2024-09-04T11:50:27Z,2024-09-05T19:58:00Z,2024-09-05T19:58:00Z,32.13,1,170,18,338,7,2,0
+microsoft/Web-Dev-For-Beginners,1328,upgrading app to vue 3,MERGED,2024-08-30T12:22:09Z,2024-09-02T18:26:17Z,2024-09-02T18:26:17Z,78.07,33,2229,20274,324,3,2,0
+microsoft/Web-Dev-For-Beginners,1327,Lesson 1 - replacing quiz app with forms quiz,MERGED,2024-08-29T20:23:07Z,2024-08-30T06:44:03Z,2024-08-30T06:44:03Z,10.35,1,1,1,414,1,2,0
+microsoft/Web-Dev-For-Beginners,1326,Bump webpack from 5.88.1 to 5.94.0 in /5-browser-extension/solution,MERGED,2024-08-28T21:22:48Z,2024-08-29T16:32:31Z,2024-08-29T16:32:31Z,19.16,2,153,165,3753,1,1,0
+microsoft/Web-Dev-For-Beginners,1325,Bump braces from 3.0.2 to 3.0.3,MERGED,2024-08-28T21:22:46Z,2024-08-29T16:29:11Z,2024-08-29T16:29:11Z,19.11,1,14,14,2089,1,1,0
+microsoft/Web-Dev-For-Beginners,1324,upgrading app to reduce vulnerabilities,MERGED,2024-08-28T13:07:51Z,2024-08-28T21:22:01Z,2024-08-28T21:22:01Z,8.24,2,20515,20162,343,1,2,0
+microsoft/Web-Dev-For-Beginners,1308,Fix 2 issues in bank product.,MERGED,2024-07-21T17:11:56Z,2024-08-26T22:28:24Z,2024-08-26T22:28:24Z,869.27,1,5,5,414,1,2,0
+microsoft/Web-Dev-For-Beginners,1304,added dark-mode,CLOSED,2024-07-14T14:27:42Z,2026-02-06T13:59:46Z,,13727.53,3,31,0,144,1,3,3
+microsoft/Web-Dev-For-Beginners,1298,"Added the word ""you""",MERGED,2024-06-10T07:41:52Z,2024-08-26T22:27:12Z,2024-08-26T22:27:12Z,1862.76,1,1,1,541,1,2,0
+microsoft/Web-Dev-For-Beginners,1294,Gathimba,CLOSED,2024-05-14T05:53:00Z,2025-10-03T08:51:32Z,,12170.98,1,29,43,414,1,3,1
+microsoft/Web-Dev-For-Beginners,1282,Link text for Sublime text has been fixed.,MERGED,2024-04-02T04:42:32Z,2024-08-26T22:40:56Z,2024-08-26T22:40:56Z,3521.97,1,1,1,716,1,2,2
+microsoft/Web-Dev-For-Beginners,1268,Fix typo,MERGED,2024-02-09T11:24:45Z,2024-08-26T22:30:57Z,2024-08-26T22:30:57Z,4787.1,1,1,1,345,1,2,1
+microsoft/Web-Dev-For-Beginners,1265,Update azure-static-web-apps-ashy-river-0debb7803.yml,CLOSED,2024-02-05T19:09:00Z,2024-08-28T13:13:08Z,,4914.07,1,4,1,262,2,3,4
+microsoft/Web-Dev-For-Beginners,1263,"Update on Student hub pricing information, community standard checklist and link to Windows Narrator",CLOSED,2024-02-05T15:26:18Z,2024-08-27T15:27:49Z,,4896.03,0,0,0,490,1,3,4
+microsoft/Web-Dev-For-Beginners,1261,Change link text,CLOSED,2024-02-04T15:47:35Z,2025-01-03T13:41:17Z,,8013.9,1,2,2,568,2,3,1
+microsoft/Web-Dev-For-Beginners,1246,Adding Roadmap.md ,MERGED,2024-01-11T08:18:24Z,2026-02-06T13:56:45Z,2026-02-06T13:56:45Z,18173.64,1,46,0,148,3,4,7
+microsoft/Web-Dev-For-Beginners,1241,Grammatical correctness,MERGED,2023-12-21T10:12:02Z,2025-10-03T12:41:55Z,2025-10-03T12:41:55Z,15650.5,1,1,1,25,1,2,1
+microsoft/Web-Dev-For-Beginners,1240,Fix typos & grammatical corrections,MERGED,2023-12-21T08:46:01Z,2024-08-26T22:36:58Z,2024-08-26T22:36:58Z,5989.85,1,3,3,363,1,2,1
+microsoft/Web-Dev-For-Beginners,1239,Sentence Improvement,CLOSED,2023-12-21T08:38:24Z,2026-02-06T13:44:12Z,,18677.1,1,1,1,359,1,3,2
+microsoft/Web-Dev-For-Beginners,1230,Update index.html,CLOSED,2023-11-03T18:12:34Z,2025-12-19T10:27:46Z,,18640.25,1,2,2,414,5,6,2
+microsoft/Web-Dev-For-Beginners,1228,Added footer,CLOSED,2023-11-02T07:31:16Z,2025-10-03T08:56:54Z,,16825.43,4,3026,38,182,2,4,2
+microsoft/Web-Dev-For-Beginners,1225,Adds footer,CLOSED,2023-10-22T04:30:26Z,2025-10-03T08:56:03Z,,17092.43,1,22,0,293,1,3,2
+microsoft/Web-Dev-For-Beginners,1222,Fix typo,MERGED,2023-10-14T18:15:33Z,2023-11-15T01:00:19Z,2023-11-15T01:00:19Z,750.75,1,1,1,413,2,3,1
+microsoft/Web-Dev-For-Beginners,1216,Redirecting to the website when clicked in links,CLOSED,2023-10-05T10:58:08Z,2025-10-03T08:47:57Z,,17493.83,1,5,5,234,3,4,2
+microsoft/Web-Dev-For-Beginners,1199,Translation: add README pt-br translation,CLOSED,2023-09-09T20:32:24Z,2025-10-03T08:49:52Z,,18108.29,1,268,0,106,7,4,3
+microsoft/Web-Dev-For-Beginners,1197,Fix: typos,MERGED,2023-08-28T08:56:23Z,2023-09-25T12:44:42Z,2023-09-25T12:44:42Z,675.81,4,13,13,10,1,2,1
+microsoft/Web-Dev-For-Beginners,1196,"Fix Typo: added a space in ""making-decisions"" README file",MERGED,2023-08-26T12:24:50Z,2023-09-25T12:47:01Z,2023-09-25T12:47:00Z,720.37,1,44,42,348,1,2,2
+microsoft/Web-Dev-For-Beginners,1187,fix: wrong image url in intro to programming README.zh-cz,MERGED,2023-08-21T14:19:24Z,2023-09-26T15:20:26Z,2023-09-26T15:20:26Z,865.02,1,1,1,163,1,2,0
+microsoft/Web-Dev-For-Beginners,1182,Update index.html,MERGED,2023-08-14T17:45:25Z,2023-09-25T12:40:37Z,2023-09-25T12:40:37Z,1002.92,1,43,42,414,2,4,3
+microsoft/Web-Dev-For-Beginners,1180,fixed link validation,CLOSED,2023-08-10T14:07:06Z,2025-05-29T16:23:25Z,,15794.27,1,1,1,414,1,4,2
+microsoft/Web-Dev-For-Beginners,1177,feat: add commands in readme to setup locally,CLOSED,2023-08-08T18:39:09Z,2023-09-26T15:19:15Z,,1172.67,1,50,0,97,2,3,4
+microsoft/Web-Dev-For-Beginners,1166,Bump word-wrap from 1.2.3 to 1.2.4 in /7-bank-project/api,MERGED,2023-07-19T00:19:38Z,2025-05-29T16:24:48Z,2025-05-29T16:24:47Z,16336.09,1,2,2,2593,3,2,0
+microsoft/Web-Dev-For-Beginners,1150,Create danish README.md,CLOSED,2023-06-29T19:38:05Z,2025-08-15T06:01:09Z,,18658.38,4,784,0,131,4,5,1
+microsoft/Web-Dev-For-Beginners,1149,Create da.json and started translation,CLOSED,2023-06-29T13:52:31Z,2025-08-15T06:01:09Z,,18664.14,1,2509,0,0,2,4,2
+microsoft/Web-Dev-For-Beginners,1131,修改格式错误,MERGED,2023-05-17T17:12:24Z,2023-07-07T17:59:16Z,2023-07-07T17:59:16Z,1224.78,1,1,1,117,1,2,0
+microsoft/Web-Dev-For-Beginners,1129,translation in urdu  github-basics README,CLOSED,2023-05-14T11:37:02Z,2023-07-08T01:38:34Z,,1310.03,1,325,0,55,1,3,1
+microsoft/Web-Dev-For-Beginners,1121,fix calculateColor function,CLOSED,2023-04-19T19:39:22Z,2026-02-06T13:42:53Z,,24570.06,1,2,2,556,1,4,2
+microsoft/Web-Dev-For-Beginners,1120,remove regionName Keyword,MERGED,2023-04-19T07:31:21Z,2023-07-05T18:09:37Z,2023-07-05T18:09:37Z,1858.64,1,5,5,0,1,2,1
+microsoft/Web-Dev-For-Beginners,1112,FIX grammatical errors in README.md,MERGED,2023-04-05T17:07:23Z,2023-07-07T17:46:03Z,2023-07-07T17:46:03Z,2232.64,1,1,1,0,1,2,1
+microsoft/Web-Dev-For-Beginners,1107,Variable not declared/ambiguous usage #1103 Solved,MERGED,2023-03-21T06:40:15Z,2023-07-05T18:13:48Z,2023-07-05T18:13:48Z,2555.56,1,1,1,110,1,2,1
+microsoft/Web-Dev-For-Beginners,1105,updates,MERGED,2023-03-19T20:14:53Z,2023-03-24T15:01:56Z,2023-03-24T15:01:56Z,114.78,1,1,1,0,1,3,1
+microsoft/Web-Dev-For-Beginners,1092,Fix : Typo in the table (column - learning objectives) (row - 22) [DOCS],MERGED,2023-02-25T10:55:31Z,2023-03-03T17:37:46Z,2023-03-03T17:37:46Z,150.7,1,1,1,154,1,3,0
+microsoft/Web-Dev-For-Beginners,1091,fix some link errors in README.zh-cn.md,MERGED,2023-02-24T16:12:05Z,2023-03-24T14:54:14Z,2023-03-24T14:54:14Z,670.7,1,9,9,176,1,2,1
+microsoft/Web-Dev-For-Beginners,1080,Update README.ja.md,MERGED,2023-02-14T18:54:07Z,2023-07-07T17:49:21Z,2023-07-07T17:49:21Z,3430.92,1,1,1,34,2,3,1
+microsoft/Web-Dev-For-Beginners,1079,Update assignment.ja.md,MERGED,2023-02-14T15:02:55Z,2023-07-07T17:48:31Z,2023-07-07T17:48:31Z,3434.76,1,2,2,32,1,2,1
+microsoft/Web-Dev-For-Beginners,1078,Update README.ja.md,MERGED,2023-02-14T13:22:17Z,2023-07-07T17:47:32Z,2023-07-07T17:47:32Z,3436.42,1,1,1,431,1,3,3
+microsoft/Web-Dev-For-Beginners,1067,Replace with a clearer browser.jpg,MERGED,2023-02-01T03:11:21Z,2023-03-22T00:17:22Z,2023-03-22T00:17:22Z,1173.1,1,0,0,201,1,2,0
+microsoft/Web-Dev-For-Beginners,1053,SECURITY.md,CLOSED,2023-01-12T10:16:11Z,2023-07-07T17:56:46Z,,4231.68,2,2,2,0,1,3,2
+microsoft/Web-Dev-For-Beginners,1044,PR to fix broken urls of GitHub Training Lab Link on Introduction to GitHub module,CLOSED,2023-01-08T17:43:16Z,2023-01-11T21:31:53Z,,75.81,0,0,0,101,1,3,2
+microsoft/Web-Dev-For-Beginners,1042,Replaced dead links and modified text accordingly,MERGED,2023-01-06T19:49:25Z,2023-01-09T21:40:00Z,2023-01-09T21:40:00Z,73.84,1,4,4,19,1,2,1
+microsoft/Web-Dev-For-Beginners,1038,Update README.md,CLOSED,2023-01-01T19:22:27Z,2023-09-26T15:32:05Z,,6428.16,1,12,12,40,2,2,5
+microsoft/Web-Dev-For-Beginners,1037,Fix spelling error,MERGED,2022-12-31T20:19:18Z,2023-01-03T19:12:59Z,2023-01-03T19:12:59Z,70.89,1,1,1,0,1,2,0
+microsoft/Web-Dev-For-Beginners,1035,Update CONTRIBUTING.md with better grammar,MERGED,2022-12-30T12:41:30Z,2023-01-03T19:12:05Z,2023-01-03T19:12:05Z,102.51,1,2,2,47,1,2,0
+microsoft/ML-For-Beginners,967,fix: corrected MSE to RMSE and fixed a variable name,MERGED,2026-04-21T05:27:19Z,2026-04-24T11:00:56Z,2026-04-24T11:00:56Z,77.56,1,8,8,110,1,3,0
+microsoft/ML-For-Beginners,965,fix: grammatical errors in introduction section,CLOSED,2026-04-18T05:35:26Z,2026-04-24T11:30:37Z,,149.92,3,13,13,75,1,3,3
+microsoft/ML-For-Beginners,964,Added comments to improve code readability,CLOSED,2026-04-16T09:15:49Z,2026-04-24T11:59:14Z,,194.72,1,360,16,147,1,3,3
+microsoft/ML-For-Beginners,951,fix: correct accuracy row alignment in classification report table,MERGED,2026-03-30T18:38:32Z,2026-04-11T21:41:05Z,2026-04-11T21:41:04Z,291.04,2,4,4,312,1,3,1
+microsoft/ML-For-Beginners,950,fix: harden GitHub Actions workflows,CLOSED,2026-03-30T04:42:48Z,2026-04-20T15:34:55Z,,514.87,2,2,2,937,1,3,0
+microsoft/ML-For-Beginners,948,Improved wording in introduction sectionImprove introduction wording for clarity,MERGED,2026-03-27T10:53:20Z,2026-04-11T21:38:44Z,2026-04-11T21:38:44Z,370.76,1,2,2,122,1,3,0
+microsoft/ML-For-Beginners,942,"Improve ""Getting Help"" section in README",CLOSED,2026-03-18T07:15:12Z,2026-04-11T21:57:05Z,,590.7,1,12,3,173,1,3,1
+microsoft/ML-For-Beginners,928,docs: fix broken link to RAI Toolbox notebook in fairness assignment,MERGED,2026-02-18T11:00:37Z,2026-02-27T08:12:43Z,2026-02-27T08:12:43Z,213.2,1,1,1,149,3,3,0
+microsoft/ML-For-Beginners,924,docs: add beginner note explaining linear regression,MERGED,2026-02-08T06:55:20Z,2026-02-27T07:55:30Z,2026-02-27T07:55:30Z,457.0,1,6,0,0,1,3,0
+microsoft/ML-For-Beginners,923,Improve documentation with learning tips,MERGED,2026-02-06T16:55:01Z,2026-02-27T07:56:23Z,2026-02-27T07:56:23Z,495.02,1,5,0,106,1,3,0
+microsoft/ML-For-Beginners,917,chore: Update outdated GitHub Actions versions,MERGED,2026-01-23T09:09:05Z,2026-02-06T07:17:39Z,2026-02-06T07:17:39Z,334.14,2,2,2,218,1,2,0
+microsoft/ML-For-Beginners,909,docs: clarify least-squares intuition in linear regression lesson,MERGED,2025-12-28T16:09:41Z,2026-02-27T08:08:16Z,2026-02-27T08:08:16Z,1455.98,1,8,2,597,3,3,3
+microsoft/ML-For-Beginners,900,Bump node-forge from 1.3.1 to 1.3.2 in /quiz-app,MERGED,2025-11-26T22:44:24Z,2025-12-19T09:48:44Z,2025-12-19T09:48:44Z,539.07,1,6,6,4170,2,3,6
+microsoft/ML-For-Beginners,899,test,CLOSED,2025-11-26T16:50:42Z,2025-12-19T09:49:04Z,,544.97,6988,2,1521501,0,1,3,0
+microsoft/ML-For-Beginners,894,diabetes prediction,CLOSED,2025-11-07T04:17:44Z,2025-12-19T09:49:38Z,,1013.53,2,711,535,0,1,3,0
+microsoft/ML-For-Beginners,881,[Documentation] Create comprehensive troubleshooting guide,MERGED,2025-10-03T10:03:45Z,2025-10-03T11:29:43Z,2025-10-03T11:29:43Z,1.43,3,606,2,4091,1,2,0
+microsoft/ML-For-Beginners,880,Add Getting Help section with Azure AI Foundry Discord and Developer Forum links,MERGED,2025-10-03T08:19:04Z,2025-10-03T09:54:26Z,2025-10-03T09:54:26Z,1.59,1,10,0,2482,1,3,0
+microsoft/ML-For-Beginners,879,Add AGENTS.md file to provide AI coding agents with project context,MERGED,2025-10-03T08:18:44Z,2025-10-03T09:55:42Z,2025-10-03T09:55:42Z,1.62,1,331,0,7801,1,3,0
+microsoft/ML-For-Beginners,869,Ml patch 2,CLOSED,2025-09-12T11:26:08Z,2025-12-19T09:50:09Z,,2350.4,18,7907,1674,0,6,3,3
+microsoft/ML-For-Beginners,833,Create ML,CLOSED,2025-07-17T06:28:57Z,2025-08-29T16:10:18Z,,1041.69,1,1,0,0,1,3,1
+microsoft/ML-For-Beginners,827,Add K-Means clustering visual using Nigerian music features,CLOSED,2025-06-24T23:32:06Z,2025-10-03T09:58:41Z,,2410.44,1,1116,53,351,1,4,4
+microsoft/ML-For-Beginners,809,Bump prismjs from 1.27.0 to 1.30.0,MERGED,2025-05-29T16:30:00Z,2025-08-29T16:14:23Z,2025-08-29T16:14:23Z,2207.74,1,1353,735,3654,1,2,0
+microsoft/ML-For-Beginners,805,Fix #786 : Maintain consistent translation of 'curriculum' in Hindi Base README.md,MERGED,2025-05-12T20:53:57Z,2025-06-07T03:12:55Z,2025-06-07T03:12:55Z,606.32,1,2,2,215,3,4,0
+microsoft/ML-For-Beginners,798,Bump http-proxy-middleware from 2.0.6 to 2.0.9 in /quiz-app,MERGED,2025-04-16T15:36:31Z,2025-05-29T16:28:24Z,2025-05-29T16:28:24Z,1032.86,1,7,6,3269,1,1,0
+microsoft/ML-For-Beginners,790,"Bump dompurify, docsify and docsify-server-renderer",CLOSED,2025-02-14T18:38:03Z,2025-08-29T16:40:24Z,,4702.04,1,1362,749,10174,1,3,1
+microsoft/ML-For-Beginners,789,Image Translations,MERGED,2025-02-14T06:09:20Z,2025-02-14T08:01:49Z,2025-02-14T08:01:49Z,1.87,2354,40284,0,26,1,2,0
+microsoft/ML-For-Beginners,787,Updated Translations,MERGED,2025-02-04T08:07:41Z,2025-02-06T16:55:23Z,2025-02-06T16:55:23Z,56.8,2554,72080,0,202,2,2,0
+microsoft/ML-For-Beginners,779,Fix typo in README.md,MERGED,2024-12-19T03:47:26Z,2025-01-30T08:55:43Z,2025-01-30T08:55:43Z,1013.14,1,1,1,0,1,2,0
+microsoft/ML-For-Beginners,777,Adding azerbaijani language translations 🇦🇿,CLOSED,2024-11-10T18:15:02Z,2025-01-20T08:38:24Z,,1694.39,67,10751,1,88,3,7,2
+microsoft/ML-For-Beginners,774,Dictionary correction,CLOSED,2024-10-28T20:08:22Z,2025-01-24T08:37:39Z,,2100.49,1,2,2,0,1,2,1
+microsoft/ML-For-Beginners,764,Bump dompurify from 2.2.9 to 2.5.6,CLOSED,2024-09-16T20:43:10Z,2024-11-24T08:38:36Z,,1643.92,1,3,3,4418,1,1,2
+microsoft/ML-For-Beginners,755,changes,CLOSED,2024-07-29T10:37:34Z,2024-07-29T13:31:10Z,,2.89,1,1,0,0,1,1,0
+microsoft/ML-For-Beginners,744,Bump ansi-regex from 4.1.0 to 5.0.1 in /quiz-app,MERGED,2024-06-03T10:24:35Z,2024-06-04T12:46:50Z,2024-06-04T12:46:50Z,26.37,1,12,12,2559,1,1,0
+microsoft/ML-For-Beginners,739,Fix multiple function calls in Chapter 5,MERGED,2024-05-27T06:56:54Z,2024-05-31T12:28:21Z,2024-05-31T12:28:21Z,101.52,2,3,3,719,1,2,1
+microsoft/ML-For-Beginners,737,Created using Colab,MERGED,2024-05-23T03:20:54Z,2024-05-31T12:34:54Z,2024-05-31T12:34:54Z,201.23,1,2827,0,0,1,2,0
+microsoft/ML-For-Beginners,732,"Bump ejs, @vue/cli-plugin-babel, @vue/cli-plugin-eslint and @vue/cli-service in /quiz-app",MERGED,2024-05-01T14:30:29Z,2024-05-31T12:08:14Z,2024-05-31T12:08:14Z,717.63,2,8706,15437,11807,1,1,0
+microsoft/ML-For-Beginners,730,Create generator-generic-ossf-slsa3-publish.yml,MERGED,2024-04-11T09:21:44Z,2024-05-31T12:15:55Z,2024-05-31T12:15:55Z,1202.9,1,66,0,0,2,2,2
+microsoft/ML-For-Beginners,729,fixed some typos in introduction/intro-to-ML/README.fr.md,MERGED,2024-04-03T10:47:44Z,2024-05-31T12:11:18Z,2024-05-31T12:11:18Z,1393.39,1,5,5,60,1,2,0
+microsoft/ML-For-Beginners,728,Bump express from 4.17.1 to 4.19.2 in /quiz-app,CLOSED,2024-03-27T03:03:22Z,2024-05-31T12:29:52Z,,1569.44,1,424,233,5446,1,1,2
+microsoft/ML-For-Beginners,723,Update index.html,MERGED,2024-03-10T15:05:26Z,2024-05-31T12:24:09Z,2024-05-31T12:24:09Z,1965.31,1,4,4,78,1,3,2
+microsoft/ML-For-Beginners,722,Fix README.ja.md of section 2-2,CLOSED,2024-03-04T14:08:40Z,2024-05-17T08:35:42Z,,1770.45,1,1,1,224,1,2,2
+microsoft/ML-For-Beginners,707,Fix spelling mistakes,CLOSED,2023-12-13T06:19:55Z,2024-03-06T08:35:46Z,,2018.26,1,2,2,0,1,2,1
+microsoft/ML-For-Beginners,694,Update package.json,CLOSED,2023-11-17T09:14:30Z,2024-02-15T08:35:29Z,,2159.35,1,188,28,0,3,2,3
+microsoft/ML-For-Beginners,692,Update README.md,CLOSED,2023-11-16T01:41:16Z,2024-02-12T08:35:16Z,,2118.9,1,2,2,728,3,3,3
+microsoft/ML-For-Beginners,683,"Bump postcss, @vue/cli-plugin-babel, @vue/cli-plugin-eslint and @vue/cli-service in /quiz-app",CLOSED,2023-10-05T04:06:15Z,2026-02-27T08:11:54Z,,21028.09,2,9522,16730,14407,1,3,5
+microsoft/ML-For-Beginners,678,Update README.md,CLOSED,2023-07-30T06:19:54Z,2023-11-25T08:35:17Z,,2834.26,1,3,3,82,3,3,1
+microsoft/ML-For-Beginners,668,Update Line 38 of 2-Regression/4-Logistic/README.md,MERGED,2023-07-08T19:00:06Z,2023-07-10T09:48:11Z,2023-07-10T09:48:11Z,38.8,1,1,1,110,1,2,0
+microsoft/ML-For-Beginners,667,Revisions in Logistic Regression R lesson,MERGED,2023-07-03T12:20:05Z,2023-09-25T12:23:44Z,2023-09-25T12:23:44Z,2016.06,4,1140,1184,0,1,5,2
+microsoft/ML-For-Beginners,665,Fixed hyperlinks and knitted the Rmd files to html for beginning half of the repo,MERGED,2023-06-19T15:39:16Z,2023-07-03T10:04:16Z,2023-07-03T10:04:16Z,330.42,16,19690,1558,89,2,3,6
+microsoft/ML-For-Beginners,663,Fixed hyperlinks and knitted the Rmd files to html,MERGED,2023-06-15T10:14:35Z,2023-06-15T12:21:47Z,2023-06-15T12:21:47Z,2.12,20,18169,72,0,2,2,1
+microsoft/ML-For-Beginners,662,Updated content on Fairness lesson to reflect responsible AI,MERGED,2023-06-05T11:13:23Z,2023-06-15T10:30:45Z,2023-06-15T10:30:45Z,239.29,58,237,2145,0,2,2,2
+microsoft/ML-For-Beginners,661,Adding videos,MERGED,2023-05-31T01:09:40Z,2023-05-31T07:56:59Z,2023-05-31T07:56:59Z,6.79,2,36,2,53,1,2,0
+microsoft/ML-For-Beginners,660,Adding next set of ML for beginners videos,MERGED,2023-05-09T22:41:57Z,2023-05-10T07:53:59Z,2023-05-10T07:53:59Z,9.2,3,25,8,0,1,2,1
+microsoft/ML-For-Beginners,658,Adding video links,MERGED,2023-05-01T20:50:36Z,2023-05-03T06:43:27Z,2023-05-03T06:43:27Z,33.88,6,25,8,104,1,3,1
+microsoft/ML-For-Beginners,657,Update README.md grammar and wording,MERGED,2023-04-29T02:10:11Z,2023-05-08T13:41:54Z,2023-05-08T13:41:54Z,227.53,1,1,1,70,1,2,0
+microsoft/ML-For-Beginners,655,Update README.md Challenge Hint,MERGED,2023-04-27T02:17:48Z,2023-05-08T12:53:13Z,2023-05-08T12:53:13Z,274.59,1,1,1,92,1,2,0
+microsoft/ML-For-Beginners,654,Handling seaborn warning,MERGED,2023-04-20T13:20:27Z,2023-04-21T08:13:06Z,2023-04-21T08:13:06Z,18.88,2,27,22,170,1,2,1
+microsoft/ML-For-Beginners,647,Reviewing regression tools/data/linear learning units,MERGED,2023-03-08T14:55:38Z,2023-04-13T14:03:47Z,2023-04-13T14:03:46Z,863.14,12,1924,348,230,3,4,2
+microsoft/ML-For-Beginners,646,Logistic regression README refactoring,MERGED,2023-03-08T12:23:31Z,2023-04-13T13:42:53Z,2023-04-13T13:42:52Z,865.32,7,1352,282,202,2,3,3
+microsoft/ML-For-Beginners,645,Logistic regression solution notebook refactoring,MERGED,2023-03-07T18:13:16Z,2023-04-13T12:55:50Z,2023-04-13T12:55:50Z,882.71,1,1014,145,429,1,4,8
+microsoft/ML-For-Beginners,633,Update README.md,CLOSED,2022-12-27T08:11:16Z,2023-10-02T08:35:44Z,,6696.41,1,1,1,62,4,7,3
+microsoft/ML-For-Beginners,628,build(deps): bump decode-uri-component from 0.2.0 to 0.2.2 in /quiz-app,CLOSED,2022-12-07T17:45:35Z,2023-04-11T08:35:40Z,,2990.83,1,6,6,2610,1,1,4
+microsoft/ML-For-Beginners,615,Fixing error translation (Indonesia),CLOSED,2022-08-11T01:21:25Z,2022-12-15T08:37:52Z,,3031.27,7,482,105,221,1,3,2
+microsoft/ML-For-Beginners,612,Update README.es.md,CLOSED,2022-07-18T22:55:25Z,2022-12-12T08:37:45Z,,3513.71,6,13,13,0,1,3,2
+microsoft/ML-For-Beginners,608,[Translations] Add turkish translation ,MERGED,2022-07-12T08:23:51Z,2022-07-14T19:02:01Z,2022-07-14T19:02:01Z,58.64,1,20,0,0,1,2,1
+microsoft/ML-For-Beginners,606,[Translations] Add traditional chinese translations,MERGED,2022-07-05T07:24:31Z,2022-07-14T19:02:33Z,2022-07-14T19:02:33Z,227.63,4,382,1,134,1,2,0
+microsoft/ML-For-Beginners,605,Uniformity of Chinese translation style,MERGED,2022-06-29T10:50:41Z,2022-08-04T10:40:23Z,2022-08-04T10:40:23Z,863.83,1,1,1,0,1,2,0
+microsoft/ML-For-Beginners,599,[Translations] Add traditional chinese translations,MERGED,2022-06-03T07:26:11Z,2022-06-03T23:57:58Z,2022-06-03T23:57:58Z,16.53,9,598,0,0,1,2,1
+microsoft/ML-For-Beginners,591,(spanish) Quiz app spanish translation,MERGED,2022-05-08T21:19:32Z,2022-05-10T16:25:30Z,2022-05-10T16:25:30Z,43.1,23,2974,41,149,1,2,1
+microsoft/ML-For-Beginners,576,bangla translation added,MERGED,2022-04-14T17:32:50Z,2022-05-03T13:19:34Z,2022-05-03T13:19:34Z,451.78,1,151,0,63,2,4,1
+microsoft/ML-For-Beginners,572,(spanish) 7-TimeSeries/1-Introduction/README.md,MERGED,2022-04-04T04:47:53Z,2022-04-30T20:19:22Z,2022-04-30T20:19:22Z,639.52,1,186,0,63,1,2,0
+microsoft/ML-For-Beginners,569,Feat: Added Hindi[Translations].,CLOSED,2022-03-25T18:27:14Z,2022-03-29T00:20:38Z,,77.89,1,130,0,50,1,2,2
+microsoft/ML-For-Beginners,566,[Spanish] Reviews README ,MERGED,2022-03-20T20:26:27Z,2022-03-25T15:31:07Z,2022-03-25T15:31:07Z,115.08,1,15,15,283,1,2,1
+microsoft/ML-For-Beginners,564,[Hi-Hindi] Translation for Regression base README,MERGED,2022-03-19T06:23:23Z,2022-03-29T00:15:00Z,2022-03-29T00:15:00Z,233.86,1,36,0,60,1,2,2
+microsoft/ML-For-Beginners,562,Make some changes to linear regression section to fix #543,MERGED,2022-03-15T16:59:53Z,2022-03-17T21:06:49Z,2022-03-17T21:06:49Z,52.12,9,1279,456,46,1,2,0
+microsoft/ML-For-Beginners,560,Readme Tamil added,MERGED,2022-03-11T06:51:18Z,2022-03-17T13:01:08Z,2022-03-17T13:01:08Z,150.16,1,132,0,32,1,2,4
+microsoft/ML-For-Beginners,557,ReadMe hindi added,MERGED,2022-03-08T18:52:12Z,2022-03-29T00:19:54Z,2022-03-29T00:19:54Z,485.46,1,129,0,44,3,2,5
+microsoft/ML-For-Beginners,548,(spanish)  6-NLP/1-Introduction-to-NLP/README.md,MERGED,2022-03-02T04:44:33Z,2022-03-08T16:16:32Z,2022-03-08T16:16:32Z,155.53,2,167,1,63,1,2,0
+microsoft/ML-For-Beginners,541,(spanish) 4-Classification/3-Classifiers-2/README.md,MERGED,2022-02-24T05:27:28Z,2022-03-08T16:13:37Z,2022-03-08T16:13:37Z,298.77,1,234,0,68,1,2,0
+microsoft/ML-For-Beginners,540,(spanish) 4-Classification/2-Classifiers-1/README.md,MERGED,2022-02-23T18:59:10Z,2022-02-24T16:41:18Z,2022-02-24T16:41:18Z,21.7,1,245,0,68,10,3,2
+microsoft/ML-For-Beginners,538,(spanish) README.md,MERGED,2022-02-22T06:19:11Z,2022-03-08T16:14:18Z,2022-03-08T16:14:18Z,345.92,1,133,0,138,5,4,1
+microsoft/ML-For-Beginners,537,(spanish) 8-Reinforcement/2-Gym/assignment.md,MERGED,2022-02-21T04:57:57Z,2022-02-24T16:07:13Z,2022-02-24T16:07:13Z,83.15,1,44,0,61,1,3,1
+microsoft/ML-For-Beginners,536,(spanish) 8-Reinforcement/1-QLearning/assignment.md,MERGED,2022-02-21T04:16:25Z,2022-02-24T16:42:36Z,2022-02-24T16:42:36Z,84.44,1,27,0,67,1,3,0
+microsoft/ML-For-Beginners,535,(spanish) 7-TimeSeries/3-SVR/assignment.md,MERGED,2022-02-19T19:41:48Z,2022-02-24T16:45:21Z,2022-02-24T16:45:21Z,117.06,1,13,0,58,2,3,0
+microsoft/ML-For-Beginners,534,(spanish) 7-TimeSeries/2-ARIMA/assignment.md,MERGED,2022-02-19T19:12:45Z,2022-03-08T16:12:45Z,2022-03-08T16:12:45Z,405.0,1,11,0,60,1,2,0
+microsoft/ML-For-Beginners,533,(spanish) 7-TimeSeries/1-Introduction/assignment.md,MERGED,2022-02-19T19:00:18Z,2022-02-24T16:44:13Z,2022-02-24T16:44:13Z,117.73,2,22,0,67,1,3,0
+microsoft/ML-For-Beginners,532,(spanish) 6-NLP/5-Hotel-Reviews-2/assignment.md,MERGED,2022-02-19T18:43:20Z,2022-02-24T16:44:00Z,2022-02-24T16:44:00Z,118.01,1,11,0,63,1,3,0
+microsoft/ML-For-Beginners,531,(spanish) 6-NLP/4-Hotel-Reviews-1/assignment.md,MERGED,2022-02-19T18:34:29Z,2022-02-24T16:43:45Z,2022-02-24T16:43:44Z,118.15,1,5,0,63,2,3,0
+microsoft/ML-For-Beginners,530,(spanish) 6-NLP/3-Translation-Sentiment/assignment.md,MERGED,2022-02-19T18:21:15Z,2022-02-24T16:43:12Z,2022-02-24T16:43:12Z,118.37,1,11,0,69,2,3,0
+microsoft/ML-For-Beginners,528,(spanish) 6-NLP/2-Tasks/assignment.md,MERGED,2022-02-18T04:47:48Z,2022-02-24T16:42:00Z,2022-02-24T16:42:00Z,155.9,1,11,0,53,1,3,0
+microsoft/ML-For-Beginners,527,(spanish) 7-TimeSeries/README.md,MERGED,2022-02-18T04:33:41Z,2022-02-24T16:44:45Z,2022-02-24T16:44:45Z,156.18,1,23,0,48,1,3,0
+microsoft/ML-For-Beginners,526,(spanish) 5-Clustering/2-K-Means/assignment.md,MERGED,2022-02-18T01:24:31Z,2022-02-24T13:52:27Z,2022-02-24T13:52:27Z,156.47,1,11,0,62,1,3,1
+microsoft/ML-For-Beginners,525,(spanish) 5-Clustering/1-Visualize/assignment.md,MERGED,2022-02-18T01:13:45Z,2022-02-24T13:51:59Z,2022-02-24T13:51:59Z,156.64,1,11,0,64,2,3,1
+microsoft/ML-For-Beginners,524,(spanish) 4-Classification/4-Applied/assignment.md,MERGED,2022-02-17T21:17:52Z,2022-02-24T13:50:42Z,2022-02-24T13:50:42Z,160.55,1,11,0,66,2,4,1
+microsoft/ML-For-Beginners,523,(spanish) 4-Classification/3-Classifiers-2/assignment.md,MERGED,2022-02-17T19:50:40Z,2022-02-24T13:50:09Z,2022-02-24T13:50:09Z,161.99,1,11,0,71,1,3,1
+microsoft/ML-For-Beginners,521,(spanish): 4-Classification/2-Classifiers-1/assignment.md,MERGED,2022-02-15T04:52:43Z,2022-02-23T16:20:44Z,2022-02-23T16:20:44Z,203.47,1,11,0,72,4,2,0
+microsoft/ML-For-Beginners,520,(spanish): 2-Regression/3-Linear/README.md,MERGED,2022-02-15T04:35:34Z,2022-02-23T16:21:58Z,2022-02-23T16:21:58Z,203.77,1,342,0,57,5,3,1
+microsoft/ML-For-Beginners,518,(spanish) 6-NLP/1-Introduction-to-NLP/assignment.md,MERGED,2022-02-11T00:41:53Z,2022-02-11T22:54:49Z,2022-02-11T22:54:49Z,22.22,1,11,0,68,1,2,0
+microsoft/ML-For-Beginners,516,(spanish): 6-NLP/README.md,MERGED,2022-02-09T06:25:34Z,2022-02-11T22:56:25Z,2022-02-11T22:56:25Z,64.51,1,24,0,41,1,2,0
+microsoft/ML-For-Beginners,515,(spanish): 4-Classification/1-Introduction/assignment.md,MERGED,2022-02-09T05:45:33Z,2022-02-11T22:52:38Z,2022-02-11T22:52:38Z,65.12,1,11,0,72,1,2,0
