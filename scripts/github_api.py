@@ -49,7 +49,7 @@ class GitHubAPIClient:
                     self.GRAPHQL_URL,
                     json=payload,
                     headers=self.headers,
-                    timeout=120
+                    timeout=60
                 )
 
                 if resp.status_code == 200:

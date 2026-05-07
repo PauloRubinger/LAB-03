@@ -31,7 +31,7 @@ GITHUB_TOKEN = os.getenv("GITHUB_TOKEN")
 DEFAULT_REPOS_FILE = os.path.join(os.path.dirname(__file__), "..", "data/raw", "repos.json")
 DEFAULT_OUTPUT_CSV = os.path.join(os.path.dirname(__file__), "..", "data/processed", "pull_requests.csv")
 DEFAULT_PRS_PER_REPO = 100
-DEFAULT_BATCH_SIZE = 50  # maximum per page in GraphQL API
+DEFAULT_BATCH_SIZE = 20  # maximum per page in GraphQL API
 DEFAULT_CHECKPOINT_FILE = os.path.join(os.path.dirname(__file__), "..", "data/processed", "pull_requests_checkpoint.json")
 DEFAULT_LOGS_DIR = os.path.join(os.path.dirname(__file__), "..", "logs")
 
@@ -224,7 +224,7 @@ def collect_prs(
 
             if repo_failed:
                 # Retry once with a smaller batch size to handle heavy repositories
-                fallback_batch = max(10, batch_size // 5)
+                fallback_batch = max(3, batch_size // 10)
                 if fallback_batch < batch_size:
                     logger.info(f"  Retrying {repo_name} with smaller batch size ({fallback_batch})...")
                     cursor = None
@@ -288,7 +288,7 @@ def collect_prs(
                         if not page_info.get("hasNextPage"):
                             break
                         cursor = page_info["endCursor"]
-                        time.sleep(0.5)
+                        time.sleep(2.0)
 
                 if repo_failed:
                     failed_repos.append(repo_name)
