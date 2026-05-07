@@ -267,6 +267,47 @@ def rq08(df, results):
     plt.close()
 
 
+def spearman_correlation_matrix(df):
+    """Generate and save Spearman correlation matrix for all metrics."""
+    print("\n" + "=" * 60)
+    print("SPEARMAN CORRELATION MATRIX")
+    print("=" * 60)
+
+    metrics = [
+        "changed_files", "additions", "deletions", "total_lines",
+        "analysis_time_hours", "body_length",
+        "participants", "comments", "review_count",
+    ]
+
+    corr_matrix = df[metrics].corr(method="spearman")
+    print(corr_matrix.to_string())
+
+    # Save as CSV
+    corr_path = os.path.join(os.path.dirname(FIGURES_DIR), "spearman_correlation_matrix.csv")
+    corr_matrix.to_csv(corr_path, index_label="Metric")
+
+    # Save as heatmap
+    fig, ax = plt.subplots(figsize=(11, 9))
+    sns.heatmap(
+        corr_matrix,
+        annot=True,
+        fmt=".2f",
+        cmap="coolwarm",
+        center=0,
+        vmin=-1,
+        vmax=1,
+        ax=ax,
+        linewidths=0.5,
+    )
+    ax.set_title("Spearman Correlation Matrix")
+    plt.tight_layout()
+    plt.savefig(os.path.join(FIGURES_DIR, "spearman_correlation_matrix.png"), dpi=150)
+    plt.close()
+
+    print(f"Correlation matrix saved to: {corr_path}")
+    return corr_matrix
+
+
 def summary_table(df):
     """Generate summary table with overall medians."""
     print("\n" + "=" * 60)
@@ -306,6 +347,9 @@ def main():
 
     # Summary table
     summary_table(df)
+
+    # Spearman correlation matrix
+    spearman_correlation_matrix(df)
 
     # Save all statistical test results
     results_path = os.path.join(os.path.dirname(FIGURES_DIR), "statistical_tests.csv")
