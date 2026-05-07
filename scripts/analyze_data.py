@@ -29,11 +29,21 @@ def load_data() -> pd.DataFrame:
     return df
 
 
-def spearman_test(x, y, label_x, label_y):
+def spearman_test(x, y, label_x, label_y, rq=None, results=None):
     """Calculate Spearman correlation and return formatted result."""
     corr, pvalue = stats.spearmanr(x, y, nan_policy="omit")
     sig = "Yes" if pvalue < 0.05 else "No"
     print(f"  Spearman({label_x} x {label_y}): rho={corr:.4f}, p={pvalue:.2e}, Significant={sig}")
+    if results is not None:
+        results.append({
+            "RQ": rq,
+            "Test": "Spearman",
+            "Variable_X": label_x,
+            "Variable_Y": label_y,
+            "Statistic": round(corr, 4),
+            "P_value": pvalue,
+            "Significant": sig,
+        })
     return corr, pvalue
 
 
@@ -48,11 +58,28 @@ def descriptive_stats(df, column, group_col="state"):
     return medians
 
 
+def mannwhitney_test(group1, group2, metric, rq, results):
+    """Run Mann-Whitney U test and record result."""
+    stat, p = stats.mannwhitneyu(group1, group2, alternative="two-sided")
+    sig = "Yes" if p < 0.05 else "No"
+    print(f"  Mann-Whitney U ({metric}): U={stat:.0f}, p={p:.2e}")
+    results.append({
+        "RQ": rq,
+        "Test": "Mann-Whitney U",
+        "Variable_X": metric,
+        "Variable_Y": "state (MERGED vs CLOSED)",
+        "Statistic": round(stat, 0),
+        "P_value": p,
+        "Significant": sig,
+    })
+    return stat, p
+
+
 # ============================================================
 # Dimension A: Final Review Feedback (Status MERGED vs CLOSED)
 # ============================================================
 
-def rq01(df):
+def rq01(df, results):
     """RQ01: PR size vs final review feedback."""
     print("\n" + "=" * 60)
     print("RQ01: PR Size vs Final Review Feedback")
@@ -77,11 +104,10 @@ def rq01(df):
     for metric in ["changed_files", "total_lines"]:
         merged = df[df["state"] == "MERGED"][metric].dropna()
         closed = df[df["state"] == "CLOSED"][metric].dropna()
-        stat, p = stats.mannwhitneyu(merged, closed, alternative="two-sided")
-        print(f"  Mann-Whitney U ({metric}): U={stat:.0f}, p={p:.2e}")
+        mannwhitney_test(merged, closed, metric, "RQ01", results)
 
 
-def rq02(df):
+def rq02(df, results):
     """RQ02: Analysis time vs final review feedback."""
     print("\n" + "=" * 60)
     print("RQ02: Analysis Time vs Final Review Feedback")
@@ -100,11 +126,10 @@ def rq02(df):
 
     merged = df[df["state"] == "MERGED"]["analysis_time_hours"].dropna()
     closed = df[df["state"] == "CLOSED"]["analysis_time_hours"].dropna()
-    stat, p = stats.mannwhitneyu(merged, closed, alternative="two-sided")
-    print(f"  Mann-Whitney U (analysis_time_hours): U={stat:.0f}, p={p:.2e}")
+    mannwhitney_test(merged, closed, "analysis_time_hours", "RQ02", results)
 
 
-def rq03(df):
+def rq03(df, results):
     """RQ03: PR description vs final review feedback."""
     print("\n" + "=" * 60)
     print("RQ03: PR Description vs Final Review Feedback")
@@ -123,11 +148,10 @@ def rq03(df):
 
     merged = df[df["state"] == "MERGED"]["body_length"].dropna()
     closed = df[df["state"] == "CLOSED"]["body_length"].dropna()
-    stat, p = stats.mannwhitneyu(merged, closed, alternative="two-sided")
-    print(f"  Mann-Whitney U (body_length): U={stat:.0f}, p={p:.2e}")
+    mannwhitney_test(merged, closed, "body_length", "RQ03", results)
 
 
-def rq04(df):
+def rq04(df, results):
     """RQ04: PR interactions vs final review feedback."""
     print("\n" + "=" * 60)
     print("RQ04: Interactions vs Final Review Feedback")
@@ -150,22 +174,21 @@ def rq04(df):
     for metric in ["participants", "comments"]:
         merged = df[df["state"] == "MERGED"][metric].dropna()
         closed = df[df["state"] == "CLOSED"][metric].dropna()
-        stat, p = stats.mannwhitneyu(merged, closed, alternative="two-sided")
-        print(f"  Mann-Whitney U ({metric}): U={stat:.0f}, p={p:.2e}")
+        mannwhitney_test(merged, closed, metric, "RQ04", results)
 
 
 # ============================================================
 # Dimension B: Number of Reviews
 # ============================================================
 
-def rq05(df):
+def rq05(df, results):
     """RQ05: PR size vs number of reviews."""
     print("\n" + "=" * 60)
     print("RQ05: PR Size vs Number of Reviews")
     print("=" * 60)
 
     for metric in ["changed_files", "total_lines", "additions", "deletions"]:
-        spearman_test(df[metric], df["review_count"], metric, "review_count")
+        spearman_test(df[metric], df["review_count"], metric, "review_count", rq="RQ05", results=results)
 
     fig, axes = plt.subplots(1, 2, figsize=(12, 5))
     axes[0].scatter(df["changed_files"], df["review_count"], alpha=0.3, s=10)
@@ -182,14 +205,14 @@ def rq05(df):
     plt.close()
 
 
-def rq06(df):
+def rq06(df, results):
     """RQ06: Analysis time vs number of reviews."""
     print("\n" + "=" * 60)
     print("RQ06: Analysis Time vs Number of Reviews")
     print("=" * 60)
 
     spearman_test(df["analysis_time_hours"], df["review_count"],
-                  "analysis_time_hours", "review_count")
+                  "analysis_time_hours", "review_count", rq="RQ06", results=results)
 
     fig, ax = plt.subplots(figsize=(8, 5))
     ax.scatter(df["analysis_time_hours"], df["review_count"], alpha=0.3, s=10)
@@ -201,14 +224,14 @@ def rq06(df):
     plt.close()
 
 
-def rq07(df):
+def rq07(df, results):
     """RQ07: PR description vs number of reviews."""
     print("\n" + "=" * 60)
     print("RQ07: PR Description vs Number of Reviews")
     print("=" * 60)
 
     spearman_test(df["body_length"], df["review_count"],
-                  "body_length", "review_count")
+                  "body_length", "review_count", rq="RQ07", results=results)
 
     fig, ax = plt.subplots(figsize=(8, 5))
     ax.scatter(df["body_length"], df["review_count"], alpha=0.3, s=10)
@@ -220,14 +243,14 @@ def rq07(df):
     plt.close()
 
 
-def rq08(df):
+def rq08(df, results):
     """RQ08: PR interactions vs number of reviews."""
     print("\n" + "=" * 60)
     print("RQ08: Interactions vs Number of Reviews")
     print("=" * 60)
 
     for metric in ["participants", "comments"]:
-        spearman_test(df[metric], df["review_count"], metric, "review_count")
+        spearman_test(df[metric], df["review_count"], metric, "review_count", rq="RQ08", results=results)
 
     fig, axes = plt.subplots(1, 2, figsize=(12, 5))
     axes[0].scatter(df["participants"], df["review_count"], alpha=0.3, s=10)
@@ -267,21 +290,27 @@ def summary_table(df):
 
 def main():
     df = load_data()
+    results = []
 
     # Dimension A
-    rq01(df)
-    rq02(df)
-    rq03(df)
-    rq04(df)
+    rq01(df, results)
+    rq02(df, results)
+    rq03(df, results)
+    rq04(df, results)
 
     # Dimension B
-    rq05(df)
-    rq06(df)
-    rq07(df)
-    rq08(df)
+    rq05(df, results)
+    rq06(df, results)
+    rq07(df, results)
+    rq08(df, results)
 
     # Summary table
     summary_table(df)
+
+    # Save all statistical test results
+    results_path = os.path.join(os.path.dirname(FIGURES_DIR), "statistical_tests.csv")
+    pd.DataFrame(results).to_csv(results_path, index=False)
+    print(f"Statistical tests saved to: {results_path}")
 
     print(f"\nFigures saved to: {FIGURES_DIR}")
     print("Analysis completed!")
