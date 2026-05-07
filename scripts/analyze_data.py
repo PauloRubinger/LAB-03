@@ -262,7 +262,7 @@ def summary_table(df):
     print(summary.to_string())
 
     # Save as CSV
-    summary.to_csv(os.path.join(os.path.dirname(FIGURES_DIR), "summary_stats.csv"))
+    summary.to_csv(os.path.join(os.path.dirname(FIGURES_DIR), "summary_stats.csv"), index_label="Metric")
 
 
 def main():
