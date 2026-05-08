@@ -367,6 +367,52 @@ def spearman_correlation_matrix(df):
     return corr_matrix
 
 
+def descriptive_stats_by_rq(df):
+    """Generate and save descriptive statistics per RQ and metric as CSV."""
+    RQ_METRICS = {
+        "RQ01": ["changed_files", "additions", "deletions"],
+        "RQ02": ["analysis_time_hours"],
+        "RQ03": ["body_length"],
+        "RQ04": ["participants", "comments"],
+        "RQ05": ["changed_files", "additions", "deletions", "total_lines"],
+        "RQ06": ["analysis_time_hours"],
+        "RQ07": ["body_length"],
+        "RQ08": ["participants", "comments"],
+    }
+
+    records = []
+    for rq, metrics in RQ_METRICS.items():
+        for metric in metrics:
+            # Overall stats
+            overall = df[metric].describe()
+            records.append({
+                "RQ": rq, "Metric": metric, "Group": "overall",
+                "count": overall["count"], "mean": overall["mean"],
+                "std": overall["std"], "min": overall["min"],
+                "25%": overall["25%"], "50%": overall["50%"],
+                "75%": overall["75%"], "max": overall["max"],
+            })
+            # Per-group stats (MERGED / CLOSED)
+            for group, gdf in df.groupby("state"):
+                desc = gdf[metric].describe()
+                records.append({
+                    "RQ": rq, "Metric": metric, "Group": group,
+                    "count": desc["count"], "mean": desc["mean"],
+                    "std": desc["std"], "min": desc["min"],
+                    "25%": desc["25%"], "50%": desc["50%"],
+                    "75%": desc["75%"], "max": desc["max"],
+                })
+
+    out = pd.DataFrame(records, columns=[
+        "RQ", "Metric", "Group", "count", "mean", "std",
+        "min", "25%", "50%", "75%", "max",
+    ]).rename(columns={"50%": "median"})
+    path = os.path.join(os.path.dirname(FIGURES_DIR), "descriptive_stats_by_rq.csv")
+    out.to_csv(path, index=False, float_format="%.4f")
+    print(f"Descriptive stats saved to: {path}")
+    return out
+
+
 def summary_table(df):
     """Generate summary table with overall medians."""
     print("\n" + "=" * 60)
@@ -406,6 +452,9 @@ def main():
 
     # Summary table
     summary_table(df)
+
+    # Descriptive stats per RQ
+    descriptive_stats_by_rq(df)
 
     # Spearman correlation matrix
     spearman_correlation_matrix(df)
