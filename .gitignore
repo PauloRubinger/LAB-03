@@ -8,8 +8,12 @@ __pycache__/
 # Virtual environment
 .venv/
 
-# Test outputs and generated reports
-*_test.*
+# Test outputs
+pull_requests_test_checkpoint.json
+pull_requests_test.csv
+test_controlled_dataset.csv
+
+# Generated figures from analysis
 reports/figures/
 
 # Logs
