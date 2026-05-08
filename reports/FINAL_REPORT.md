@@ -261,7 +261,7 @@ A comparação das medianas já revela padrões notáveis: PRs CLOSED levam quas
 
 ![](figures/rq02_tempo_vs_status.png)
 
-**Figura 2 —** Box plot do tempo de análise por status. Mediana MERGED: 25,8h; mediana CLOSED: 126,0h (~5× maior).
+**Figura 2 —** Box plot do tempo de análise por status (eixo Y em escala logarítmica). Mediana MERGED: 25,8h; mediana CLOSED: 126,0h (~5× maior).
 
 **Hipótese H2:** PRs com maior tempo de análise têm maior probabilidade de serem MERGED.
 
