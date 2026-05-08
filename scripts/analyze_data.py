@@ -106,9 +106,10 @@ def rq01(df, results):
                                ["Arquivos Alterados", "Linhas Adicionadas", "Linhas Removidas"],
                                ["Arquivos Alterados", "Linhas Adicionadas", "Linhas Removidas"]):
         sns.boxplot(data=df, x="state", y=col, order=["MERGED", "CLOSED"], ax=ax, showfliers=False)
+        ax.set_yscale("log")
         ax.set_title(title)
         ax.set_xlabel("Status do PR")
-        ax.set_ylabel(ylabel)
+        ax.set_ylabel(ylabel + " (escala log)")
     fig.suptitle("RQ01 — Tamanho dos PRs por Status", fontsize=15, fontweight="bold", y=1.01)
     fig.text(0.5, -0.02, SOURCE_NOTE, ha="center", fontsize=10, color="gray")
     plt.tight_layout()
@@ -132,8 +133,9 @@ def rq02(df, results):
 
     fig, ax = plt.subplots(figsize=(8, 6))
     sns.boxplot(data=df, x="state", y="analysis_time_hours", order=["MERGED", "CLOSED"], ax=ax, showfliers=False)
+    ax.set_yscale("log")
     ax.set_title("RQ02 — Tempo de Análise por Status do PR", fontweight="bold")
-    ax.set_ylabel("Tempo de Análise (horas)")
+    ax.set_ylabel("Tempo de Análise (horas, escala log)")
     ax.set_xlabel("Status do PR")
     fig.text(0.5, -0.02, SOURCE_NOTE, ha="center", fontsize=10, color="gray")
     plt.tight_layout()
