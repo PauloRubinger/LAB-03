@@ -203,7 +203,7 @@ A justificativa para o uso do Mann-Whitney em vez do teste t é a forte assimetr
 | Nº de participantes | 2,96 | 2,00 | 4,41 | 0 | 277 |
 | Nº de comentários | 2,62 | 1,00 | 8,34 | 0 | 589 |
 
-As métricas de tamanho e tempo apresentam alta variabilidade: a mediana de linhas adicionadas (17) é drasticamente inferior à média (1.284), indicando distribuições fortemente assimétricas à direita com poucos PRs muito grandes dominando a média. O mesmo padrão se observa no tempo de análise, com mediana de 37,31h frente a uma média de 900h — evidenciando que a maioria dos PRs é resolvida rapidamente, mas outliers com semanas ou meses de análise inflam a média.
+As métricas de tamanho e tempo apresentam alta variabilidade: a mediana de linhas adicionadas (17) é drasticamente inferior à média (1.284), indicando distribuições fortemente assimétricas à direita com poucos PRs muito grandes dominando a média. O mesmo padrão se observa no tempo de análise, com mediana de 37,31h frente a uma média de 900h, evidenciando que a maioria dos PRs é resolvida rapidamente, mas outliers com semanas ou meses de análise inflam a média.
 
 **Métricas por grupo (mediana):**
 
@@ -226,19 +226,19 @@ A **Figura 1** apresenta box plots comparando as distribuições das métricas d
 
 ![RQ01 — Tamanho vs. Status](figures/rq01_tamanho_vs_status.png)
 
-**Figura 1 —** Box plots das métricas de tamanho dos PRs (arquivos alterados, linhas adicionadas e linhas removidas) por status (MERGED vs. CLOSED), com outliers suprimidos. PRs MERGED apresentam medianas levemente superiores em arquivos alterados e linhas removidas; a dispersão extrema confirma a forte assimetria positiva das distribuições.
+**Figura 1 —** Box plots das métricas de tamanho por status (MERGED vs. CLOSED). PRs MERGED apresentam medianas superiores em arquivos alterados e linhas removidas.
 
 A **Figura 2** apresenta box plots comparando o tempo de análise entre os dois grupos.
 
 ![RQ02 — Tempo de Análise vs. Status](figures/rq02_tempo_vs_status.png)
 
-**Figura 2 —** Box plot do tempo de análise (em horas) por status do PR, com outliers suprimidos. PRs MERGED são resolvidos com mediana de 25,8h; PRs CLOSED permanecem abertos por mediana de 126,0h, evidenciando um padrão recorrente de abandono antes do fechamento.
+**Figura 2 —** Box plot do tempo de análise por status. Mediana MERGED: 25,8h; mediana CLOSED: 126,0h (~5× maior).
 
 A **Figura 3** apresenta a comparação das métricas de interação.
 
 ![RQ04 — Interações vs. Status](figures/rq04_interacoes_vs_status.png)
 
-**Figura 3 —** Box plots do número de participantes e de comentários por status do PR, com outliers suprimidos. PRs CLOSED apresentam mais interações que os MERGED, contrariando a hipótese de que maior engajamento favorece a aceitação.
+**Figura 3 —** Box plots de participantes e comentários por status. PRs CLOSED apresentam mais interações que os MERGED.
 
 **Insights sobre as distribuições:**
 
@@ -298,7 +298,7 @@ A **Figura 4** apresenta os box plots comparativos de tamanho de descrição.
 
 ![RQ03 — Descrição vs. Status](figures/rq03_descricao_vs_status.png)
 
-**Figura 4 —** Box plot do número de caracteres da descrição (*body*) dos PRs por status, com outliers suprimidos. As medianas são praticamente idênticas (MERGED: 487; CLOSED: 514), sem diferença estatisticamente significativa (Mann-Whitney U, p = 0,200).
+**Figura 4 —** Box plot dos caracteres do *body* por status. Medianas praticamente idênticas (MERGED: 487; CLOSED: 514), p = 0,200 (ns).
 
 **Hipótese H3:** PRs com descrições mais longas têm maior probabilidade de serem MERGED.
 
@@ -343,7 +343,7 @@ A **Figura 5** apresenta os scatter plots de tamanho vs. número de revisões.
 
 ![RQ05 — Tamanho vs. Revisões](figures/rq05_tamanho_vs_revisoes.png)
 
-**Figura 5 —** Scatter plots de arquivos alterados (esquerda) e total de linhas modificadas (direita) em relação ao número de revisões. Correlações de Spearman: ρ = 0,24 (arquivos) e ρ = 0,27 (linhas), ambas com p < 0,001.
+**Figura 5 —** Scatter plots de arquivos alterados e linhas modificadas vs. número de revisões. Spearman ρ = 0,24 (arquivos) e ρ = 0,27 (linhas), p < 0,001.
 
 **Hipótese H1 (RQ05):** PRs maiores exigem mais revisões.
 
@@ -366,7 +366,7 @@ A **Figura 6** apresenta o scatter plot de tempo de análise vs. número de revi
 
 ![RQ06 — Tempo vs. Revisões](figures/rq06_tempo_vs_revisoes.png)
 
-**Figura 6 —** Scatter plot do tempo de análise (horas) em relação ao número de revisões. Correlação de Spearman positiva e fraca (ρ = 0,071, p < 0,001), indicando relação tênue entre duração do PR e volume de revisões.
+**Figura 6 —** Scatter plot do tempo de análise vs. número de revisões. Spearman ρ = 0,071, p < 0,001 (correlação fraca).
 
 **Hipótese H2 (RQ06):** PRs com maior tempo de análise recebem mais revisões.
 
@@ -388,7 +388,7 @@ A **Figura 7** apresenta o scatter plot de descrição vs. número de revisões.
 
 ![RQ07 — Descrição vs. Revisões](figures/rq07_descricao_vs_revisoes.png)
 
-**Figura 7 —** Scatter plot do comprimento da descrição do PR (caracteres) em relação ao número de revisões. Correlação de Spearman positiva e fraca (ρ = 0,17, p < 0,001).
+**Figura 7 —** Scatter plot do comprimento da descrição vs. número de revisões. Spearman ρ = 0,17, p < 0,001.
 
 **Hipótese H3 (RQ07):** PRs com descrições mais longas recebem mais revisões.
 
@@ -411,7 +411,7 @@ A **Figura 8** apresenta os scatter plots de interações vs. número de revisõ
 
 ![RQ08 — Interações vs. Revisões](figures/rq08_interacoes_vs_revisoes.png)
 
-**Figura 8 —** Scatter plots do número de participantes (esquerda) e de comentários (direita) em relação ao número de revisões. Correlações de Spearman: ρ = 0,32 (participantes) e ρ = 0,28 (comentários), ambas com p < 0,001 — as mais fortes encontradas no estudo.
+**Figura 8 —** Scatter plots de participantes e comentários vs. número de revisões. Spearman ρ = 0,32 (participantes) e ρ = 0,28 (comentários), p < 0,001 — correlações mais fortes do estudo.
 
 **Hipótese H4 (RQ08):** PRs com mais interações recebem mais revisões.
 
@@ -439,7 +439,7 @@ A **Figura 9** apresenta a matriz de correlação de Spearman entre todas as mé
 
 ![Matriz de Correlação de Spearman](figures/spearman_correlation_matrix.png)
 
-**Figura 9 —** Matriz de correlação de Spearman entre todas as métricas analisadas. Cada célula exibe o coeficiente ρ e é colorida em escala divergente: vermelho para correlações positivas e azul para negativas. Métricas de tamanho apresentam alta colinearidade entre si (ρ entre 0,52 e 0,95); `participants` e `review_count` registram a correlação mais forte entre variáveis de naturezas distintas (ρ = 0,32).
+**Figura 9 —** Matriz de correlação de Spearman entre todas as métricas. Escala divergente: vermelho (positivo) a azul (negativo). Correlação mais forte entre variáveis distintas: `participants` × `review_count` (ρ = 0,32).
 
 **Insights:**
 
