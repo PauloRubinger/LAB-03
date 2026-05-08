@@ -222,24 +222,6 @@ A comparação das medianas já revela padrões notáveis: PRs CLOSED levam quas
 
 ### 3.2 Distribuição das Métricas
 
-A **Figura 1** apresenta box plots comparando as distribuições das métricas de tamanho e interações entre PRs MERGED e CLOSED. Devido à forte assimetria positiva (medianas muito inferiores às médias), os eixos utilizam escala logarítmica para melhor visualização.
-
-![RQ01 — Tamanho vs. Status](figures/rq01_tamanho_vs_status.png)
-
-**Figura 1 —** Box plots das métricas de tamanho por status (MERGED vs. CLOSED). PRs MERGED apresentam medianas superiores em arquivos alterados e linhas removidas.
-
-A **Figura 2** apresenta box plots comparando o tempo de análise entre os dois grupos.
-
-![RQ02 — Tempo de Análise vs. Status](figures/rq02_tempo_vs_status.png)
-
-**Figura 2 —** Box plot do tempo de análise por status. Mediana MERGED: 25,8h; mediana CLOSED: 126,0h (~5× maior).
-
-A **Figura 3** apresenta a comparação das métricas de interação.
-
-![RQ04 — Interações vs. Status](figures/rq04_interacoes_vs_status.png)
-
-**Figura 3 —** Box plots de participantes e comentários por status. PRs CLOSED apresentam mais interações que os MERGED.
-
 **Insights sobre as distribuições:**
 
 - Todas as métricas de tamanho e tempo apresentam distribuições fortemente assimétricas à direita, com longas caudas superiores — confirmando a inadequação de testes paramétricos para este dataset.
@@ -256,7 +238,9 @@ A **Figura 3** apresenta a comparação das métricas de interação.
 | Linhas adicionadas | 18,00 | 16,00 | 1,87e-03 | ** |
 | Linhas removidas | 4,00 | 1,00 | 6,23e-70 | *** |
 
-A **Figura 1** (seção 3.2) apresenta os box plots comparativos entre os grupos.
+![](figures/rq01_tamanho_vs_status.png)
+
+**Figura 1 —** Box plots das métricas de tamanho por status (MERGED vs. CLOSED). Eixos em escala logarítmica. PRs MERGED apresentam medianas superiores em arquivos alterados e linhas removidas.
 
 **Hipótese H1:** PRs maiores apresentam menor taxa de merge (maior proporção de CLOSED).
 
@@ -275,7 +259,9 @@ A **Figura 1** (seção 3.2) apresenta os box plots comparativos entre os grupos
 |---------|---------------|----------------|---------|---------------|
 | Tempo de análise (h) | 25,84 | 126,03 | 1,25e-224 | *** |
 
-A **Figura 2** (seção 3.2) apresenta os box plots comparativos de tempo de análise entre os grupos.
+![](figures/rq02_tempo_vs_status.png)
+
+**Figura 2 —** Box plot do tempo de análise por status. Mediana MERGED: 25,8h; mediana CLOSED: 126,0h (~5× maior).
 
 **Hipótese H2:** PRs com maior tempo de análise têm maior probabilidade de serem MERGED.
 
@@ -294,11 +280,11 @@ A **Figura 2** (seção 3.2) apresenta os box plots comparativos de tempo de an�
 |---------|---------------|----------------|---------|---------------|
 | Caracteres do body | 487,00 | 514,00 | 0,200 | ns |
 
-A **Figura 4** apresenta os box plots comparativos de tamanho de descrição.
+A **Figura 3** apresenta os box plots comparativos de tamanho de descrição.
 
-![RQ03 — Descrição vs. Status](figures/rq03_descricao_vs_status.png)
+![](figures/rq03_descricao_vs_status.png)
 
-**Figura 4 —** Box plot dos caracteres do *body* por status. Medianas praticamente idênticas (MERGED: 487; CLOSED: 514), p = 0,200 (ns).
+**Figura 3 —** Box plot dos caracteres do *body* por status. Medianas praticamente idênticas (MERGED: 487; CLOSED: 514), p = 0,200 (ns).
 
 **Hipótese H3:** PRs com descrições mais longas têm maior probabilidade de serem MERGED.
 
@@ -318,7 +304,9 @@ A **Figura 4** apresenta os box plots comparativos de tamanho de descrição.
 | Nº de participantes | 2,00 | 3,00 | 2,39e-31 | *** |
 | Nº de comentários | 1,00 | 2,00 | 7,86e-84 | *** |
 
-A **Figura 3** (seção 3.2) apresenta os box plots comparativos de interações entre os grupos.
+![](figures/rq04_interacoes_vs_status.png)
+
+**Figura 4 —** Box plots de participantes e comentários por status. PRs CLOSED apresentam mais interações que os MERGED.
 
 **Hipótese H4:** PRs com mais interações têm maior probabilidade de serem MERGED.
 
@@ -341,7 +329,7 @@ A **Figura 3** (seção 3.2) apresenta os box plots comparativos de interações
 
 A **Figura 5** apresenta os scatter plots de tamanho vs. número de revisões.
 
-![RQ05 — Tamanho vs. Revisões](figures/rq05_tamanho_vs_revisoes.png)
+![](figures/rq05_tamanho_vs_revisoes.png)
 
 **Figura 5 —** Scatter plots de arquivos alterados e linhas modificadas vs. número de revisões. Spearman ρ = 0,24 (arquivos) e ρ = 0,27 (linhas), p < 0,001.
 
@@ -364,7 +352,7 @@ A **Figura 5** apresenta os scatter plots de tamanho vs. número de revisões.
 
 A **Figura 6** apresenta o scatter plot de tempo de análise vs. número de revisões.
 
-![RQ06 — Tempo vs. Revisões](figures/rq06_tempo_vs_revisoes.png)
+![](figures/rq06_tempo_vs_revisoes.png)
 
 **Figura 6 —** Scatter plot do tempo de análise vs. número de revisões. Spearman ρ = 0,071, p < 0,001 (correlação fraca).
 
@@ -386,7 +374,7 @@ A **Figura 6** apresenta o scatter plot de tempo de análise vs. número de revi
 
 A **Figura 7** apresenta o scatter plot de descrição vs. número de revisões.
 
-![RQ07 — Descrição vs. Revisões](figures/rq07_descricao_vs_revisoes.png)
+![](figures/rq07_descricao_vs_revisoes.png)
 
 **Figura 7 —** Scatter plot do comprimento da descrição vs. número de revisões. Spearman ρ = 0,17, p < 0,001.
 
@@ -409,7 +397,7 @@ A **Figura 7** apresenta o scatter plot de descrição vs. número de revisões.
 
 A **Figura 8** apresenta os scatter plots de interações vs. número de revisões.
 
-![RQ08 — Interações vs. Revisões](figures/rq08_interacoes_vs_revisoes.png)
+![](figures/rq08_interacoes_vs_revisoes.png)
 
 **Figura 8 —** Scatter plots de participantes e comentários vs. número de revisões. Spearman ρ = 0,32 (participantes) e ρ = 0,28 (comentários), p < 0,001 — correlações mais fortes do estudo.
 
