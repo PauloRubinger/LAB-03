@@ -18,6 +18,16 @@ FIGURES_DIR = os.path.join(os.path.dirname(__file__), "..", "reports", "figures"
 
 os.makedirs(FIGURES_DIR, exist_ok=True)
 sns.set_theme(style="whitegrid")
+plt.rcParams.update({
+    "font.size": 13,
+    "axes.titlesize": 14,
+    "axes.labelsize": 13,
+    "xtick.labelsize": 12,
+    "ytick.labelsize": 12,
+    "legend.fontsize": 12,
+})
+DPI = 200
+SOURCE_NOTE = "Fonte: GitHub GraphQL API v4 — Top-200 repositórios por stars (mai/2026)"
 
 
 def load_data() -> pd.DataFrame:
@@ -89,15 +99,20 @@ def rq01(df, results):
         descriptive_stats(df, metric)
 
     # Boxplot
-    fig, axes = plt.subplots(1, 3, figsize=(15, 5))
-    for ax, col, title in zip(axes,
+    fig, axes = plt.subplots(1, 3, figsize=(15, 6))
+    for ax, col, title, ylabel in zip(axes,
                                ["changed_files", "additions", "deletions"],
+                               ["Arquivos Alterados", "Linhas Adicionadas", "Linhas Removidas"],
                                ["Arquivos Alterados", "Linhas Adicionadas", "Linhas Removidas"]):
         sns.boxplot(data=df, x="state", y=col, ax=ax, showfliers=False)
         ax.set_title(title)
         ax.set_xlabel("Status do PR")
+        ax.set_ylabel(ylabel)
+        ax.set_xticklabels(["MERGED", "CLOSED"])
+    fig.suptitle("RQ01 — Tamanho dos PRs por Status", fontsize=15, fontweight="bold", y=1.01)
+    fig.text(0.5, -0.02, SOURCE_NOTE, ha="center", fontsize=10, color="gray")
     plt.tight_layout()
-    plt.savefig(os.path.join(FIGURES_DIR, "rq01_tamanho_vs_status.png"), dpi=150)
+    plt.savefig(os.path.join(FIGURES_DIR, "rq01_tamanho_vs_status.png"), dpi=DPI, bbox_inches="tight")
     plt.close()
 
     # Mann-Whitney U test (compare MERGED vs CLOSED)
@@ -115,13 +130,15 @@ def rq02(df, results):
 
     descriptive_stats(df, "analysis_time_hours")
 
-    fig, ax = plt.subplots(figsize=(8, 5))
+    fig, ax = plt.subplots(figsize=(8, 6))
     sns.boxplot(data=df, x="state", y="analysis_time_hours", ax=ax, showfliers=False)
-    ax.set_title("Analysis Time by PR Status")
-    ax.set_ylabel("Hours")
-    ax.set_xlabel("PR Status")
+    ax.set_title("RQ02 — Tempo de Análise por Status do PR", fontweight="bold")
+    ax.set_ylabel("Tempo de Análise (horas)")
+    ax.set_xlabel("Status do PR")
+    ax.set_xticklabels(["MERGED", "CLOSED"])
+    fig.text(0.5, -0.02, SOURCE_NOTE, ha="center", fontsize=10, color="gray")
     plt.tight_layout()
-    plt.savefig(os.path.join(FIGURES_DIR, "rq02_tempo_vs_status.png"), dpi=150)
+    plt.savefig(os.path.join(FIGURES_DIR, "rq02_tempo_vs_status.png"), dpi=DPI, bbox_inches="tight")
     plt.close()
 
     merged = df[df["state"] == "MERGED"]["analysis_time_hours"].dropna()
@@ -137,13 +154,15 @@ def rq03(df, results):
 
     descriptive_stats(df, "body_length")
 
-    fig, ax = plt.subplots(figsize=(8, 5))
+    fig, ax = plt.subplots(figsize=(8, 6))
     sns.boxplot(data=df, x="state", y="body_length", ax=ax, showfliers=False)
-    ax.set_title("Description Size by PR Status")
-    ax.set_ylabel("Characters")
-    ax.set_xlabel("PR Status")
+    ax.set_title("RQ03 — Descrição dos PRs por Status", fontweight="bold")
+    ax.set_ylabel("Caracteres do Body")
+    ax.set_xlabel("Status do PR")
+    ax.set_xticklabels(["MERGED", "CLOSED"])
+    fig.text(0.5, -0.02, SOURCE_NOTE, ha="center", fontsize=10, color="gray")
     plt.tight_layout()
-    plt.savefig(os.path.join(FIGURES_DIR, "rq03_descricao_vs_status.png"), dpi=150)
+    plt.savefig(os.path.join(FIGURES_DIR, "rq03_descricao_vs_status.png"), dpi=DPI, bbox_inches="tight")
     plt.close()
 
     merged = df[df["state"] == "MERGED"]["body_length"].dropna()
@@ -160,15 +179,20 @@ def rq04(df, results):
     for metric in ["participants", "comments"]:
         descriptive_stats(df, metric)
 
-    fig, axes = plt.subplots(1, 2, figsize=(12, 5))
-    for ax, col, title in zip(axes,
+    fig, axes = plt.subplots(1, 2, figsize=(12, 6))
+    for ax, col, title, ylabel in zip(axes,
                                ["participants", "comments"],
-                               ["Participants", "Comments"]):
+                               ["Nº de Participantes", "Nº de Comentários"],
+                               ["Nº de Participantes", "Nº de Comentários"]):
         sns.boxplot(data=df, x="state", y=col, ax=ax, showfliers=False)
-        ax.set_title(f"{title} by PR Status")
-        ax.set_xlabel("PR Status")
+        ax.set_title(f"{title} por Status do PR", fontweight="bold")
+        ax.set_xlabel("Status do PR")
+        ax.set_ylabel(ylabel)
+        ax.set_xticklabels(["MERGED", "CLOSED"])
+    fig.suptitle("RQ04 — Interações por Status do PR", fontsize=15, fontweight="bold", y=1.01)
+    fig.text(0.5, -0.02, SOURCE_NOTE, ha="center", fontsize=10, color="gray")
     plt.tight_layout()
-    plt.savefig(os.path.join(FIGURES_DIR, "rq04_interacoes_vs_status.png"), dpi=150)
+    plt.savefig(os.path.join(FIGURES_DIR, "rq04_interacoes_vs_status.png"), dpi=DPI, bbox_inches="tight")
     plt.close()
 
     for metric in ["participants", "comments"]:
@@ -190,18 +214,20 @@ def rq05(df, results):
     for metric in ["changed_files", "total_lines", "additions", "deletions"]:
         spearman_test(df[metric], df["review_count"], metric, "review_count", rq="RQ05", results=results)
 
-    fig, axes = plt.subplots(1, 2, figsize=(12, 5))
-    axes[0].scatter(df["changed_files"], df["review_count"], alpha=0.3, s=10)
-    axes[0].set_xlabel("Changed Files")
-    axes[0].set_ylabel("Number of Reviews")
-    axes[0].set_title("Files vs Reviews")
+    fig, axes = plt.subplots(1, 2, figsize=(12, 6))
+    axes[0].scatter(df["changed_files"], df["review_count"], alpha=0.3, s=25)
+    axes[0].set_xlabel("Arquivos Alterados")
+    axes[0].set_ylabel("Nº de Revisões")
+    axes[0].set_title("Arquivos vs. Revisões", fontweight="bold")
 
-    axes[1].scatter(df["total_lines"], df["review_count"], alpha=0.3, s=10)
-    axes[1].set_xlabel("Total Lines (add + del)")
-    axes[1].set_ylabel("Number of Reviews")
-    axes[1].set_title("Lines vs Reviews")
+    axes[1].scatter(df["total_lines"], df["review_count"], alpha=0.3, s=25)
+    axes[1].set_xlabel("Total de Linhas (adições + deleções)")
+    axes[1].set_ylabel("Nº de Revisões")
+    axes[1].set_title("Linhas vs. Revisões", fontweight="bold")
+    fig.suptitle("RQ05 — Tamanho dos PRs vs. Número de Revisões", fontsize=15, fontweight="bold", y=1.01)
+    fig.text(0.5, -0.02, SOURCE_NOTE, ha="center", fontsize=10, color="gray")
     plt.tight_layout()
-    plt.savefig(os.path.join(FIGURES_DIR, "rq05_tamanho_vs_revisoes.png"), dpi=150)
+    plt.savefig(os.path.join(FIGURES_DIR, "rq05_tamanho_vs_revisoes.png"), dpi=DPI, bbox_inches="tight")
     plt.close()
 
 
@@ -214,13 +240,14 @@ def rq06(df, results):
     spearman_test(df["analysis_time_hours"], df["review_count"],
                   "analysis_time_hours", "review_count", rq="RQ06", results=results)
 
-    fig, ax = plt.subplots(figsize=(8, 5))
-    ax.scatter(df["analysis_time_hours"], df["review_count"], alpha=0.3, s=10)
-    ax.set_xlabel("Analysis Time (hours)")
-    ax.set_ylabel("Number of Reviews")
-    ax.set_title("Analysis Time vs Reviews")
+    fig, ax = plt.subplots(figsize=(8, 6))
+    ax.scatter(df["analysis_time_hours"], df["review_count"], alpha=0.3, s=25)
+    ax.set_xlabel("Tempo de Análise (horas)")
+    ax.set_ylabel("Nº de Revisões")
+    ax.set_title("RQ06 — Tempo de Análise vs. Número de Revisões", fontweight="bold")
+    fig.text(0.5, -0.02, SOURCE_NOTE, ha="center", fontsize=10, color="gray")
     plt.tight_layout()
-    plt.savefig(os.path.join(FIGURES_DIR, "rq06_tempo_vs_revisoes.png"), dpi=150)
+    plt.savefig(os.path.join(FIGURES_DIR, "rq06_tempo_vs_revisoes.png"), dpi=DPI, bbox_inches="tight")
     plt.close()
 
 
@@ -233,13 +260,14 @@ def rq07(df, results):
     spearman_test(df["body_length"], df["review_count"],
                   "body_length", "review_count", rq="RQ07", results=results)
 
-    fig, ax = plt.subplots(figsize=(8, 5))
-    ax.scatter(df["body_length"], df["review_count"], alpha=0.3, s=10)
-    ax.set_xlabel("Description Size (characters)")
-    ax.set_ylabel("Number of Reviews")
-    ax.set_title("Description vs Reviews")
+    fig, ax = plt.subplots(figsize=(8, 6))
+    ax.scatter(df["body_length"], df["review_count"], alpha=0.3, s=25)
+    ax.set_xlabel("Descrição do PR (caracteres)")
+    ax.set_ylabel("Nº de Revisões")
+    ax.set_title("RQ07 — Descrição vs. Número de Revisões", fontweight="bold")
+    fig.text(0.5, -0.02, SOURCE_NOTE, ha="center", fontsize=10, color="gray")
     plt.tight_layout()
-    plt.savefig(os.path.join(FIGURES_DIR, "rq07_descricao_vs_revisoes.png"), dpi=150)
+    plt.savefig(os.path.join(FIGURES_DIR, "rq07_descricao_vs_revisoes.png"), dpi=DPI, bbox_inches="tight")
     plt.close()
 
 
@@ -252,18 +280,20 @@ def rq08(df, results):
     for metric in ["participants", "comments"]:
         spearman_test(df[metric], df["review_count"], metric, "review_count", rq="RQ08", results=results)
 
-    fig, axes = plt.subplots(1, 2, figsize=(12, 5))
-    axes[0].scatter(df["participants"], df["review_count"], alpha=0.3, s=10)
-    axes[0].set_xlabel("Participants")
-    axes[0].set_ylabel("Number of Reviews")
-    axes[0].set_title("Participants vs Reviews")
+    fig, axes = plt.subplots(1, 2, figsize=(12, 6))
+    axes[0].scatter(df["participants"], df["review_count"], alpha=0.3, s=25)
+    axes[0].set_xlabel("Nº de Participantes")
+    axes[0].set_ylabel("Nº de Revisões")
+    axes[0].set_title("Participantes vs. Revisões", fontweight="bold")
 
-    axes[1].scatter(df["comments"], df["review_count"], alpha=0.3, s=10)
-    axes[1].set_xlabel("Comments")
-    axes[1].set_ylabel("Number of Reviews")
-    axes[1].set_title("Comments vs Reviews")
+    axes[1].scatter(df["comments"], df["review_count"], alpha=0.3, s=25)
+    axes[1].set_xlabel("Nº de Comentários")
+    axes[1].set_ylabel("Nº de Revisões")
+    axes[1].set_title("Comentários vs. Revisões", fontweight="bold")
+    fig.suptitle("RQ08 — Interações vs. Número de Revisões", fontsize=15, fontweight="bold", y=1.01)
+    fig.text(0.5, -0.02, SOURCE_NOTE, ha="center", fontsize=10, color="gray")
     plt.tight_layout()
-    plt.savefig(os.path.join(FIGURES_DIR, "rq08_interacoes_vs_revisoes.png"), dpi=150)
+    plt.savefig(os.path.join(FIGURES_DIR, "rq08_interacoes_vs_revisoes.png"), dpi=DPI, bbox_inches="tight")
     plt.close()
 
 
@@ -298,10 +328,12 @@ def spearman_correlation_matrix(df):
         vmax=1,
         ax=ax,
         linewidths=0.5,
+        annot_kws={"size": 11},
     )
-    ax.set_title("Spearman Correlation Matrix")
+    ax.set_title("Matriz de Correlação de Spearman", fontsize=15, fontweight="bold", pad=12)
+    fig.text(0.5, -0.01, SOURCE_NOTE, ha="center", fontsize=10, color="gray")
     plt.tight_layout()
-    plt.savefig(os.path.join(FIGURES_DIR, "spearman_correlation_matrix.png"), dpi=150)
+    plt.savefig(os.path.join(FIGURES_DIR, "spearman_correlation_matrix.png"), dpi=DPI, bbox_inches="tight")
     plt.close()
 
     print(f"Correlation matrix saved to: {corr_path}")
