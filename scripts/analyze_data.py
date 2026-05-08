@@ -105,11 +105,10 @@ def rq01(df, results):
                                ["changed_files", "additions", "deletions"],
                                ["Arquivos Alterados", "Linhas Adicionadas", "Linhas Removidas"],
                                ["Arquivos Alterados", "Linhas Adicionadas", "Linhas Removidas"]):
-        sns.boxplot(data=df, x="state", y=col, ax=ax, showfliers=False)
+        sns.boxplot(data=df, x="state", y=col, order=["MERGED", "CLOSED"], ax=ax, showfliers=False)
         ax.set_title(title)
         ax.set_xlabel("Status do PR")
         ax.set_ylabel(ylabel)
-        ax.set_xticklabels(["MERGED", "CLOSED"])
     fig.suptitle("RQ01 — Tamanho dos PRs por Status", fontsize=15, fontweight="bold", y=1.01)
     fig.text(0.5, -0.02, SOURCE_NOTE, ha="center", fontsize=10, color="gray")
     plt.tight_layout()
@@ -132,11 +131,10 @@ def rq02(df, results):
     descriptive_stats(df, "analysis_time_hours")
 
     fig, ax = plt.subplots(figsize=(8, 6))
-    sns.boxplot(data=df, x="state", y="analysis_time_hours", ax=ax, showfliers=False)
+    sns.boxplot(data=df, x="state", y="analysis_time_hours", order=["MERGED", "CLOSED"], ax=ax, showfliers=False)
     ax.set_title("RQ02 — Tempo de Análise por Status do PR", fontweight="bold")
     ax.set_ylabel("Tempo de Análise (horas)")
     ax.set_xlabel("Status do PR")
-    ax.set_xticklabels(["MERGED", "CLOSED"])
     fig.text(0.5, -0.02, SOURCE_NOTE, ha="center", fontsize=10, color="gray")
     plt.tight_layout()
     plt.savefig(os.path.join(FIGURES_DIR, "rq02_tempo_vs_status.png"), dpi=DPI, bbox_inches="tight")
@@ -156,11 +154,10 @@ def rq03(df, results):
     descriptive_stats(df, "body_length")
 
     fig, ax = plt.subplots(figsize=(8, 6))
-    sns.boxplot(data=df, x="state", y="body_length", ax=ax, showfliers=False)
+    sns.boxplot(data=df, x="state", y="body_length", order=["MERGED", "CLOSED"], ax=ax, showfliers=False)
     ax.set_title("RQ03 — Descrição dos PRs por Status", fontweight="bold")
     ax.set_ylabel("Caracteres do Body")
     ax.set_xlabel("Status do PR")
-    ax.set_xticklabels(["MERGED", "CLOSED"])
     fig.text(0.5, -0.02, SOURCE_NOTE, ha="center", fontsize=10, color="gray")
     plt.tight_layout()
     plt.savefig(os.path.join(FIGURES_DIR, "rq03_descricao_vs_status.png"), dpi=DPI, bbox_inches="tight")
@@ -185,11 +182,10 @@ def rq04(df, results):
                                ["participants", "comments"],
                                ["Nº de Participantes", "Nº de Comentários"],
                                ["Nº de Participantes", "Nº de Comentários"]):
-        sns.boxplot(data=df, x="state", y=col, ax=ax, showfliers=False)
+        sns.boxplot(data=df, x="state", y=col, order=["MERGED", "CLOSED"], ax=ax, showfliers=False)
         ax.set_title(f"{title} por Status do PR", fontweight="bold")
         ax.set_xlabel("Status do PR")
         ax.set_ylabel(ylabel)
-        ax.set_xticklabels(["MERGED", "CLOSED"])
     fig.suptitle("RQ04 — Interações por Status do PR", fontsize=15, fontweight="bold", y=1.01)
     fig.text(0.5, -0.02, SOURCE_NOTE, ha="center", fontsize=10, color="gray")
     plt.tight_layout()
