@@ -1,6 +1,7 @@
 RQ,Test,Variable_X,Variable_Y,Statistic,P_value,Significant
 RQ01,Mann-Whitney U,changed_files,state (MERGED vs CLOSED),32200403.0,2.26018779919163e-33,Yes
-RQ01,Mann-Whitney U,total_lines,state (MERGED vs CLOSED),30357398.0,5.00068947344748e-07,Yes
+RQ01,Mann-Whitney U,additions,state (MERGED vs CLOSED),29806182.0,0.0018676963642652504,Yes
+RQ01,Mann-Whitney U,deletions,state (MERGED vs CLOSED),33944593.0,6.227943595358601e-70,Yes
 RQ02,Mann-Whitney U,analysis_time_hours,state (MERGED vs CLOSED),19728400.0,1.2458537642656432e-224,Yes
 RQ03,Mann-Whitney U,body_length,state (MERGED vs CLOSED),28547559.0,0.1997567184229777,No
 RQ04,Mann-Whitney U,participants,state (MERGED vs CLOSED),25747451.0,2.3906222847390588e-31,Yes
