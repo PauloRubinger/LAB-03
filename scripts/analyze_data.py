@@ -116,7 +116,7 @@ def rq01(df, results):
     plt.close()
 
     # Mann-Whitney U test (compare MERGED vs CLOSED)
-    for metric in ["changed_files", "total_lines"]:
+    for metric in ["changed_files", "additions", "deletions"]:
         merged = df[df["state"] == "MERGED"][metric].dropna()
         closed = df[df["state"] == "CLOSED"][metric].dropna()
         mannwhitney_test(merged, closed, metric, "RQ01", results)
