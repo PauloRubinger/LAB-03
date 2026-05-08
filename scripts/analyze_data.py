@@ -8,6 +8,7 @@ Answers the 8 research questions (RQ01-RQ08) using:
 """
 
 import os
+import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
 import seaborn as sns
@@ -216,11 +217,21 @@ def rq05(df, results):
 
     fig, axes = plt.subplots(1, 2, figsize=(12, 6))
     axes[0].scatter(df["changed_files"], df["review_count"], alpha=0.3, s=25)
+    _v0 = df[["changed_files", "review_count"]].dropna()
+    _s0, _i0, *_ = stats.linregress(_v0["changed_files"], _v0["review_count"])
+    _x0 = np.array([_v0["changed_files"].min(), _v0["changed_files"].max()])
+    axes[0].plot(_x0, _s0 * _x0 + _i0, color="crimson", linewidth=2, linestyle="--", label="Tendência")
+    axes[0].legend(fontsize=10)
     axes[0].set_xlabel("Arquivos Alterados")
     axes[0].set_ylabel("Nº de Revisões")
     axes[0].set_title("Arquivos vs. Revisões", fontweight="bold")
 
     axes[1].scatter(df["total_lines"], df["review_count"], alpha=0.3, s=25)
+    _v1 = df[["total_lines", "review_count"]].dropna()
+    _s1, _i1, *_ = stats.linregress(_v1["total_lines"], _v1["review_count"])
+    _x1 = np.array([_v1["total_lines"].min(), _v1["total_lines"].max()])
+    axes[1].plot(_x1, _s1 * _x1 + _i1, color="crimson", linewidth=2, linestyle="--", label="Tendência")
+    axes[1].legend(fontsize=10)
     axes[1].set_xlabel("Total de Linhas (adições + deleções)")
     axes[1].set_ylabel("Nº de Revisões")
     axes[1].set_title("Linhas vs. Revisões", fontweight="bold")
@@ -242,6 +253,11 @@ def rq06(df, results):
 
     fig, ax = plt.subplots(figsize=(8, 6))
     ax.scatter(df["analysis_time_hours"], df["review_count"], alpha=0.3, s=25)
+    _v = df[["analysis_time_hours", "review_count"]].dropna()
+    _s, _i, *_ = stats.linregress(_v["analysis_time_hours"], _v["review_count"])
+    _x = np.array([_v["analysis_time_hours"].min(), _v["analysis_time_hours"].max()])
+    ax.plot(_x, _s * _x + _i, color="crimson", linewidth=2, linestyle="--", label="Tendência")
+    ax.legend(fontsize=10)
     ax.set_xlabel("Tempo de Análise (horas)")
     ax.set_ylabel("Nº de Revisões")
     ax.set_title("RQ06 — Tempo de Análise vs. Número de Revisões", fontweight="bold")
@@ -262,6 +278,11 @@ def rq07(df, results):
 
     fig, ax = plt.subplots(figsize=(8, 6))
     ax.scatter(df["body_length"], df["review_count"], alpha=0.3, s=25)
+    _v = df[["body_length", "review_count"]].dropna()
+    _s, _i, *_ = stats.linregress(_v["body_length"], _v["review_count"])
+    _x = np.array([_v["body_length"].min(), _v["body_length"].max()])
+    ax.plot(_x, _s * _x + _i, color="crimson", linewidth=2, linestyle="--", label="Tendência")
+    ax.legend(fontsize=10)
     ax.set_xlabel("Descrição do PR (caracteres)")
     ax.set_ylabel("Nº de Revisões")
     ax.set_title("RQ07 — Descrição vs. Número de Revisões", fontweight="bold")
@@ -282,11 +303,21 @@ def rq08(df, results):
 
     fig, axes = plt.subplots(1, 2, figsize=(12, 6))
     axes[0].scatter(df["participants"], df["review_count"], alpha=0.3, s=25)
+    _v0 = df[["participants", "review_count"]].dropna()
+    _s0, _i0, *_ = stats.linregress(_v0["participants"], _v0["review_count"])
+    _x0 = np.array([_v0["participants"].min(), _v0["participants"].max()])
+    axes[0].plot(_x0, _s0 * _x0 + _i0, color="crimson", linewidth=2, linestyle="--", label="Tendência")
+    axes[0].legend(fontsize=10)
     axes[0].set_xlabel("Nº de Participantes")
     axes[0].set_ylabel("Nº de Revisões")
     axes[0].set_title("Participantes vs. Revisões", fontweight="bold")
 
     axes[1].scatter(df["comments"], df["review_count"], alpha=0.3, s=25)
+    _v1 = df[["comments", "review_count"]].dropna()
+    _s1, _i1, *_ = stats.linregress(_v1["comments"], _v1["review_count"])
+    _x1 = np.array([_v1["comments"].min(), _v1["comments"].max()])
+    axes[1].plot(_x1, _s1 * _x1 + _i1, color="crimson", linewidth=2, linestyle="--", label="Tendência")
+    axes[1].legend(fontsize=10)
     axes[1].set_xlabel("Nº de Comentários")
     axes[1].set_ylabel("Nº de Revisões")
     axes[1].set_title("Comentários vs. Revisões", fontweight="bold")
